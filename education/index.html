@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: Education
+permalink: /education/
 ---
 
 <div class="education">
@@ -8,7 +9,9 @@ title: Education
   <h1 class="page-heading">Education</h1>
 
   <div id="content">
+
     <ul class="post-list">
+    <li><h3>Posts</h3></li>
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -18,7 +21,7 @@ title: Education
         </h2>
       </li>
     {% endfor %}
-
+    <li><h3>Pages</h3></li>
     {% for my_page in site.pages %}
     <li>
         <span class="post-meta">{{ my_page.date | date: "%b %-d, %Y" }}</span>
