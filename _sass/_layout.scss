@@ -23,6 +23,11 @@
         color: $grey-color-dark;
     }
 }
+.slogan{
+    font-size:20px;
+    margin-left:20px;
+    font-style:italic;
+}
 
 .site-nav {
     float: right;
@@ -93,7 +98,6 @@
 }
 
 
-
 /**
  * Site footer
  */
@@ -107,11 +111,7 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
+
 
 .footer-col-wrapper {
     font-size: 15px;
@@ -126,19 +126,11 @@
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+.footer-col-1, .footer-col-2 {
+    width: 37%;
 }
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+.footer-col-3{
+    width:20%;
 }
 
 @include media-query($on-laptop) {
