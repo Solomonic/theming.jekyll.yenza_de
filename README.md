@@ -1,6 +1,10 @@
 # Jekyll Website for yenza.de
 
-This is the official website for [yenza.de](http://yenza.de) and contains all contents to rebuild an offline version on your localhost.[_CC BY 3.0_ license](http://creativecommons.org/licenses/by/3.0/).
+This is the official website for [yenza.de](http://yenza.de) and contains all contents to rebuild an offline version on your localhost.
+
+## License
+
+[_CC BY 3.0_ license](http://creativecommons.org/licenses/by/3.0/).
 
 ## Development
 
