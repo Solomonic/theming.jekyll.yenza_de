@@ -126,11 +126,8 @@
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1, .footer-col-2 {
-    width: 37%;
-}
-.footer-col-3{
-    width:20%;
+.footer-col-1, .footer-col-2, .footer-col-3 {
+    width: 31%;
 }
 
 @include media-query($on-laptop) {
