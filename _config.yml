@@ -2,7 +2,7 @@
 title: Mr.YenZa
 email: mr.yenza@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  teamwork makes the dream work.
+  teamwork make dreams work
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yenza.de" # the base hostname & protocol for your site
 cv: "https://careers.stackoverflow.com/jenskrause"
