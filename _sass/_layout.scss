@@ -17,6 +17,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    text-shadow: 0 2px 8px $grey-color-dark;
 
     &,
     &:visited {
@@ -258,4 +259,40 @@ article h3{
 
  article > section{
     padding:0 1em;
+ }
+ .article{
+    width:43%;
+    float:left;
+    border: 1px solid $grey-color-light;
+    padding:10px 15px;
+    margin-bottom:15px;
+    border-radius:5px;
+
+    -webkit-box-shadow: 2px 13px 51px -18px rgba(17,17,17,0.45);
+    -moz-box-shadow: 2px 13px 51px -18px rgba(17,17,17,0.45);
+    box-shadow: 2px 13px 51px -18px rgba(17,17,17,0.45);
+ }
+ .site-footer,
+ .site-header{
+    -webkit-box-shadow: inset 2px 13px 51px -18px rgba(17,17,17,0.45);
+    -moz-box-shadow: inset 2px 13px 51px -18px rgba(17,17,17,0.45);
+    box-shadow: inset 2px 13px 51px -18px rgba(17,17,17,0.45);
+ }
+ .article.even{
+    margin-right:15px;
+ }
+ .article.last{
+    width:auto;
+    float: none;
+    clear:both;
+ }
+ @include media-query($on-palm) {
+    .article{
+        width:auto;
+        float:none;
+    }
+ .article.even{
+    margin-right:0;
+    }
+
  }
