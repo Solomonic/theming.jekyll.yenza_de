@@ -225,3 +225,22 @@
         }
     }
 }
+/**
+  * Contact
+  */
+.align-up{
+    position:relative;
+    top:-10px;
+}
+.align-down{
+    position:relative;
+    top:3px;
+}
+.contact_facebook,
+.contact_email,
+.contact_skype_chat,
+.contact_skype_call{
+    display:inline-block;
+    margin: 5px 10px;
+}
+

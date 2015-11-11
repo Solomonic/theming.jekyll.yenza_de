@@ -7,6 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://Rasta.Online" # the base hostname & protocol for your site
 cv: "https://careers.stackoverflow.com/jenskrause"
 skype: al0b4r
+fb-user: www.rasta.online
+fb-url: "https://www.facebook.com/www.rasta.online"
+
 
 # Build settings
 markdown: kramdown
