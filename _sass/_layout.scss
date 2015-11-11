@@ -296,3 +296,14 @@ article h3{
     }
 
  }
+ ul.invisible{
+    list-style-type:none;
+    margin-left:5px;
+
+    li>.fa{
+        margin-right:7px; 
+    }
+    li{
+        margin-bottom:10px;
+    }
+ }
