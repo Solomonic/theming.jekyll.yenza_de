@@ -1,6 +1,6 @@
-# Jekyll Website for yenza.de
+# Jekyll Website for rasta.online
 
-This is the official website for [yenza.de](http://yenza.de) and contains all contents to rebuild an offline version on your localhost.
+This is the official website for [rasta.online](http://rasta.online) and contains all contents to rebuild an offline version on your localhost.
 
 ## License
 
@@ -11,8 +11,8 @@ This is the official website for [yenza.de](http://yenza.de) and contains all co
 If you want to run a local, offline copy of the website:
 
 ```sh
-$ git clone git@github.com/Solomonic/theming.jekyll.yenza_de.git
-$ cd theming.jekyll.yenza_de
+$ git clone git@github.com/Solomonic/theming.rasta_online.git
+$ cd theming.rasta_online
 $ script/setup
 $ script/server
 # => The site will now be viewable in your browser at http://localhost:4000
