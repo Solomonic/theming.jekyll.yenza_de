@@ -1,10 +1,10 @@
 # Site settings
-title: Mr.YenZa
-email: mr.yenza@gmail.com
+title: rasta.online
+email: info@rasta.online
 description: > # this means to ignore newlines until "baseurl:"
   teamwork make dreams work
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yenza.de" # the base hostname & protocol for your site
+url: "http://Rasta.Online" # the base hostname & protocol for your site
 cv: "https://careers.stackoverflow.com/jenskrause"
 skype: al0b4r
 
