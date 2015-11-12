@@ -330,3 +330,35 @@ html, body{
         margin-bottom:10px;
     }
  }
+ /* partners & projects */
+ .partner_description,
+ .projects_description{
+    position:relative;
+    display:inline-block;
+    padding:10px 15px 5px;
+    margin-bottom:10px;
+    min-height: 50px;
+
+    border-radius:5px;
+    -webkit-box-shadow: 2px 13px 51px -18px rgba(17,17,17,0.45);
+    -moz-box-shadow: 2px 13px 51px -18px rgba(17,17,17,0.45);
+    box-shadow: 2px 13px 51px -18px rgba(17,17,17,0.45);
+
+    .post_actions{
+        position: absolute;
+        top:5px;
+        left: 10px; 
+    }
+    h1,h2,h3,h4{
+        display: inline-block;
+        letter-spacing: -1px;
+        float:left;
+        margin:20px 15px 0 0;
+
+    }
+ }
+ .partners, .projects{ 
+    article{
+        display: inline-block;
+    }
+}
