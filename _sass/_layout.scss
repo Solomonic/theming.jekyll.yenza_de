@@ -282,28 +282,25 @@ html, body{
 
  #global-wrapper{
     min-height: 100%;
-    -webkit-animation: rasta_background 60s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation: rasta_background 60s infinite;
     animation: rasta_background 60s infinite;
  }
- /* Chrome, Safari, Opera */
-@-webkit-keyframes rasta_background {
-    0%   {box-shadow: inset 0px 0px 500px -8px rgba(255,255,255,1);}
-    25%  {box-shadow: inset 0px 0px 500px -8px rgba(37,186,4,1);}
-    50%  {box-shadow: inset 0px 0px 500px -8px rgba(247,235,10,1);}
-    75%  {box-shadow: inset 0px 0px 500px -8px rgba(247,37,10,1);}
-    100% {box-shadow: inset 0px 0px 500px -8px rgba(255,255,255,1);}
-}
 
 /* The animation code */
-@keyframes rasta_background {
-    0%   {box-shadow: inset 0px 0px 500px -8px rgba(255,255,255,1);}
-    25%  {box-shadow: inset 0px 0px 500px -8px rgba(37,186,4,1);}
-    50%  {box-shadow: inset 0px 0px 500px -8px rgba(247,235,10,1);}
-    75%  {box-shadow: inset 0px 0px 500px -8px rgba(247,37,10,1);}
-    100% {box-shadow: inset 0px 0px 500px -8px rgba(255,255,255,1);}
+@-webkit-keyframes rasta_background {
+    0%   {box-shadow: inset 0px 0px 240px -8px rgba(255,255,255,1);}
+    25%  {box-shadow: inset 0px 0px 240px -8px rgba(37,186,4,1);}
+    50%  {box-shadow: inset 0px 0px 240px -8px rgba(247,235,10,1);}
+    75%  {box-shadow: inset 0px 0px 240px -8px rgba(247,37,10,1);}
+    100% {box-shadow: inset 0px 0px 240px -8px rgba(255,255,255,1);}
 }
-
-
+@keyframes rasta_background {
+    0%   {box-shadow: inset 0px 0px 240px -8px rgba(255,255,255,1);}
+    25%  {box-shadow: inset 0px 0px 240px -8px rgba(37,186,4,1);}
+    50%  {box-shadow: inset 0px 0px 240px -8px rgba(247,235,10,1);}
+    75%  {box-shadow: inset 0px 0px 240px -8px rgba(247,37,10,1);}
+    100% {box-shadow: inset 0px 0px 240px -8px rgba(255,255,255,1);}
+}
  .article.even{
     margin-right:15px;
  }
