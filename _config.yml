@@ -1,22 +1,12 @@
-# Site settings
+# standard jekyll configuration
 title: rasta.online
-email: info@rasta.online
-description: > # this means to ignore newlines until "baseurl:"
-  teamwork make dreams work
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://Rasta.Online" # the base hostname & protocol for your site
-cv: "https://careers.stackoverflow.com/jenskrause"
-skype: al0b4r
-fb-user: www.rasta.online
-fb-url: "https://www.facebook.com/www.rasta.online"
-git-url: "https://github.com/Solomonic"
+url: "http://Rasta.Online"
+baseurl: ""
 
-
-# Build settings
 markdown: kramdown
 highlighter: pygments
 
-# standard jekyll configuration
+excerpt_separator: <!--more-->
 
 exclude:
 - bin
@@ -29,3 +19,12 @@ exclude:
 - README.md
 - script
 - vendor
+
+# custom variables
+email: info@rasta.online
+description: teamwork make dreams work
+cv: "https://careers.stackoverflow.com/jenskrause"
+skype: al0b4r
+fb-user: www.rasta.online
+fb-url: "https://www.facebook.com/www.rasta.online"
+git-url: "https://github.com/Solomonic"
