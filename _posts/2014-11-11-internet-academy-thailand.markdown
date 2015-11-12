@@ -3,7 +3,7 @@ layout: post
 title:  "Internet Academy Thailand"
 date:   2014-01-01 01:01:00 +0700
 categories: references
-tags: partner
+tags: partnerPlus
 
 partner_url: http://iat.in.th/th
 ---

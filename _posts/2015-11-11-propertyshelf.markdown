@@ -3,7 +3,7 @@ layout: post
 title:  "Propertyshelf Inc."
 date:   2015-11-11 00:00:00 +0700
 categories: references
-tags: partner
+tags: partnerPlus
 
 partner_url: http://propertyshelf.com
 ---
