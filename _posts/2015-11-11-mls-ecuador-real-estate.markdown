@@ -8,8 +8,6 @@ tags: partner
 partner_url: http://mls-ecuador.com/
 ---
 
-###Real Estate :
-
 ![logo]({{ site.url }}/images/mls-ecuador.png) 
 
 <!--more-->

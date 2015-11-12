@@ -8,8 +8,6 @@ tags: partner project
 partner_url: http://mls-cr.com
 ---
 
-###Real Estate :
-
 ![logo]({{ site.url }}/images/mls-cr-logo.png)
 
 <!--more-->
