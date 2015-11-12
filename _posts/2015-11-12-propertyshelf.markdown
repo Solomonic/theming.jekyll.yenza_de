@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Propertyshelf Inc."
-date:   2015-11-11 00:00:00 +0700
+date:   2015-11-12 13:00:00 +0700
 categories: references
 tags: partnerPlus
 

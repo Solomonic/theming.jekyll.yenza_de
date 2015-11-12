@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Homes 4 Global Alliance"
+date:   2015-11-12  09:00:00 +0700
+categories: references
+tags: partner
+
+partner_url: http://homes4.de
+---
+
+![logo](http://homes4.de/logo.png)
+
+<!--more-->
+
+Homes4 is an international network 
+
+###Germany: [homes4.de](http://homes4.de/)
+Wir von Homes4 ermöglichen Ihnen den globalen Zugang zu den heißbegehrtesten Ruhestandsorten, Urlaubszielen und Immobilienmärkten in Costa Rica, Ecuador, Nicaragua, Panamá und den USA. Unser Kundenservice richtet sich nach Ihrer Heimatsprache und Kultur, sodass von Anfang an die Umgebung für eine klare Kommunikation gegeben ist. [mehr in Deutsch ...](http://homes4.de/)
+
+##Italia [immobilworld.it](http://immobilworld.it/)
+Noi di ImmobilWorld vi portiamo a scoprire i luoghi più ambiti ed incantevoli per i vostri investimenti immobiliari in Costa Rica, Ecuador, Nicaragua, Panama e Stati Uniti d'America. Il nostro servizio clienti è fatto su misura per Voi perchè conosce i Vostri bisogni e parla la Vostra lingua. [click ...](http://immobilworld.it/)
+
+##France: [monde-immo.fr](http://monde-immo.fr/)
+À Monde-Immo™ nous vous donnons accès mondial aux hotspots les plus désirés de retraite, des destinations de vacances, et des marchés d'investissement immobilier au Costa Rica, l'Équateur, le Nicaragua, le Panama et les États-Unis. Notre service client est adaptée à vos besoins culturels et langues locales, ce qui nous donne une bonne ambiance et une communication claire depuis le début.
+[monde-immo.fr](http://monde-immo.fr/)

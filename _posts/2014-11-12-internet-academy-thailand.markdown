@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Internet Academy Thailand"
-date:   2014-01-01 01:01:00 +0700
+date:   2014-11-12 01:01:00 +0700
 categories: references
 tags: partnerPlus
 
