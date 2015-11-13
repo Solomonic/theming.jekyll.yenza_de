@@ -8,7 +8,7 @@
                 <a href="{{ post.partner_url }}" title="Go to website ..." target="_blank"><span class="fa fa-share fa-lg"></span></a>
             </div>
         </div>
-        <h4 class="center">{{post.title}}</h4>
+        <h4 class="center"><a href="{{post.url}}" title="more ...">{{post.title}}</a></h4>
      </section>
     {% endfor %}
     {% for post in site.tags.partner %}
@@ -20,7 +20,7 @@
                 <a href="{{ post.partner_url }}" title="Go to website ..." target="_blank"><span class="fa fa-share fa-lg"></span></a>
             </div>
         </div>
-        <h5 class="center">{{post.title}}</h5>
+        <h5 class="center"><a href="{{post.url}}" title="more ...   ">{{post.title}}</a></h5>
      </section>
     {% endfor %}
 </div>
