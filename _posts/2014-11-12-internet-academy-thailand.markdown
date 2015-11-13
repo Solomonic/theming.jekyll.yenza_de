@@ -9,7 +9,7 @@ partner_url: http://iat.in.th/th
 ---
 
 ###Siam Web Professionals
-![logo](http://iat.in.th/logo.png 'i@t: Internet Academy Thailand')
+![logo]({{ site.path-partner }}/iat-logo.png 'i@t: Internet Academy Thailand')
 
 <!--more-->
 

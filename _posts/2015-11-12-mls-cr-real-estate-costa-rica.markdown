@@ -8,7 +8,7 @@ tags: partner project
 partner_url: http://mls-cr.com
 ---
 
-![logo]({{ site.url }}/images/mls-cr-logo.png)
+![logo]({{ site.path-partner }}/mls-cr-logo.png 'mls-cr.com: The official Real Esta database in Costa Rica')
 
 <!--more-->
 

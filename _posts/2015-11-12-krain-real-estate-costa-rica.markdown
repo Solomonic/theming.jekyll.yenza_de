@@ -8,7 +8,7 @@ tags: project
 partner_url: http://kraincostarica.com/en
 ---
 
-![logo](http://kraincostarica.com/logo.png)
+![logo]({{ site.path-partner }}/krain-logo.png 'Krain: Real Estate in Costa Rica')
 
 <!--more-->
 

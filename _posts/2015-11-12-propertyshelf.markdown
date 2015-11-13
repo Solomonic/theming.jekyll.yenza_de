@@ -8,7 +8,7 @@ tags: partnerPlus
 partner_url: http://propertyshelf.com
 ---
 
-![logo](http://propertyshelf.com/logo.png 'Propertyshelf, Inc')
+![logo]({{ site.path-partner }}/ps-logo.png 'Propertyshelf, Inc')
 
 <!--more-->
 

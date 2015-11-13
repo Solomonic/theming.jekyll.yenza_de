@@ -8,7 +8,7 @@ tags: partner
 partner_url: http://mls-ecuador.com/
 ---
 
-![logo]({{ site.url }}/images/mls-ecuador.png) 
+![logo]({{ site.path-partner }}/mls-ecuador-logo.png 'Top Real Estate portal for properties in Ecuador.') 
 
 <!--more-->
 

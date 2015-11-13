@@ -8,7 +8,7 @@ tags: project
 partner_url: http://nauticacostarica.com/
 ---
 
-![logo](http://nauticacostarica.com/logo.png)
+![logo]({{ site.path-partner }}/nautica-logo.png 'nauticacostarica.com')
 
 <!--more-->
 
