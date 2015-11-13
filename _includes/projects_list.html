@@ -1,6 +1,7 @@
 <div class="projects list">
     {% for post in site.tags.project %}
     <section>
+        <h6>{{post.title}}</h6>
         <div class="projects_description">
             {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
             <div class="post_actions">

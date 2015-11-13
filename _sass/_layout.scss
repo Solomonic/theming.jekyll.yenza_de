@@ -247,14 +247,12 @@
 /**
  * article
  */
- article h1{
-    font-size:1.5em;
- }
- article h2{
-    font-size:1.25em;
- }
-article h3{
-    font-size:1.1em;
+ article{
+  h2{ font-size:1.6em;}
+  h3{ font-size:1.4em;}
+  h4{ font-size:1.2em;}
+  h5{ font-size:1.15em;}
+  h6{ display: none;}
  }
 
  article > section{
@@ -361,4 +359,7 @@ html, body{
     section{
         display: inline-block;
     }
+}
+.center{
+    text-align: center;
 }

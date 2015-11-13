@@ -8,10 +8,11 @@
                 <a href="{{ post.partner_url }}" title="Go to website ..." target="_blank"><span class="fa fa-share fa-lg"></span></a>
             </div>
         </div>
+        <h4 class="center">{{post.title}}</h4>
      </section>
     {% endfor %}
     {% for post in site.tags.partner %}
-    <section>
+    <section>   
         <div class="partner_description">
             {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
             <div class="post_actions">
@@ -19,6 +20,7 @@
                 <a href="{{ post.partner_url }}" title="Go to website ..." target="_blank"><span class="fa fa-share fa-lg"></span></a>
             </div>
         </div>
+        <h5 class="center">{{post.title}}</h5>
      </section>
     {% endfor %}
 </div>
