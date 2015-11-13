@@ -1,6 +1,6 @@
 <div class="projects list">
     {% for post in site.tags.project %}
-    <article>
+    <section>
         <div class="projects_description">
             {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
             <div class="post_actions">
@@ -8,6 +8,6 @@
                 <a href="{{ post.partner_url }}" title="Go to website ..." target="_blank"><span class="fa fa-share fa-lg"></span></a>
             </div>
         </div>
-     </article>
+     </section>
     {% endfor %}
 </div>
