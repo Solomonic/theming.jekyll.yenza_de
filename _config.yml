@@ -21,6 +21,7 @@ exclude:
 - vendor
 
 # custom variables
+path-partner: "http://rasta.online/library/partner"
 email: info@rasta.online
 description: teamwork make dreams work
 cv: "https://careers.stackoverflow.com/jenskrause"
