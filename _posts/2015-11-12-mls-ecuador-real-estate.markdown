@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MLS-Ecuador.com Real Estate"
+title:  "MLS-Ecuador.com"
 date:   2015-11-12 10:00:00 +0700
 categories: references
 tags: partner
