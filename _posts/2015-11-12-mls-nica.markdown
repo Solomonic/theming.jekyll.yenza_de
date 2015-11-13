@@ -7,7 +7,7 @@ tags: project partner
 
 partner_url: http://mls-nica.com
 ---
-
+####Nicaragua:
 ![logo]({{ site.path-partner }}/mls-nica-logo.png 'mls-nica.com: Real Estate Experts in Nicaragua')
 
 <!--more-->
