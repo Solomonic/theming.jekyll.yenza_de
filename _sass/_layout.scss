@@ -3,7 +3,6 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -102,10 +101,6 @@
 /**
  * Site footer
  */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
 
 .footer-heading {
     font-size: 18px;
@@ -347,7 +342,7 @@ html, body{
         top:5px;
         left: 10px; 
     }
-    h1,h2,h3,h4{
+    h1,h2,h3,h4,h5{
         display: inline-block;
         letter-spacing: -1px;
         float:left;
@@ -358,6 +353,9 @@ html, body{
  .partners, .projects{ 
     section{
         display: inline-block;
+    }
+    h1,h2,h3,h4,h5{
+        float:none;
     }
 }
 .center{
