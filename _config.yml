@@ -23,6 +23,7 @@ exclude:
 # custom variables
 path-partner: "http://rasta.online/library/partner"
 email: info@rasta.online
+avatar: "http://rasta.online/images/avatar.png"
 description: teamwork make dreams work
 cv: "https://careers.stackoverflow.com/jenskrause"
 pingdom_url: "http://tools.pingdom.com/fpt/"
