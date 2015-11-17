@@ -26,7 +26,7 @@ navigation: main
             <li><span style="color:rgba(37,186,4,1);" class="fa fa-html5 fa-lg"></span>
                 <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Frasta.online%2Fabout" target="_blank" title="Validate this page with validator.w3.org">Clean & valid HTML5</a>
             </li>
-            <li ><span class="fa fa-bolt fa-lg" style="color:rgba(247,235,10,1); text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);">&nbsp;</span> <b><a href="{{site.pingdom_report}}" target="_blank" title="Faster then google.com ...">Speed</a></b>: <a href="{{site.pingdom_report}}" target="_blank" title="... rasta.online lastest test result">Faster</a> then <a href="" target="_blank" title="test performance on tools.pingdom.com ...">your website</a></li>
+            <li ><span class="fa fa-bolt fa-lg" style="color:rgba(247,235,10,1); text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);">&nbsp;</span> <b><a href="{{site.pingdom_report}}" target="_blank" title="Faster then google.com ...">Speed</a></b>: <a href="{{site.pingdom_report}}" target="_blank" title="... rasta.online lastest test result">Faster</a> then <a href="{{ site.pingdom_url }}" target="_blank" title="test performance on tools.pingdom.com ...">your website</a></li>
             <li><span class="fa fa-ban fa-lg" style="color:rgba(247,37,10,1);"></span> No JavaScript needed</li>
             <li><span class="fa fa-file-code-o fa-lg"></span>
                 <a target="_blank" title="View source on github.com" href="https://github.com/jekyll/jekyll"><span class="fa fa-github"></span> Jekyll</a>: 
@@ -63,16 +63,19 @@ navigation: main
     <h2><span class="fa fa-users"></span> Community</h2>
     <section>
         <h3>Partners & Associates <span class="fa fa-female"></span><span class="fa fa-male"></span><span class="fa fa-female"></span></h3>
+        <small>This is a selection of companies I share(d) a close working relationship in the past decade.</small>
         {% include partners_list.html %}
         <p></p>
     </section>
     <section>
         <h3>Recent Projects <span class="fa fa-desktop"></span></h3>
+        <p><small>This is a short featured list of projects done in the past 2 years ... </small></p>
         {% include projects_list.html %}
     </section>
     
     <section>
-        <h3>Social & Networks <span class="fa fa-bullhorn fa-2x"></span></h3>
+        <h3>Social & Networks <span class="fa fa-bullhorn fa-lg"></span></h3>
+        <p>Also check a Rasta.online on facebook and github.</p>
         {% include social_batch.html %}
     </section>
   </div>

@@ -349,8 +349,15 @@ html, body{
         margin:20px 15px 0 0;
 
     }
+    strong{
+        display: inline-block;
+        margin: 1.5em 1em 0 0;
+        float: left;
+    }
  }
- .partners, .projects{ 
+ .partners, .projects{
+    float: none;
+    clear:both;
     section{
         display: inline-block;
     }
