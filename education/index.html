@@ -1,16 +1,22 @@
 ---
-layout: page
-permalink: /education/
+layout: default
+title: Education
+
+navigation: list
 ---
 
-<div class="education">
+<article class="education">
+  <h2 class="page-heading">Educational Post Library</h2>
+  <section>
+    <h4>Everything can make us smarter ...</h4>
+    <div class="article full">
+        {% include education_list.html %}
+    </div>
+  </section>
 
-  <h1 class="page-heading">Education</h1>
-
-  <div id="content">
-
+  <div class="article full">
     <ul class="post-list">
-    <li><h3>Posts</h3></li>
+    <li><h3>All Posts</h3></li>
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -20,7 +26,7 @@ permalink: /education/
         </h2>
       </li>
     {% endfor %}
-    <li><h3>Pages</h3></li>
+    <li><h3>All Pages</h3></li>
     {% for my_page in site.pages %}
     <li>
         <span class="post-meta">{{ my_page.date | date: "%b %-d, %Y" }}</span>
@@ -30,4 +36,4 @@ permalink: /education/
   </ul>
   </div>
  
-</div>
+</article>

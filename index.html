@@ -10,7 +10,13 @@ layout: frontpage
   <p><i class="fa fa-cog fa-spin a-5x"></i><i class="fa fa-cog fa-spin fa-lg"></i><i class="fa fa-cog fa-spin fa-2x"></i>
     ... building blog in progess ... <i class="fa fa-cog fa-spin"></i><i class="fa fa-cog fa-spin fa-3x"></i><i class="fa fa-cog fa-spin fa-2x"></i></p>
   <p>
-  <h3>So long you may have a look on the existing pages:</h3>
+  <section>
+    <h3>Educational posts</h3>
+    <div class="article full">
+        {% include education_list.html %}
+    </div>
+  </section>
+  <h3>So long you may have a look on the other existing pages:</h3>
   {% include navigation_list.html %}
   <p>Please come back a little later <i class="fa fa-hourglass-o  fa-spin"></i>. <br />One Love!</p>
   
