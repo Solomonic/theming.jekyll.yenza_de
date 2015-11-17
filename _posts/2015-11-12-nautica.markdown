@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Remax Executive Realty Costa Rica"
+title:  "Nautica Costa Rica"
 date:   2015-11-12  03:00:00 +0700
 categories: references
 tags: project
@@ -11,5 +11,7 @@ partner_url: http://nauticacostarica.com/
 ![logo]({{ site.path-partner }}/nautica-logo.png 'nauticacostarica.com')
 
 <!--more-->
+
+Nice page, presenting Real Estate in an exclusive location. 
 
 [Visit Nautica Costa Rica ](http://nauticacostarica.com/en)

@@ -1,17 +1,19 @@
 ---
 layout: post
 title:  "Internet Academy Thailand"
-date:   2014-11-12 01:01:00 +0700
+date:   2015-11-12 01:01:00 +0700
 categories: references
 tags: partnerPlus
 
 partner_url: http://iat.in.th/th
 ---
 
-###Siam Web Professionals
+**Thailand**
 ![logo]({{ site.path-partner }}/iat-logo.png 'i@t: Internet Academy Thailand')
 
 <!--more-->
+
+###Siam Web Professionals
 
 i@t started in 2013 as a small but dedicated group of individuals living in Thailand and lovin' the internet and its latest technologies. After a year of awesome projects in Europe, the Americas and Asia i@t wanted to join forces with the next generation of web-developer on the ground in schools and universities but found an incredible lack in education of contemporary web-technologies instead.
 

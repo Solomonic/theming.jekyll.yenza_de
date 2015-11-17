@@ -7,12 +7,12 @@ tags: partnerPlus
 
 partner_url: http://propertyshelf.com
 ---
-
+**U.S.A.**
 ![logo]({{ site.path-partner }}/ps-logo.png 'Propertyshelf, Inc')
 
 <!--more-->
 
-# Propertyshelf - Your Global Real Estate & MLS Connection
+##Propertyshelf - Your Global Real Estate & MLS Connection
 
 Global MLS software designed for real estate associations, professionals, and businesses to improve industry efficiency and gain international exposure. 
 [learn nore ...](http://propertyshelf.com/en/agent-broker-real-estate-mls)

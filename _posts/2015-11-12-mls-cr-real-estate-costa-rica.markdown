@@ -3,7 +3,7 @@ layout: post
 title:  "MLS Costa Rica"
 date:   2015-11-12   11:00:00 +0700
 categories: references
-tags: partner project
+tags: project
 
 partner_url: http://mls-cr.com
 ---
