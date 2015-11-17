@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Synexus"
+title:  "Synexus GmbH"
 date:   2015-11-12  02:30:00 +0700
 categories: references
 tags: partner
@@ -13,7 +13,9 @@ partner_url: http://synexus.de/
 
 <!--more-->
 
+[Visit Synexus website ]({{page.partner_url}} )
+
 Profitieren Sie von unserer langjährigen Kompetenz in allen Bereichen der IT. Als Systemhaus mit Sitz in Leipzig bieten wir Ihnen deutschlandweit Lösungen für Ihre IT-Infrastruktur, vom einfachen Client-Server-Szenario bis hin zu komplexen IT-Security-Lösungen oder flächendeckendem Enterprise-WLAN. Eine 24/7 Rundum-Betreuung ist für uns ebenso selbstverständlich wie projektbezogenes Arbeiten. Was immer Sie mit Ihrer IT-Landschaft vorhaben, die Synexus GmbH ist Ihr kompetenter IT-Dienstleister.
  
 
-[Visit Synexus website ]({{partner_url}} )
+[Besuchen Sie die Synexus GmbH online ]({{page.partner_url}} )

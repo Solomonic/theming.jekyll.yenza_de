@@ -12,19 +12,24 @@ partner_url: http://www.freizeitplan.net
 ![logo]({{ site.path-partner }}/freizeitplan-logo.png 'Logo freizeitplan.net')
 
 <!--more-->
+[Visit Freizeitplan website ]({{partner_url}})
 
-Flexible online-booking engine for Real Estate Rentals with the following features
-* customers can book through online booking forms
-* free property management, add images, google maps, whatever helps you to promote
-* availability calendar
-* flexible and customizable pricing options
-* integrated booking reporting with pdf export
+Flexible online-booking engine for Real Estate Rentals with the following features:
+
+- customers can book through online booking forms
+- free property management, add images, google maps, whatever helps you to promote
+- availability calendar
+- flexible and customizable pricing options
+- integrated booking reporting with pdf export
 
 
-####Review features:
+####Review official website:
 
-*only in german*
-http://www.freizeitplan.net/funktionen-und-preise-online-buchungssystem
+[*available in german*](http://www.freizeitplan.net/funktionen-und-preise-online-buchungssystem)
 
 [Visit Freizeitplan website ]({{partner_url}})
 
+###Related Pages:
+
+* [Planquadrat Software Integration]({% post_url /2015-11-12-planquadrat %})
+* [ScooterPlan.net]({% post_url /2015-11-12-scooterplan %})
