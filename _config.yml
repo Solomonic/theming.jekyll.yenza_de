@@ -22,6 +22,7 @@ exclude:
 
 # custom variables
 path-partner: "http://rasta.online/library/partner"
+path-image: "http://rasta.online/library/images"
 email: info@rasta.online
 avatar: "http://rasta.online/images/avatar.png"
 description: teamwork make dreams work
