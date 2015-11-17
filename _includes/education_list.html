@@ -1,0 +1,9 @@
+<ul class="invisible">
+    {% for mypost in site.categories.education %}
+        <li><h4><a title="Read full article" href="{{ mypost.url | prepend: site.baseurl }}">{{mypost.title}}</a></h4>
+            <time datetime="{{ mypost.date | date_to_xmlschema }}" itemprop="datePublished">{{ mypost.date | date: "%-d %b %Y" }}</time>
+            <div>{{ mypost.excerpt | remove: '<p>' | remove: '</p>' }}</div>
+            <a title="Read full article" href="{{ mypost.url | prepend: site.baseurl }}"><strong>... read more</strong></a>
+        </li>
+    {% endfor %}
+</ul>
