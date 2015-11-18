@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CMS ... Wordpress, Joomla!, Drupal, Mangento, Typo3 or Plone
+title: CMS ... Wordpress, Joomla!, Drupal, Django, Typo3 or Plone
 date:   2015-11-17  04:40:00 +0700
 author: Jens Krause
 
@@ -41,7 +41,7 @@ Thanks to the open-source community, un-counted night-time hours of "moonshinnig
 
 ####Costs: It's not free!
 
-The software is free, but not the website. Every website needs a server to be stored on, static HMTL or sophisticated CMS. The sophisticated server-side appliocation needs by its nature more space, a database and computing-power to do its magic. The hosting costs vary widely between each CMS and are a major determining factor how many people will use it. Wordpress as absolute market leader (50%-60% of all CMS in use are Wordpress) often ships with very effortable hosting-packages while others like Plone (1%-2% market share) come at a 10 higher hosting costs. How often a CMS is used doesn't proof it's quality in any matter but it demonstrate how well costs and results are in balance.
+The software is free, but not the website. Every website needs a server to be stored on, static HMTL or sophisticated CMS. The sophisticated server-side appliocation needs by its nature more space, a database and computing-power to do its magic. The hosting costs vary widely between each CMS and are a major determining factor how many people will use it. Wordpress as absolute market leader (50%-60% of all CMS in use are Wordpress) often ships with very effortable hosting-packages while others like Plone (1%-2% market share) come at a 10 times higher hosting costs. How often a CMS is used doesn't proof it's quality in any matter but it demonstrate how well costs and results are in balance.
 
 As a matter of fact are most website-companies, web-designer, themer and web-developer specialized in **one** CMS and will always recommend the own choice as the right one for every single project and customer.
 _If your only tool is a hammer, every problem looks like a nail to you._
@@ -51,7 +51,7 @@ The real costs come into play, when you hire a professionals to do customization
 
 ####Ease of use
 
-Many clients seems to be disappointed when they realize that their new website-system is way more complicated then they expected. If you are the reseller of a CMS you will need to deal with the bugs or missing features of the product for your client. A word of warning: A customer who is not interested in the techie side, don't want to deal with html is very likely not very keen in learning to handle the CMS and find the ways around the pitfalls. This customer will always have the feeling that workflows are too complicated, because they rather want to put their energy into business, not managing the website beside the normal tasks. The more an application can do, the more complex it gets and the higher are the chances for bugs, errors and cofusion. **There is always a need for specialists.**
+Many clients seems to be disappointed when they realize that their new website-system is way more complicated then they expected. If you are the reseller of a CMS you will need to deal with the bugs or missing features of the product for your client. A word of warning: A customer who is not interested in the techie side, don't want to deal with html is very likely not very keen in learning to handle the CMS and find the ways around the pitfalls. This customer will always have the feeling that workflows are too complicated, because they rather want to put their energy into business, not managing the website beside the normal tasks. The more an application can do, the more complex it gets and the higher are the chances for bugs, errors and confusion. **There is always a need for specialists.**
 
 ####Speed
 
@@ -59,7 +59,7 @@ All server-side application will need a some time to analyze your request, gener
 
 **So what? My website is slower, does this make a difference?**
 
-That depends on your goals. This very blog should load in around a second while the same content produced by a CMS in a standard setup would easily take 5s or more. Studies show that website visitors recognize the increase of speed by 0.1s clearly and will return more often to the faster websites then to the slower. Clever specialists can get the CMS through optimizations, minizations and setups to a speed closer to a static HTML page, but it requires big efforts and still will be slower. You can compare this basic dilema with two neighbors at Halloween who want to give out candy as fast as possible. One is standing right behind the door with candy in its hand waiting, while the other have to grab it from the kitchen first. Who will win?
+That depends on your goals. This blog should load in around a second or two, depending on your location. The same content produced by a CMS in a standard setup would easily take 5s or more. Studies show that website visitors recognize the increase of speed by 0.1s clearly and will return more often to the faster websites then to the slower. Clever specialists can get the CMS through optimizations, minizations and setups to a speed closer to a static HTML page, but it requires big efforts and still will be slower. You can compare this basic dilema with two neighbors at Halloween who want to give out candy as fast as possible. One is standing right behind the door with candy in its hand waiting, while the other have to grab it from the kitchen first. Who will win?
 
 ###Conclusion
 
