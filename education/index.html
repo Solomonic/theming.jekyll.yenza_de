@@ -13,27 +13,4 @@ navigation: list
         {% include education_list.html %}
     </div>
   </section>
-
-  <div class="article full">
-    <ul class="post-list">
-    <li><h3>All Posts</h3></li>
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-    <li><h3>All Pages</h3></li>
-    {% for my_page in site.pages %}
-    <li>
-        <span class="post-meta">{{ my_page.date | date: "%b %-d, %Y" }}</span>
-     <h2><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a><h/2>
-    </li> 
-    {% endfor %}
-  </ul>
-  </div>
- 
 </article>
