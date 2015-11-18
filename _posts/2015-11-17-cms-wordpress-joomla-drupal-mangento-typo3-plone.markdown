@@ -51,7 +51,7 @@ The real costs come into play, when you hire a professionals to do customization
 
 ####Ease of use
 
-Many clients seems to be disappointed when they realize that their new website-system is way more complicated then they expected. If you are the reseller of a CMS you will need to deal with the bugs or missing features of the product for your client. A word of warning: A customer who is not interested in the techie side, don't want to deal with html is very likely not very keen in learning to handle the CMS and find the ways around the pitfalls. This customer will always have the feeling that workflows are too complicated, because they rather want to put their energy into business, not managing the website beside the normal tasks. The more an application can do, the more complex it gets and the higher are the chances for bugs and error. **There is always a need for specialists.**
+Many clients seems to be disappointed when they realize that their new website-system is way more complicated then they expected. If you are the reseller of a CMS you will need to deal with the bugs or missing features of the product for your client. A word of warning: A customer who is not interested in the techie side, don't want to deal with html is very likely not very keen in learning to handle the CMS and find the ways around the pitfalls. This customer will always have the feeling that workflows are too complicated, because they rather want to put their energy into business, not managing the website beside the normal tasks. The more an application can do, the more complex it gets and the higher are the chances for bugs, errors and cofusion. **There is always a need for specialists.**
 
 ####Speed
 
