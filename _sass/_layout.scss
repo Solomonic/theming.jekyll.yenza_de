@@ -387,3 +387,32 @@ html, body{
 .center{
     text-align: center;
 }
+.series-navigation{
+    width:100%;
+    position:relative;
+    min-height: 2em;
+
+    .prev_article{
+        position:absolute;
+        left:0;
+    }
+    .next_article{
+        position:absolute;
+        right:0;
+    }
+
+    .small-text{
+        display:none;
+    }
+}
+@include media-query($on-palm){
+    .prev_article,.next_article{
+        .text{
+            display:none;
+        }
+        .small-text{
+            display:inline;
+        }
+    }
+
+}
