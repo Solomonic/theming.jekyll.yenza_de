@@ -1,12 +1,12 @@
 <ul class="invisible">
     {% for mypost in site.categories.education %}
         <li><article>
-            <h2><a title="Read full article" href="{{ mypost.url | prepend: site.baseurl }}">{{mypost.title}}</a></h2>
+            <h2 class="article-headline"><a title="Read full article" href="{{ mypost.url | prepend: site.baseurl }}">{{mypost.title}}</a></h2>
             <div class="description">
                 <time datetime="{{ mypost.date | date_to_xmlschema }}">{{ mypost.date | date: "%-d %b %Y" }}</time>:
-                <a title="Read full article" href="{{ mypost.url | prepend: site.baseurl }}">{{ mypost.excerpt | remove: '<p>' | remove: '</p>' }}
+                <a title="Read full article" class="post_description" href="{{ mypost.url | prepend: site.baseurl }}">{{ mypost.excerpt | remove: '<p>' | remove: '</p>' }}
                 </a></div>
-            <a title="Read full article" href="{{ mypost.url | prepend: site.baseurl }}"><strong>... read more</strong></a>
+            <a title="Read full article" href="{{ mypost.url | prepend: site.baseurl }}"><strong>... read more</strong> <span class="fa fa-search-plus"></span></a>
         </article></li>
     {% endfor %}
 </ul>

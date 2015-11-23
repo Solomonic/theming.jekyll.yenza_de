@@ -248,6 +248,25 @@
   h4{ font-size:1.2em;}
   h5{ font-size:1.15em;}
   h6{ display: none;}
+
+  .article-headline{
+    margin-bottom:0;
+  }
+  a.post_description,
+  a.post_description:hover,
+  a.post_description:active,
+  a.post_description:link,
+  a.post_description:visited{
+    color: inherit;
+    text-decoration: none;
+    cursor:help;
+
+  }
+
+  time{
+    font-style: italic;
+    font-weight: bold;
+  }
  }
 
  article > section{
