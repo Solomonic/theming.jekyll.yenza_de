@@ -7,6 +7,8 @@ author: Jens Krause
 categories: education software-development
 tags: internet jekyll
 
+series: first
+series-nav-title: CMS? What is that?
 ---
 
 Wordpress, Joomla!, Drupal, Django, Typo3 and Plone are some of the most common Content Management Systems (CMS) today, delivering millions of websites every day. **But what is a CMS and which purpose does it serve?** Thanks to the open-source community small projects, start-ups or any businesses with very limited budgets are enabled to get online with low-cost websites. This article explains some very basic concepts and what kind of issues you have to expect when using any CMS ...

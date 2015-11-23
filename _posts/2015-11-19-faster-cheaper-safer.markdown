@@ -7,6 +7,9 @@ author: Jens Krause
 categories: education software-development
 tags: internet jekyll
 
+series: jekyll
+series-nav-title: faster, cheaper, safer
+
 ---
 
 The commonly used CMS (Wordpress, Joomla!, ...) are all server-side applications which require sophisticated features from the hosting environment, as a database and activated PHP or Python compilers. If your website-project is of reasonable size, aimed to exposure, performance and SEO rather then direct interaction with visitors as in community sites or e-commerce, then you may don't need any paid hosting at all anymore. Sounds good? Let's dive into pre-compiled websites and what they have to offer ... 
