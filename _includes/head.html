@@ -2,9 +2,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+{% if page.seo_description %}
+  <meta name="description" content="{{ page.seo_description | strip_html | strip_newlines | truncate: 160 }}">
+{% else %}
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+{% endif %}
+  <meta content="text/plain" name="DC.format">
+{% if page.author%}
+  <meta content="{{page.author}}" name="DC.creator">
+{% endif %}
+  <meta content="ALL" name="robots">
+  <meta content="Global" name="distribution">
+  <meta content="Global" name="DC.distribution">
+  <meta content="en" name="DC.language">
+
   <link rel="stylesheet" href="{{ "/font-awesome-4.4.0/css/font-awesome.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
