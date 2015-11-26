@@ -38,7 +38,7 @@ Imagine you have a website with 200 articles. When you decide to add a new artic
 
 #####Get it, it's FREE!
 
-Thanks to the open-source community, countless night-time hours of "moonshining" from geeks and nerds all around the world, we have a big varity of different free CMS solutions now and in many different Programming Languages such as PHP, Perl, Python or Ruby, serving the majority of websites on the internet today. They became so popular because the software itself is free and Re-seller promised that anybody able to write a document with MS WORD can maintain their own website/blog without knowing anything about HTML and with no need to hire an expert for making future updates.
+Thanks to the open-source community, countless night-time hours of "moonshining" from geeks and nerds all around the world, we have a big varity of different free CMS solutions now and in many different Programming Languages such as PHP, Perl, Python or Ruby, serving the majority of websites on the internet today. They became very popular because the software itself is free and advertised as the easiest access into the online world. There is no need to learn HTML, that convinced at least all of my early customers.
 **All is great then, right?** Problem solved, case closed?
 
 ###Actually .... problems to expect from your CMS
