@@ -1,8 +1,9 @@
 {% if page.share %}
 <div id="share-box">
     <span class="box">
-        <a href="https://www.facebook.com/dialog/share?app_id={{site.fb-app-id}}&display=popup&href={{site.url}}{{page.url}}&redirect_uri={{site.url}}{{page.url}}" target="_blank" title="Share on facebook ..."><span class="fa fa-facebook-official fa-2x"></span></a>
-        <a href="mailto:YourFriend@example.com?subject=I%20found%20something%20interesting%20...&amp;body={{site.url}}{{page.url}}" target="_blank" title="Share by email ..."><span class="fa fa-envelope fa-2x"></span></a>
+        <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}" class="green" target="_blank" title="Share on Google+ ..."><span class="fa fa-2x fa-google-plus-square"></span></a>
+        <a href="https://www.facebook.com/dialog/share?app_id={{site.fb-app-id}}&display=popup&href={{site.url}}{{page.url}}&redirect_uri={{site.url}}{{page.url}}" target="_blank" class="gold" title="Share on facebook ..."><span class="fa fa-facebook-official fa-2x"></span></a>
+        <a href="mailto:YourFriend@example.com?subject=I%20found%20something%20interesting%20...&amp;body={{site.url}}{{page.url}}" class="red" title="Share by email ..."><span class="fa fa-envelope fa-2x"></span></a>
     </span>
 </div>
 {% endif %}

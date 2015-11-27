@@ -448,5 +448,24 @@ html, body{
             font-weight:bold;
             min-height: 2em;
         }
+        a.green:visited,
+        a.green:active,
+        a.green:focus,
+        a.green:hover{
+            color:green;
+        }
+        a.gold:visited,
+        a.gold:active,
+        a.gold:focus,
+        a.gold:hover{
+            color:gold;
+        }
+        a.red:visited,
+        a.red:active,
+        a.red:focus,
+        a.red:hover{
+            color:red;
+        }
+        
     }
 }
