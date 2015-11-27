@@ -6,6 +6,7 @@ categories: references
 tags: project
 
 partner_url: http://mls-cr.com
+image: http://rasta.online/library/partner/mls-cr-logo.png
 ---
 
 ![logo]({{ site.path-partner }}/mls-cr-logo.png 'mls-cr.com: The official Real Esta database in Costa Rica')

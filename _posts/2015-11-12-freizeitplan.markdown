@@ -6,6 +6,7 @@ categories: references
 tags: partner
 
 partner_url: http://www.freizeitplan.net
+image: http://www.freizeitplan.net/images/misc/logo_freizeitplan_online_booking.png
 ---
 
 **Germany**

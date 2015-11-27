@@ -6,6 +6,7 @@ categories: references
 tags: partnerPlus
 
 partner_url: http://propertyshelf.com
+image: http://rasta.online/library/partner/ps-logo.png
 ---
 **U.S.A.**
 ![logo]({{ site.path-partner }}/ps-logo.png 'Propertyshelf, Inc')

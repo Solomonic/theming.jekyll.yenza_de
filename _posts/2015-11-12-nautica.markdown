@@ -6,6 +6,7 @@ categories: references
 tags: project
 
 partner_url: http://nauticacostarica.com/
+image: http://rasta.online/library/partner/nautica-logo.png
 ---
 
 ![logo]({{ site.path-partner }}/nautica-logo.png 'nauticacostarica.com')

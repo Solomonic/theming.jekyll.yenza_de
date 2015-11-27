@@ -6,6 +6,7 @@ categories: references
 tags: project
 
 partner_url: http://puntacentinela.com.ec/en
+image: http://puntacentinela.com.ec/logo.png
 ---
 
 ![logo]({{ site.path-partner }}/puntacentinela-logo.png 'Punta Centinela Ecuador')

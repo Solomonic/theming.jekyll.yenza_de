@@ -429,3 +429,24 @@ html, body{
         }
     }
 }
+/* Social share css */
+#share-box{
+    position:fixed;
+    top:10px;
+    text-align: center;
+    left:40%;
+
+    .box{
+        background-color:#fff;
+        display: inline-block;
+        padding:3px 8px;
+        border-radius:5px;
+        min-height: 2em;
+        z-index: 999;
+
+        a{
+            font-weight:bold;
+            min-height: 2em;
+        }
+    }
+}

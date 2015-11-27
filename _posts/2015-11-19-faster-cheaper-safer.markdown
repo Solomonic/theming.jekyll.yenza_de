@@ -11,6 +11,8 @@ series: jekyll
 series-nav-title: faster, cheaper, safer
 
 seo_description: Exposure and Performance is most important? You might not need to pay hosting anymore when using a pre-compiled website and perform best in SEO and pageload time.
+
+image: http://jekyllrb.com/img/logo-2x.png
 ---
 
 The commonly used CMS (Wordpress, Joomla!, ...) are all server-side applications which require sophisticated features from the hosting environment, such as a database and activated PHP or Python compilers. Your website-project is of reasonable size, aimed for exposure, performance, and SEO rather than direct interaction with visitors as in community sites or e-commerce? Then you might not need any paid hosting at all anymore. Sounds good? Let's dive into pre-compiled websites and what they have to offer ... 

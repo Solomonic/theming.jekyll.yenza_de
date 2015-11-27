@@ -6,6 +6,7 @@ categories: references
 tags: partnerPlus
 
 partner_url: http://iat.in.th/th
+image: http://iat.in.th/logo.png
 ---
 
 **Thailand**

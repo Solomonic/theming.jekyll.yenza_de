@@ -1,0 +1,8 @@
+{% if page.share %}
+<div id="share-box">
+    <span class="box">
+        <a href="https://www.facebook.com/dialog/share?app_id={{site.fb-app-id}}&display=popup&href={{site.url}}{{page.url}}&redirect_uri={{site.url}}{{page.url}}" target="_blank" title="Share on facebook ..."><span class="fa fa-facebook-official fa-2x"></span></a>
+        <a href="mailto:YourFriend@example.com?subject=I%20found%20something%20interesting%20...&amp;body={{site.url}}{{page.url}}" target="_blank" title="Share by email ..."><span class="fa fa-envelope fa-2x"></span></a>
+    </span>
+</div>
+{% endif %}

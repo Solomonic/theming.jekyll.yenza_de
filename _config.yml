@@ -1,6 +1,7 @@
 # standard jekyll configuration
 title: rasta.online
 url: "http://Rasta.Online"
+name: Duppy conqueror in the digital jungle.
 baseurl: ""
 
 markdown: kramdown
@@ -32,5 +33,15 @@ pingdom_report: "http://tools.pingdom.com/fpt/#!/bTZzor/rasta.online/about"
 skype: al0b4r
 fb-user: www.rasta.online
 fb-url: "https://www.facebook.com/www.rasta.online"
+fb-app-id: 172683489748870
 git-url: "https://github.com/Solomonic"
 jekyll_doc: "http://jekyllrb.com/docs"
+
+#set defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      share: rasta

@@ -11,6 +11,8 @@ series: first
 series-nav-title: CMS? What is that?
 
 seo_description: What is a website? For what do we need CMS? This article explains the basics of internet and shows commonly used solutions as Wordpress, Joomla!, Drupal, Django, Typo3 and Plone.
+
+image: http://rasta.online/library/images/many_cms.png
 ---
 
 Wordpress, Joomla!, Drupal, Django, Typo3 and Plone are some of the most common Content Management Systems (CMS) today, delivering millions of websites every day. **But what is a CMS and what purpose does it serve?** Thanks to the open-source community, small projects, start-ups, or businesses with very limited budgets are able to get online with low-cost websites. This article explains some very basic concepts and what kind of issues you can expect when using any CMS...

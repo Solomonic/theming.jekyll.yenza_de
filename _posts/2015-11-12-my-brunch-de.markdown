@@ -6,6 +6,7 @@ categories: references
 tags: partner
 
 partner_url: http://mybrunch.de
+image: http://rasta.online/library/partner/mybrunch-logo.png
 ---
 
 **Germany**

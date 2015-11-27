@@ -6,6 +6,7 @@ categories: references
 tags: partner
 
 partner_url: http://tekonte.com/
+image: http://tekonte.com/logo.png
 ---
 
 ![logo]({{ site.path-partner }}/tekonte-logo.png 'tekonte.com: Stay in the loop ...')

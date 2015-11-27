@@ -6,6 +6,7 @@ categories: references
 tags: partnerPlus
 
 partner_url: http://www.planquadrat-software.de
+image: http://rasta.online/library/partner/planquadrat-logo.png
 ---
 **Germany**
 ![logo]({{ site.path-partner }}/planquadrat-logo.png 'Logo Planquadrat Software Integration')

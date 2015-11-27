@@ -6,6 +6,7 @@ categories: references
 tags: partner
 
 partner_url: http://www.scooterplan.net
+image: http://rasta.online/library/partner/scooterplan-logo.png
 ---
 
 **Germany**

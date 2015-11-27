@@ -6,6 +6,7 @@ categories: references
 tags: partner
 
 partner_url: http://homes4.de
+image: http://homes4.de/logo.png
 ---
 **Europe**
 ![logo]({{ site.path-partner }}/h4-logo.png 'homes4: Retirement Experts')
