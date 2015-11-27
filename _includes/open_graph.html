@@ -1,0 +1,21 @@
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:site_name" content="{{site.name}}"/>
+
+  <meta property="og:url" content="{{site.url}}{{page.url}}" />
+  <meta property="og:type" content="article" />
+  <meta property="fb:app_id" content="{{site.fb-app-id}}" />
+  <meta property="og:locale" content="en_US" /> 
+ 
+{% if page.seo_description %}
+  <meta property="og:description" content="{{ page.seo_description | strip_html | strip_newlines }}">
+{% else %}
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines}}{% else %}{{ site.description }}{% endif %}">
+{% endif %}
+
+  <meta property="article:author" content="{{ site.fb-url }}" />
+  <meta property="article:publisher" content="{{ site.fb-url }}" />
+{% if page.image %}
+  <meta property="og:image" content="{{page.image}}" />
+{% else %}
+  <meta property="og:image" content="{{site.path-image}}/default.png" />
+{% endif %}
