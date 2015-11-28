@@ -84,6 +84,14 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
+h1, h2{
+    text-align: center;
+}
+.site-footer{
+    h1, h2, h3, h4, h5, h6{
+        text-align: left;
+    }
+}
 
 
 
