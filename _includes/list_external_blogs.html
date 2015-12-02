@@ -1,0 +1,14 @@
+<ul class="invisible">
+{% for mypost in site.data.articles %}
+    {% assign author = site.data.authors[mypost.author] %}
+  <li><article>
+        <h2 class="article-headline"><a title="Read full article" href="{{ mypost.link }}" target="{{mypost.author}}">{{mypost.title}}</a></h2>
+        <div class="auhor"><a href="mailto:{{author.email}}"><span class="fa fa-pencil-square"></span > {{author.name}}</a> on <a href="{{author.website}}" target="{{mypost.author}}">{{author.website}} <span class="fa fa-paper-plane-o"></span></a></div>
+        <div class="description">
+            <time datetime="{{ mypost.date | date_to_xmlschema }}">{{ mypost.date | date: "%-d %b %Y" }}</time>:
+            <a title="Read full article" class="post_description" href="{{ mypost.link }}" target="{{mypost.author}}">{{ mypost.description}}
+            </a></div>
+            <a title="Read full article" target="{{mypost.author}}" href="{{ mypost.link }}"><strong>... read more</strong> <span class="fa fa-external-link"></span></a>
+        </article></li>
+{% endfor %}
+</ul>
