@@ -1,0 +1,11 @@
+- title: Styling form elements 
+  author: webgefrickel
+  date: 15. June 2015
+  description: Styling of form elements is often a pain in the ass. There are always designers who really really want their custom checkboxes and dropdowns. If you are reading this article you know how hard this can be. Here is how a pro deals with this problem.
+  link: https://webgefrickel.de/blog/styling-form-elements
+
+- title: Nginx and WordPress
+  author: webgefrickel
+  date: 30. June 2015
+  description: I've ordered a new virtual private server because the old one was a bit to slow for »that one project«. Here is how I configured it to run WordPress with nginx and fastcgi_cache.
+  link: https://webgefrickel.de/blog/nginx-and-wordpress
