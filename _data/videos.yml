@@ -1,0 +1,15 @@
+- title: What is Li-Fi?
+  description: LiFi is an interesting way to stream data without cables. WiFi uses radio waves to transmit data while Lifi technologies taps into the speed of light. LEDs can transmit data and light up the room at the same time. Tests show bandwidths up to astonishing 224 Gbps ... that is wicked fast.
+  author: ColdFusion
+  link: https://www.youtube.com/watch?v=wqH9KX9o0vg
+  date: 03.12.2015
+  image: lifi-logo.png
+  thumblink: https://en.wikipedia.org/wiki/Li-Fi
+
+- title: What is Zipfs mystery?
+  description: The internet is a big load of interconnected text-documents made of ... language. So it is not surprising that we can learn improtant lessons from Linguists. One amazing example is Zipfs mystery. If you want to dive deep into SEO this is knowledge needs to come into account.
+  author: Vsauce
+  link: https://www.youtube.com/watch?v=fCn8zs912OE
+  date: 17.09.2015
+  image: zipf-diagram.png
+  thumblink: http://www.hpl.hp.com/research/idl/papers/ranking/adamicglottometrics.pdf

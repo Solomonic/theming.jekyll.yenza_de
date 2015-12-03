@@ -11,3 +11,15 @@ jens:
   website: http://Rasta.Online
   github: https://github.com/Solomonic
   source: rasta
+
+ColdFusion:
+  name: ColdFusion
+  channel: https://www.youtube.com/channel/UC4QZ_LsYcvcq7qOsOhpAX4A
+  website: https://www.youtube.com
+  source: youtube
+
+Vsauce:
+  name: Vsauce
+  channel: https://www.youtube.com/channel/UC6nSFpj9HTCZ5t-N3Rm3-HA
+  website: https://www.youtube.com
+  source: youtube
