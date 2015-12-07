@@ -13,7 +13,7 @@ series-nav-title: open source blueprint
 seo_description: Combine free but powerful tools to an online-business. Learn how to organize teams and support their work
 ---
 
-We are going to introduce a software strategy for a fictional brand called FantasticContent.Online to demonstrate how different free tools can be combined to a rock solid base for many kinds business relying on teamwork. We will have a look how to create a professional product and present it  in the internet, how to organzize teams and make the life easy for the marketeers. Ready? Let's go ....
+We are going to introduce a software strategy for a fictional brand called FantasticContent.Online to demonstrate how different free tools can be combined to a rock solid base for many kinds business relying on teamwork. We will have a look how to create a professional product and present it  in the internet, how to organize teams and make the life easy for the marketeers. Ready? Let's go ....
 
 <!--more-->
 
@@ -73,10 +73,33 @@ The Creators are the heart and the soul of any content based business, so we wan
 
 #### Team Marketing & Business
 
+Money makes the world go round and it's also very useful to exchange for goods and services. People can be motivated for a _short time_ to put a lot of work and energy into projects without payment, amazing things can be done without money but a serious business will need cash to deliver constant _professional_ results and build sustained teams. The business teams responsibility is to get the bills payed for everyone, so we need full support for all marketing efforts.
+
+##### Starting up ...
+
+[Crowdfunding](https://en.wikipedia.org/wiki/Crowdfunding 'What is crowdfunding?') is in our days one of the most powerful tools for business development. Awesome Creators or Techies are often not qualified or experienced enough to work out a convincing business plan, so help is needed. To use a crowdfunding platform to develop and test a business model is a smart move, it allows direct feedback with an interested audience, we can promote the idea itself and find out what is actually wanted by the community. A failing crowdfunding campaign teaches us a lot and filters out stupid and risky ideas. If we can convince enough people to give FantasticContent.Online money for an non-existing product, then we have a product interesting enough and the first customers right by our hands. And of course we get the money from the campaign which allows us to get serious. In consultations for start-ups I usually recommend to organize and crowdfund projects in several steps. We want to start with a very reasonable first goal and minimal buyable product, in later steps we will react on the feedback of our audience and maybe go in a different directions then what we would expect initially.
+
+There are many platforms for [crowdfunding](https://en.wikipedia.org/wiki/Crowdfunding 'What is crowdfunding?') available, depending on our project we will need to choose the best one for our cause. The most famous portal is [Kickstarter](https://www.kickstarter.com/ 'Crowdfunding with Kickstarter') with over $200 millions raised and over 60.000 projects launched. FantasticContent.Online is a creative project, so we should be good with its [guidelines](http://www.kickstarter.com/help/guidelines 'Kickstarter project guidelines ...') BUT the campaign creator needs to be a U.S. resident. So we have a look at other options as [IndieGoGo](https://www.indiegogo.com/ 'Crowdfund with IndieGoGo ...'), which don't restrict us in this manner or [RocketHub](https://www.rockethub.com/ 'Crowdfund with RocketHub ...') which also offers Creators the _Launchpad_ feature to promote and raise public interest together with other top brands. [Crowdfunder](https://www.crowdfunder.com/ 'Crowdfunding with Crowdfunder ...') is targeted to approach [Angel Investors](https://en.wikipedia.org/wiki/Angel_investor 'What is an Agel Investor?') and gain [Venture Capital](https://en.wikipedia.org/wiki/Venture_capital 'What is Venture Capital?') into the startup. There are more specialist platforms as [AppBackr](http://index.appbackr.com/ 'Crowdfunding for Apps ...') if we produce a mobile App or [SellABand](https://www.sellaband.com/ 'Where Fans invest in music ...') for musicians. Usually are fees around 5% of the raised amount but the details vary and need to be checked properly before the we go for one portal.
+
+No matter which one we choose, there are general rules which we need to implement. We will need to **start early** to work on our campaign, at least a couple of month **before** we launch it. We will promote our idea, collect email addresses and get the word out in the communities we identified as our target group. We don't need to please everybody, usually are less then 1.000 backers needed, so we can focus in a certain direction. We will **do our homework** and research similar campaigns on [Kickstarter](https://www.kickstarter.com/ 'Data on Kickstarter') and [IndieGoGo](https://www.indiegogo.com/ 'Data on IndieGoGo ...'). It's a very good start to do some [Data analysis](https://en.wikipedia.org/wiki/Data_analysis) and compare successful and unsuccessful campaigns to identify good and bad approaches. 
+
+We want to have an inviting campaign, so we will **set the lowest possible donation amount** to $1 and reward donors on multiple investment levels. Investors need to get more then a thank-you email, so each will get discounted prices for our services and we will give out extra rewards for donations worth $5, $10, $20, $50, $100, $500, $1000. These rewards are one of the main determining factors for the campaign, so spend some time and come up with some GOOD ideas. We will not spend much money on those but they need to be attractive.
+
+We will set our campaigns funding goal as low as we can affort to make a success more likely. If a goal is not reached, we don't get anything. If we get more donations then defined in the goal, then we just get more money. So we take our costs, add the fee's of the portal and payment provider but no profit margin. Now is the time to get the project started, later on is the time for profit.
+
+Another factor we will not underestimate is the presentation of our campaign and its support. We will provide a professional layout for the campaign on the portal and also a free mini-website for the campaign itself. The **data shows that presentation matters**, so let's spend some hours and make it nice and neat. We also want to have at least 3 different videos to promote our cause. The first will be used before the campaign starts to gather interest, spread the word and invite people to follow our news. The second video will be promoted while the campaign is on, encouraging people to donate. The third video is the final thanks to the donors, if any. If it's reasonable we don't skip the last one even if the campaign failed. A failed campaign just means we need to work on a new and better one, so we will treat all donors very nicely and try to get them on-board later again.
+
+##### Know your audience, make them customers
+
+The business model of FantasticContent.Online hugely depends on our content, but there are different guidelines we want to follow anyway.
+
+**Exposure** in search engines will drive the very most visitors to our website, way more we could reach with any conventional promotion methods. Therefor is the Search Engine Optimization one main pillar of a successful marketing and goes through all departments. The technical background is covered by our techies, business and marketing need to strategize which keywords and phrases should be targeted and the creators need to produce content accordingly.
+
+**Analyze** the incoming traffic to see what is working and what not. [Google analytics](https://www.google.com/analytics/ 'Visit google analytics ...') offers an impressive range of features and is for many years now the favorite toolset of most professionals working with website-traffic data. If our marketing is promoting something, we surely want to know which effects we got. By analyzing bounce rates we can find issues in the user experience and improve steady.
+
 - analytics
 - structured Data
 - MailChimp (CRM)
-- kickstarter
 
 
 
