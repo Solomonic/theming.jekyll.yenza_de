@@ -97,11 +97,4 @@ The business model of FantasticContent.Online hugely depends on our content, but
 
 **Analyze** the incoming traffic to see what is working and what not. [Google analytics](https://www.google.com/analytics/ 'Visit google analytics ...') offers an impressive range of features and is for many years now the favorite toolset of most professionals working with website-traffic data. If our marketing is promoting something, we surely want to know which effects we got. By analyzing bounce rates we can find issues in the user experience and improve steady.
 
-- analytics
-- structured Data
-- MailChimp (CRM)
-
-
-
-
-
+**Keep in touch** with vistors. We will promote a Newsletter signup on FantasticContent.Online to send out news, events and promotions. [MailChimp](http://mailchimp.com/ 'Visit MailChimp ...') is currently the best free solution for email marketing and offers sophisticated features as a fancy drag and drop designer, automations and analytics for campaigns and A/B testing. It serves as a [CRM](https://en.wikipedia.org/wiki/Customer_relationship_management 'What is CRM?') tool and is surprising flexible in its possibilities. I worked with a lot of companies utelizing [MailChimp](http://mailchimp.com/ 'Visit MailChimp ...') in totally different scales and I heard very little complains or problems so far. It is a solid choice since a couple of years and adds interesting options for marketing.
