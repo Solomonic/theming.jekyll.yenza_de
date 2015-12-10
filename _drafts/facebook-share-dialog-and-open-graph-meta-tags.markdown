@@ -20,8 +20,7 @@ Every CMS offers widgets and helpers to share your blog/website in popular socia
 
 <!--more-->
 
-[Open Graph Object Debugger]: https://developers.facebook.com/tools/debug/og/object/ "Go to debugger tool ..."
-[Open Graph protocol]: http://ogp.me/ "More about the Open Graph protocol ..."
+[Open Graph Object Debugger]: https://developers.facebook.com/tools/debug/og/object/ "Open debugger tool ..."
 
 ### The problem
 
@@ -63,16 +62,16 @@ Compare [the share dialog](https://facebook.com/sharer.php?u={{site.url}}{{page.
   <head>
       ...
     <!- Search for these meta tags -->
-    <meta property="og:title" content="Problems with the facebook share? The wrong text or image shows up?" />
-    <meta property="og:image" content="http://rasta.online/library/images/facebook-share.png" />
-    <meta property="og:description" content="Problems with the facebook share dialog? You see wrong or no text and images? This article explains how to fix this problems by yourself.">
-    <meta property="og:site_name" content="Duppy conqueror in the digital jungle."/>
-    <meta property="og:url" content="http://Rasta.Online/education/software-development/2015/12/09/facebook-share-dialog-and-open-graph-meta-tags.html" />
+    <meta property="og:title" content="{{page.title}}" />
+    <meta property="og:image" content="{{page.image}}" />
+    <meta property="og:description" content="{{page.seo_description:}}">
+    <meta property="og:site_name" content="{{site.name}}"/>
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:type" content="article" />
     <meta property="og:locale" content="en_US" /> 
     <!-- Author info -->
-    <meta property="article:author" content="https://www.facebook.com/www.rasta.online" />
-    <meta property="article:publisher" content="https://www.facebook.com/www.rasta.online" />
+    <meta property="article:author" content="{{site.fb-url}}" />
+    <meta property="article:publisher" content="{{site.fb-url}}" />
     <!-- End -->
       ...
   </head>
@@ -80,8 +79,22 @@ Compare [the share dialog](https://facebook.com/sharer.php?u={{site.url}}{{page.
 </html>  
 {% endhighlight %}
 
-We need to make sure that these meta-tags with the properties *og:title*, *og:description*, *og:image*, *og:site_name*, *og:url*, *og:type*, *og:locale*, *article:author*, *article:publisher* are included **exactly once** in the _<head>_. I've seen problems when you have the *og:title* or others twice included. On static html websites you simply write these tags direct into your source-code, if you [use a static site generator]({% post_url /2015-11-19-faster-cheaper-safer %} 'Read more about Jekyll and static site generators ...') just check [this blogs solution](https://github.com/Solomonic/theming.rasta_online/blob/master/_includes/open_graph.html 'Easy Open-graph tags inclusion ...'). If you work with a CMS as Wordpress, Joomla, Typo3, Drupal, Django or Plone first look for an addon/extension providing these tags for your system, there are plenty different available. I encountered problems in some Wordpress themes including these tags twice and I had to edit the layout files head.php to make it right. A good theme shouldn't have the problem, but if you are in the situation and can't figure it out, [ask for help](http://Rasta.Online/contact).
+We need to make sure that these meta-tags with the properties *og:title*, *og:description*, *og:image*, *og:site_name*, *og:url*, *og:type*, *og:locale*, *article:author*, *article:publisher* are included **exactly once** in the _<head>_. I've seen problems when you have the *og:title* or others twice included. On static html websites you simply write these tags direct into your source-code, if you [use a static site generator]({% post_url /2015-11-19-faster-cheaper-safer %} 'Read more about Jekyll and static site generators ...') just check [this blogs solution](https://github.com/Solomonic/theming.rasta_online/blob/master/_includes/open_graph.html 'Easy Open-graph tags inclusion ...'). If you work with a CMS as Wordpress, Joomla, Typo3, Drupal, Django or Plone first look for an addon/extension providing these tags for your system, there are plenty different available. I encountered problems in some Wordpress themes including these tags twice and I had to edit the layout files head.php to make it right. A good theme shouldn't have the problem, but if you are in the situation and can't figure it out, [ask for help](http://Rasta.Online/contact). You will need to have control over these tags before you can use the [Open Graph Object Debugger] in an effective manner.
 
 ### The Debugger
 
-Facebook luckily offers a free developer tool to debug problems and solve problems. This tool is the [Open Graph Object Debugger] and our weapon of choice.
+Facebook luckily offers a [free developer tool](https://developers.facebook.com/tools/debug/og/object/ 'Open Graph Debugger') to debug problems with these open-graph meta tags and solve the caching problem. We need to have a facebook account to use it so if you have none, create it for development purpose and use a [disposable email service](https://www.trash-mail.com/en/ 'Disposable email service with all conventional mailbox functions!') for privacy protection. Once you are logged in are we ready to go.
+
+**If you have the debugger open now** just paste the URL of you website/blog in the input field and click the ***Fetch new scrape Information*** button.
+
+As result are we getting a page with all the **latest** data. Just scroll down and you will see errors if any, which tags were found and a preview of the share dialog. It's a good time now to phrase an attractive descriptions for your content and to test around with to find an nice image. What you need to know about the picture:
+
+- the minimum-size is 200 x 200px, everything **smaller is ignored** and the next big image is used instead. 
+- for big image effect: use picture of **1200 x 630px** or bigger for high resolution devices or at least 600 x 315px
+- to avoid unwanted cropping of the image, try a **ratio close to 1.91:1**
+
+### Summary
+
+Open Graph tags are often treated as _"this facebook thing"_ because it is the most common usecase. I see today a fast growing amount of other tools, also using these tags to generate previews in chats and messaging apps. So we don't do this for facebook, we do it for a more user-friendly internet. Find out more about the [Open Graph protocol](http://ogp.me/ "More about the Open Graph protocol ..."), and its possibilities.
+
+_Stay tuned_
