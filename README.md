@@ -4,10 +4,10 @@ This is the official reposotory for [rasta.online](http://rasta.online) and cont
 
 You will get a website containing the following structure
 
-- [the start page](http://rasta.online/index.html 'Vistit Rasta.Online's startpage)
+- [the start page](http://rasta.online/index.html 'Vistit Rasta.Online's startpage ...')
 - [Education section](http://rasta.online/ 'Browse all educational articles ...')
 - [About section](http://rasta.online/about/ 'Find out more about the project ...')
-- [Contact](http://rasta.online 'Get in contact with the community ..')
+- [Contact](http://rasta.online 'Get in contact with the community ...')
 
 ## License
 
