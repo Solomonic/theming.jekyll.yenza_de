@@ -5,3 +5,15 @@
   date: 09.12.2015
   image: wiki-smash.png
   thumblink: https://en.wikipedia.org/wiki/User:Rasta.Online/Rasta.Online
+
+- title: Real Estate Rasta - our blog on MLS-Ecuador.com
+  description: Our friends on mls-ecuador.com showed some love by promoting this blog to an interested audience in Ecuador. We should add some spanish translations right?
+  author: jens
+  link: http://mls-ecuador.com/en/blogs
+  date: 08.12.2015
+
+- title: Rasta.Online on github
+  description: This blog is for educational purpose and promotes open source solutions and tools. Therefor are all published articles free to re-use and the website source-code is available for evybody in its github repository.
+  author: jens
+  link: https://github.com/Solomonic/theming.rasta_online
+  date: 18.11.2015
