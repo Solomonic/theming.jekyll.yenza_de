@@ -64,7 +64,7 @@ Compare [the share dialog](https://facebook.com/sharer.php?u={{site.url}}{{page.
     <!- Search for these meta tags -->
     <meta property="og:title" content="{{page.title}}" />
     <meta property="og:image" content="{{page.image}}" />
-    <meta property="og:description" content="{{page.seo_description:}}">
+    <meta property="og:description" content="{{page.seo_description}}">
     <meta property="og:site_name" content="{{site.name}}"/>
     <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:type" content="article" />
