@@ -2,7 +2,7 @@
 title: rasta.online
 url: "http://Rasta.Online"
 name: Duppy conqueror in the digital jungle.
-baseurl: ""
+baseurl: "theming.rasta_online"
 
 markdown: kramdown
 highlighter: rouge
