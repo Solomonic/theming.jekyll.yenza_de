@@ -36,7 +36,7 @@ Our pre-compiling CMS is actually a text transformation engine which is fed by t
 
 The text-transformation process uses the sweet, sweet [Liquid Template engine](https://github.com/Shopify/liquid/wiki) and therefor you can tweak ANY output with ease to perfection. You also can configure how the site URLs look and of course what data gets displayed. There is no overhead in the html, lean&clean, it's easy to extend even by non-programmers and delivers **exact** results. All configurations and tweaks are done through editing text files, and the static web site is the final product.
 
-#####Get it working ...
+##### Get it working ...
 
 For everyone with a [Unix like Operating system](https://en.wikipedia.org/wiki/Unix-like 'Unix like OS on wikipedia') or a [Mac OS X](https://en.wikipedia.org/wiki/OS_X 'MacBook & Co.') it is a task of a few minutes while drinking coffee and watching the installation progress to get everything up and ready. Just follow the instructions [in the Jekyll Documentation](http://jekyllrb.com/docs/installation/ 'How to install Jekyll on your localhost').
 
@@ -57,7 +57,7 @@ Jekyll will start a development server on your computer and also monitor all cha
 ~/FantasticContent.online $ jekyll serve
 {% endhighlight %}
 
-####What do you get?
+#### What do you get?
 
 Our FanatasticContent.online folder should now contain a file-structure similar to:
 
