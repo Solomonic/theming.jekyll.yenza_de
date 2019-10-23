@@ -1,10 +1,10 @@
-I"å1<p>Every CMS offers widgets and helpers to share your blog/website in popular social networks as facebook. To get the share-button in is usually very easy but a bad surprise often follows when we see which content and image shows up (or not) in facebooks share dialog. We will have a quick look at the basics of open graph parameters and how they need to be included to in the website or blog. Once this is set, we will use the facebook debugger tool to ensure we get the latest content included and we are happy with the results.</p>
+I"ß1<p>Every CMS offers widgets and helpers to share your blog/website in popular social networks as facebook. To get the share-button in is usually very easy but a bad surprise often follows when we see which content and image shows up (or not) in facebooks share dialog. We will have a quick look at the basics of open graph parameters and how they need to be included to in the website or blog. Once this is set, we will use the facebook debugger tool to ensure we get the latest content included and we are happy with the results.</p>
 
 <!--more-->
 
 <h3 id="the-problem">The problem</h3>
 
-<p>If you are not sure what Iâ€™m talking about, just <a href="https://facebook.com/sharer.php?u=http://localhost:4000/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html" title="Open facebook share diaog...">open the share dialog here</a>. You will see a preview image of this article, the article description and authorship. This article deals with problems in this dialog. The information displayed there are part of your websites</p>
+<p>If you are not sure what Iâ€™m talking about, just <a href="https://facebook.com/sharer.php?u=http://Rasta.Online/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html" title="Open facebook share diaog...">open the share dialog here</a>. You will see a preview image of this article, the article description and authorship. This article deals with problems in this dialog. The information displayed there are part of your websites</p>
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>...<span class="nt">&lt;/head&gt;</span></code></pre></figure>
 <p>and need to be set correctly to produce good resuls.</p>
 
@@ -35,7 +35,7 @@
   <span class="nt">&lt;body&gt;</span>...<span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>  </code></pre></figure>
 
-<p>Compare <a href="https://facebook.com/sharer.php?u=http://localhost:4000/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html">the share dialog</a> with this articles settings and it should get clear what each tag is doing.</p>
+<p>Compare <a href="https://facebook.com/sharer.php?u=http://Rasta.Online/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html">the share dialog</a> with this articles settings and it should get clear what each tag is doing.</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
@@ -46,7 +46,7 @@
     <span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:image"</span> <span class="na">content=</span><span class="s">"http://rasta.online/library/images/facebook-share.jpg"</span> <span class="nt">/&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:description"</span> <span class="na">content=</span><span class="s">"This article explains how to set all needed information in open graph tags of your website and how to use the debugger tools to get the latest results."</span><span class="nt">&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:site_name"</span> <span class="na">content=</span><span class="s">"Duppy conqueror in the digital jungle."</span><span class="nt">/&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:url"</span> <span class="na">content=</span><span class="s">"http://localhost:4000/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:url"</span> <span class="na">content=</span><span class="s">"http://Rasta.Online/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html"</span> <span class="nt">/&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:type"</span> <span class="na">content=</span><span class="s">"article"</span> <span class="nt">/&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">"og:locale"</span> <span class="na">content=</span><span class="s">"en_US"</span> <span class="nt">/&gt;</span> 
     <span class="c">&lt;!-- Author info --&gt;</span>
