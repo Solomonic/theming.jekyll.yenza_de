@@ -5,7 +5,7 @@ name: Duppy conqueror in the digital jungle.
 baseurl: ""
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 excerpt_separator: <!--more-->
 
