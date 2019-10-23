@@ -15,7 +15,8 @@ You will get a website containing the following structure
 
 ## Development
 
-- current preview [http://solomonic.github.io/theming.rasta_online](http://solomonic.github.io/theming.rasta_online)
+Current preview [http://solomonic.github.io/theming.rasta_online](http://solomonic.github.io/theming.rasta_online)
+
 If you want to run a local, offline copy of the website:
 
 ```sh
