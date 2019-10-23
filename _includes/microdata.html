@@ -1,0 +1,12 @@
+<div class="microdata">
+    <meta itemprop="url" content="{{site.url}}{{page.url}}">
+    {% if page.image %}
+    <meta itemprop="image" content="{{page.image}}">
+    {% endif %}
+    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="{{site.title}}">
+        <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="{{site.path-image}}/rasta-logo.png">
+        </span>
+    </span>
+</div>  
