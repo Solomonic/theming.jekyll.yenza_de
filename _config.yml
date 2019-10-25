@@ -1,8 +1,8 @@
 # standard jekyll configuration
 title: rasta.online
-url: "http://Rasta.Online"
+url: "https://Rasta.Online"
 name: Duppy conqueror in the digital jungle.
-baseurl: "http://solomonic.github.io/theming.rasta_online"
+baseurl: "https://rasta.online"
 
 markdown: kramdown
 highlighter: rouge
