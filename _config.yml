@@ -26,14 +26,11 @@ path-partner: "http://rasta.online/library/partner"
 path-image: "http://rasta.online/library/images"
 email: info@rasta.online
 description: Interested in creating websites and internet technologies, open-source and team-management ? Browse our the educational articles and tutorials.
-cv: "https://careers.stackoverflow.com/jenskrause"
 pingdom_url: "http://tools.pingdom.com/fpt/"
 pingdom_report: "http://tools.pingdom.com/fpt/#!/bTZzor/rasta.online/about"
 skype: al0b4r
-fb-user: www.rasta.online
-fb-url: "https://www.facebook.com/www.rasta.online"
-fb-app-id: 172683489748870
 git-url: "https://github.com/Solomonic"
+instagram-url: "https//instagram.com/ras.yen"
 jekyll_doc: "http://jekyllrb.com/docs"
 
 #set defaults
