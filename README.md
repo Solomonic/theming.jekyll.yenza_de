@@ -1,4 +1,4 @@
-# Jekyll Website for rasta.online
+# Jekyll Website for rasta.online [![Build Status](https://travis-ci.org/Solomonic/theming.rasta_online.svg?branch=master)](https://travis-ci.org/Solomonic/theming.rasta_online)
 
 This is the official reposotory for [rasta.online](http://rasta.online) and contains all contents to rebuild an offline version on your localhost.
 
