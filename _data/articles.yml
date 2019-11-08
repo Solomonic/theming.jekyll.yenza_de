@@ -1,3 +1,8 @@
+- title: Introduction into JAM Stack
+  author: Mathieu Dionne
+  date: 08. November 2019
+  description: The JAMstack isn’t a specific set of tools, but a new, modern way of building websites & apps. Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. All server-side functions or databases actions are abstracted into reusable APIs, accessed over HTTPS with JS. Be it SaaS, third-party services or custom-built. Templated markup should be prebuilt at build time, usually using a site generator for content sites, or a build tool for web apps.
+  link: https://snipcart.com/blog/jamstack
 - title: Styling form elements 
   author: webgefrickel
   date: 15. June 2015

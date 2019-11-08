@@ -1,3 +1,10 @@
+
+- title: Deep dive into JAM Stack ... a new series of articles is in the works
+  description: It feels good to be back in this community. Through our recent changes the hosting structure I stumbled over the extended JAM Stack approach for delivering contemporary web solutions. Even though Rasta.Online works with its basics for multiple years now, after all this blog is build with a Static Site Generator, nailing the "M succesfully. We are promoting the underlying ideas since the 2015 article "Faster, cheaper, safer" but never did more then scratching on the very surface of what is possible today. To change that a series will follow how to create a functional ecommerce solution, which is cheap, reliable and fast. Stay tuned! 
+  author: jens
+  link: https://rasta.online/education/software-development/2015/11/18/faster-cheaper-safer.html
+  date: 08.11.2019
+
 - title: Rasta.online is now proudly served by github pages
   description: Our community pages are now moved to githubs free hosting service github pages. While updating the current hosting situation, a lot of further improvements and a revitalisation of the community is in progress. Stay tuned for further updates.  
   author: jens

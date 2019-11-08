@@ -3,7 +3,17 @@
     {% assign author = site.data.authors[mypost.author] %}
   <li><article>
         <h2 class="article-headline"><a title="Read full article" href="{{ mypost.link }}" target="{{mypost.author}}">{{mypost.title}}</a></h2>
-        <div class="auhor"><a href="mailto:{{author.email}}"><span class="fa fa-pencil-square"></span > {{author.name}}</a> on <a href="{{author.website}}" target="{{mypost.author}}">{{author.website}} <span class="fa fa-paper-plane-o"></span></a></div>
+        <div class="auhor">
+            {% if author.email %}
+                <a href="mailto:{{author.email}}"><span class="fa fa-pencil-square"></span > {{author.name}}</a>
+            {% endif %}
+            {% if author.social %}
+                <a href="{{author.social}}"><span class="fa fa-twitter"></span > {{author.name}}</a>
+            {% endif %}
+            {% if author.website %}
+             on <a href="{{author.website}}" target="{{mypost.author}}">{{author.website}} <span class="fa fa-paper-plane-o"></span></a>
+            {% endif %}
+        </div>
         <div class="description">
             <time datetime="{{ mypost.date | date_to_xmlschema }}">{{ mypost.date | date: "%-d %b %Y" }}</time>:
             <a title="Read full article" class="post_description" href="{{ mypost.link }}" target="{{mypost.author}}">{{ mypost.description}}
