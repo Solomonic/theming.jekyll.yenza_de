@@ -8,18 +8,15 @@ categories: education software-development
 tags: internet jam
 
 series: JAM
-series-nav-title: Day 0 - Defining the Goals
+series-nav-title: Day 0 - Goals and Tools
 
-seo_description: This article is part of an series which has a look on JAM Stack. On Day 0 we are going to define our goals 
+seo_description: On Day 0 of our JAMstack journey we are going to define our goals and look at the tools we are using.
 
 image: http://rasta.online/library/images/JAM2019.png
 
 ---
 
 After reading a couple of articles about the current developments in the **JAM** Stack (**J**avascript, **A**PI, **M**arkdown) I got really excited about getting my hands dirty and build a little project. Since the usual tutorials often lack the requirements of real-world applications I got the idea of creating an functional online shop, utilizing shiny new tools as **StackBit** which are available today for free. 
-
-My target will be to spend the lowest amount of money and time while building a custom branded, fully operational, automatic deployable shop which is suitable for startup and small business purpose, but extendable for future growth. 
-But first things first, lets make a battle plan.
 
 <!--more-->
 [CMS]: https://en.wikipedia.org/wiki/Content_management_system "Content Management System"
@@ -37,6 +34,9 @@ But first things first, lets make a battle plan.
 [StackBit]: https://www.stackbit.com/ "Bundles your JAM Stack"
 [Planty theme]: https://github.com/snipcart/stackbit-theme-planty/ "Planty theme on github"
 [Create with StackBit]: https://app.stackbit.com/create?theme=https://github.com/snipcart/stackbit-theme-planty&ssg=jekyll "Create a new project with Planty Theme"
+
+My target will be to spend the lowest amount of money and time while building a custom branded, fully operational, automatic deployable shop which is suitable for startup and small business purpose, but extendable for future growth. 
+But first things first, lets make a battle plan.
 
 ### Objective: Herbal Tea Shop
 
