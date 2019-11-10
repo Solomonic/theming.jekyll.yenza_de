@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CMS ... Wordpress, Joomla!, Drupal, Django, Typo3 or Plone
-date:   2015-11-17  04:40:00 +0700
+date:   2015-11-17  13:00:00 +0700
 author: Jens Krause
 
 categories: education software-development

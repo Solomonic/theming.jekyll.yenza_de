@@ -1,7 +1,7 @@
 ---
 layout: post
 title: faster, cheaper, safer
-date:   2015-11-19  00:00:00 +0700
+date:   2015-11-19  13:00:00 +0700
 author: Jens Krause
 
 categories: education software-development

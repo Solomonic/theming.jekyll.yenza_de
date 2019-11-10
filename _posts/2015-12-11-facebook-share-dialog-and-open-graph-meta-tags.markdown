@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Problems with the facebook share? The wrong text or image shows up?
-date:   2015-12-11  00:00:00 +0700
+date:   2015-12-11  13:00:00 +0700
 author: Jens Krause
 
 categories: education software-development
