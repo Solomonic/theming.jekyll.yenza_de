@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JAM Day 0 - What are we going to do?
-date:   2019-11-09  00:00:00 +0700
+date:   2019-11-09  00:00:00 +0100
 author: Jens Krause
 
 categories: education software-development
