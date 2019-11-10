@@ -16,7 +16,7 @@ image: http://rasta.online/library/images/JAM2019.png
 
 ---
 
-After reading a couple of articles about the current developments in the **JAM** Stack (**J**avascript, **A**PI, **M**arkdown) I got really excited about getting my hands dirty and build a little project. Since the usual tutorials often lack the requirements of real-world applications I got the idea of creating an functional online shop, utilizing shiny new tools as **StackBit** which are available today for free. 
+After reading a couple of articles about the current developments in the **JAM** Stack (**J**avascript, **A**PI, **M**arkdown) I got really excited about getting my hands dirty and build a little project. Since the usual tutorials often lack the requirements of real-world applications I got the idea of creating an functional online shop, utilizing shiny new tools as **StackBit** which are available for free. 
 
 <!--more-->
 [CMS]: https://en.wikipedia.org/wiki/Content_management_system "Content Management System"
