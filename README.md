@@ -17,17 +17,27 @@ You will get a website containing the following structure
 
 Current preview [http://solomonic.github.io/theming.rasta_online](http://solomonic.github.io/theming.rasta_online)
 
-If you want to run a local, offline copy of the website:
+If you want to run a local copy of the website please install `jekyll` and then:
 
 ```sh
 $ git clone git@github.com/Solomonic/theming.rasta_online.git
 $ cd theming.rasta_online
-$ script/setup
-$ script/server
+$ jekyll serve --baseurl ""
+# if jekyll is installed via bundler just run
+$ bundle exec jekyll serve --baseurl ""
 # => The site will now be viewable in your browser at http://localhost:4000
 ```
-If you want to pass arguments into `script/server` like `--watch` to do auto-file regeneration
-you can still do so by just passing in the arguments.
+
+We want to override the `baseurl` default setting, otherwise we'll endup with an root error on the local server.
+
+If you want to work with jekyll repeatedly I highly recommend to add a `alias` to your `~/.bashrc` or `~/.bash_profile` to grant quick access
+
+```
+	# installed via bundler but accessable via normal "jekyll" command
+	alias jekyll='bundle exec jekyll'
+	# shorthand command "serve" for local testing 
+	alias serve='bundle exec jekyll serve --baseurl ""'
+```
 
 The entire site uses [Jekyll](http://jekyllrb.com), so if you want to know how all the layouts, includes and other miscellany works, check out the [Jekyll Wiki](https://github.com/mojombo/jekyll/wiki).
 
