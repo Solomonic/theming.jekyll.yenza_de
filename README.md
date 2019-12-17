@@ -33,10 +33,10 @@ We want to override the `baseurl` default setting, otherwise we'll endup with an
 If you want to work with jekyll repeatedly I highly recommend to add a `alias` to your `~/.bashrc` or `~/.bash_profile` to grant quick access
 
 ```
-	# installed via bundler but accessable via normal "jekyll" command
-	alias jekyll='bundle exec jekyll'
-	# shorthand command "serve" for local testing 
-	alias serve='bundle exec jekyll serve --baseurl ""'
+# installed via bundler but accessable via normal "jekyll" command
+alias jekyll='bundle exec jekyll'
+# shorthand command "serve" for local testing 
+alias serve='bundle exec jekyll serve --baseurl ""'
 ```
 
 The entire site uses [Jekyll](http://jekyllrb.com), so if you want to know how all the layouts, includes and other miscellany works, check out the [Jekyll Wiki](https://github.com/mojombo/jekyll/wiki).
