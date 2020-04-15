@@ -1,8 +1,12 @@
+- title: Want to get published here?
+  description: Due to a big commercial workload in the last months we've not be able to follow up on the latest article series again. After some discussions we decided now to open up opportunities for non-related technical bloggers to contribute and reach our community with high quality content. So if you feel the urge in your heart to get published here on rasta.online, please feel free to shoot us an email to contributions@rasta.online with what you have in mind. For the sake of our dear readers we'll ensure though that we keep this blog advertisement free and maintain the integrity and good spirit in which this project started. 
+  author: jens
+  date: 15.04.2020
 
 - title: Deep dive into JAM Stack ... a new series of articles is in the works
   description: It feels good to be back in this community. Through our recent changes the hosting structure I stumbled over the extended JAM Stack approach for delivering contemporary web solutions. Even though Rasta.Online works with its basics for multiple years now, after all this blog is build with a Static Site Generator, nailing the "M succesfully. We are promoting the underlying ideas since the 2015 article "Faster, cheaper, safer" but never did more then scratching on the very surface of what is possible today. To change that a series will follow how to create a functional ecommerce solution, which is cheap, reliable and fast. Stay tuned! 
   author: jens
-  link: https://rasta.online/education/software-development/2015/11/18/faster-cheaper-safer.html
+  link: https://rasta.online/education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html
   image: JAM2019.png
   thumblink: https://snipcart.com/blog/jamstack
   date: 08.11.2019
@@ -13,22 +17,8 @@
   link: https://guides.github.com/features/pages/
   date: 24.10.2019
 
-- title: A Rasta rejected by wikipedia
-  description: Wikipedia rejected today the Rasta.Online community its rightful place in the encyclopedia. The reason is "Simply not enough in-depth third-party sources overall for solid notability." and Wiki is right. Our community can not show "solid notability" so far. Unite bredren and sistren and show some love by sharing links and knowledge to create progress and a solid notability in the communities. We will come back wikipedia ...
-  author: jens
-  link: https://en.wikipedia.org/wiki/User:Rasta.Online/Rasta.Online
-  date: 09.12.2015
-  image: wiki-smash.png
-  thumblink: https://en.wikipedia.org/wiki/User:Rasta.Online/Rasta.Online
-
-- title: Real Estate Rasta - our blog on MLS-Ecuador.com
-  description: Our friends on mls-ecuador.com showed some love by promoting this blog to an interested audience in Ecuador. We should add some spanish translations right?
-  author: jens
-  link: http://mls-ecuador.com/en/blogs
-  date: 08.12.2015
-
-- title: Rasta.Online on github
-  description: This blog is for educational purpose and promotes open source solutions and tools. Therefor are all published articles free to re-use and the website source-code is available for evybody in its github repository.
+- title: Rasta.online on github
+  description: This blog is for educational purpose and promotes open source solutions and tools. Therefor are all published articles free to re-use and the websites source-code is available to everyone in its github repository.
   author: jens
   link: https://github.com/Solomonic/theming.rasta_online
   date: 18.11.2015

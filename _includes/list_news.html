@@ -8,11 +8,12 @@
         <h2 class="article-headline"><a title="{{mypost.title}}" href="{{ mypost.link }}" target="{{mypost.author}}">{{mypost.title}}</a></h2>
         <div class="description">
             <time datetime="{{ mypost.date | date_to_xmlschema }}">{{ mypost.date | date: "%-d %b %Y" }}</time>:
-            <a title="Research yourself: {{mypost.title}}" class="post_description" href="{{ mypost.link }}" target="{{mypost.author}}">{{ mypost.description}}
-            </a>
+            {{ mypost.description}}
         </div>
-        <a title="Research yourself: {{mypost.title}}" target="{{mypost.author}}" href="{{ mypost.link }}"><strong>... research </strong><span class="fa fa-external-link"></span></a>
-
-        </article></li>
+        {% if mypost.link %}
+            <a title="Research yourself: {{mypost.title}}" target="{{mypost.author}}" href="{{ mypost.link }}"><strong>... research </strong><span class="fa fa-external-link"></span></a>
+        {% endif %}
+    </article>
+</li>
 {% endfor %}
 </ul>

@@ -22,12 +22,13 @@ exclude:
 - vendor
 
 # custom variables
-path-partner: "http://rasta.online/library/partner"
 path-image: "http://rasta.online/library/images"
 email: info@rasta.online
 description: Interested in creating websites and internet technologies, open-source and team-management ? Browse our the educational articles and tutorials.
-git-url: "https://github.com/Solomonic"
-instagram-url: "https//instagram.com/ras.yen"
+git-url: "https://github.com/RapidAgileSoftware"
+instagram-url: "https://instagram.com/ras.yen"
+linked_in-url: "https://www.linkedin.com/in/jens-krause-2a88901a6"
+
 jekyll_doc: "http://jekyllrb.com/docs"
 
 #set defaults
