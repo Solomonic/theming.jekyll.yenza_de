@@ -1,0 +1,17 @@
+<ul class="invisible">
+{% assign counter = 0 %}
+{% for tune in site.data.music %}
+   {% if counter < 4 and tune.tag == "rastaman_tunes"%}
+  <li><article class="video">
+        <h4>{{tune.artist}}:&nbsp; <i>{{tune.title}}</i></h4>
+        <iframe width="560" height="315" src="{{tune.link}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
+       	<p><i>{{tune.description}}</i></p>
+       </article>
+   </li>
+   {% assign counter = counter | plus: 1 %}
+  {% endif %}
+{% endfor %}
+</ul>
+{% if counter >= 4%}
+	<p><a href="category/rastaman-tunes.html">Show all Rastaman tunes</a></p>
+{% endif %}
