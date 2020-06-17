@@ -1,0 +1,175 @@
+I"�R<p>The commonly used CMS (Wordpress, Joomla!, …) are all server-side applications which require sophisticated features from the hosting environment, such as a database and activated PHP or Python compilers. Your website-project is of reasonable size, aimed for exposure, performance, and SEO rather than direct interaction with visitors as in community sites or e-commerce? Then you might not need any paid hosting at all anymore. Sounds good? Let’s dive into pre-compiled websites and what they have to offer …</p>
+
+<!--more-->
+
+<p><em>This is the second part of a series of educational articles, covering existing web technologies with the aim to encourage smarter, faster and cheaper solutions for small projects. The previous article explained the concept of CMS. Feel free to <a href="/https://rasta.online/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html" title="Read the previous article">read it here</a>.</em></p>
+
+<h3 id="the-new-tool--a-different-kind-of-cms">The new tool- A different kind of CMS</h3>
+<p>A CMS is an application, merging together <a href="/https://rasta.online/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html" title="Read about this in the previous article">Content data and Layout</a> into a website. It is not only possible with a huge server-side application. A Web-developer can use a static site generator to compile any complex and nested site-structures from data and configuration files on their own computer (a.k.a. localhost) and upload the resulting static website folder to the host-server. The compiling is not done on the server in real-time. It is done beforehand, and this make all the difference for the hosting requirements and final page speed.</p>
+
+<p>My weapon of choice is <a href="http://jekyllrb.com/docs/home/" title="Visit the Jekyll Documentation to learn more">Jekyll</a>, so I will focus on its advantages and disadvantages I encountered while using it. <a href="http://jekyllrb.com/" title="Visit Jekyll website,,">Jekyll</a> already powers very trusted sources such as this blog or <a href="https://pages.github.com/" title="Visit GitHub Pages">GitHub Pages</a> and even allows your project to be hosted by <a href="https://pages.github.com/" title="Visit GitHub Pages">GitHub Pages</a>, 100% free and direct from a github repository. Anyway, this article will not focus on the <a href="http://jekyllrb.com/docs/github-pages/" title="integrate with GitHub Pages">extra features of one hosting service</a>. It will discuss the broader possibilies of site-generators using <a href="http://jekyllrb.com/docs">Jekyll</a> as an example.</p>
+
+<h4 id="so-how-does-it-work">So how does it work?</h4>
+
+<p>Our pre-compiling CMS is actually a text transformation engine which is fed by text written in your favorite markup language, be that Markdown, Textile, or direct HTML. All content information are stored in standard text-files instead of a database, which increases the re-usability of the content and will ease every kind of data migration.</p>
+
+<p>The text-transformation process uses the sweet, sweet <a href="https://github.com/Shopify/liquid/wiki">Liquid Template engine</a> and therefor you can tweak ANY output with ease to perfection. You also can configure how the site URLs look and of course what data gets displayed. There is no overhead in the html, lean&amp;clean, it’s easy to extend even by non-programmers and delivers <strong>exact</strong> results. All configurations and tweaks are done through editing text files, and the static web site is the final product.</p>
+
+<h5 id="get-it-working-">Get it working …</h5>
+
+<p>For everyone with a <a href="https://en.wikipedia.org/wiki/Unix-like" title="Unix like OS on wikipedia">Unix like Operating system</a> or a <a href="https://en.wikipedia.org/wiki/OS_X" title="MacBook &amp; Co.">Mac OS X</a> it is a task of a few minutes while drinking coffee and watching the installation progress to get everything up and ready. Just follow the instructions <a href="http://jekyllrb.com/docs/installation/" title="How to install Jekyll on your localhost">in the Jekyll Documentation</a>.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> ~ <span class="nv">$ </span>gem <span class="nb">install </span>jekyll</code></pre></figure>
+
+<p>The Windows Warriors could consider for professional use an <a href="https://duckduckgo.com/?q=cool+and+free+operating+systems">easier and cheaper Operating System</a> and buy a PlayStation for gaming instead <strong>OR</strong> <a href="http://jekyll-windows.juthilo.com/" title="Jekyll on Win OS">make it work anyway</a>. Once ready, we can start our project. Let’s call it FantasticContent.online. This will serve as fictional brand in the follow-ups, where we include this tool into a sophisticated software strategy, including version control as well as task and team management.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/<span class="k">*</span> create new project <span class="s1">'FantasticContent.online'</span> <span class="k">*</span>/
+~ <span class="nv">$ </span>jekyll new FantasticContent.online 
+~ <span class="nv">$ </span><span class="nb">cd </span>FantasticContent.online</code></pre></figure>
+
+<p>Jekyll will start a development server on your computer and also monitor all changes if you start it with the <em>serve</em> parameter. This is very useful, so you can develop, test and preview the entire project in real time by opening <a href="http://localhost:4000">localhost:4000</a> in your browser.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">~/FantasticContent.online <span class="nv">$ </span>jekyll serve</code></pre></figure>
+
+<h4 id="what-do-you-get">What do you get?</h4>
+
+<p>Our FanatasticContent.online folder should now contain a file-structure similar to:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">├── _config.yml /<span class="k">*</span> file contains site-wide configurations <span class="k">*</span>/ 
+├── _drafts /<span class="k">*</span> folder <span class="k">for </span>un-published posts <span class="k">*</span>/
+| ├── unpublished-content-here.textile 
+| └── versioning-works-great.markdown 
+├── _includes /<span class="k">*</span> re-usable snippets to generate footer, header, navigations ... <span class="k">*</span>/
+| ├── footer.html
+| ├── header.html
+| └── my_snippet.html 
+├── _layouts /<span class="k">*</span> the layout files <span class="k">*</span>/
+| ├── default.html 
+| └── post.html 
+├── _posts /<span class="k">*</span> folder <span class="k">for </span>all posts, categories and tags will map each to SEO friendly URLs<span class="k">*</span> /
+| └── 2015-11-19-faster-cheaper-safer.markdown
+├── _data /<span class="k">*</span> well-formated files<span class="o">(</span>.yml, .cvs, .json<span class="o">)</span> can hold additional site data <span class="k">*</span>/
+| └── members.yml
+├── _sass /<span class="k">*</span> yeah, sass is auto-compiled <span class="k">*</span>/
+| ├── _base.scss
+| └── _layout.scss
+├── _site /<span class="k">*</span> contains the resulting compiled website <span class="k">*</span>/
+├── .jekyll-metadata /<span class="k">*</span> hands off <span class="k">*</span>/
+└── index.html /<span class="k">*</span> the landing page <span class="k">*</span>/</code></pre></figure>
+
+<p>Other pages and folders, including new ones you create for images, contact or static content are simply copied by Jekyll into the <em>_site</em> folder when generating the result. With access to the styles via sass, to the templates in <em>_layouts</em> and <em>_includes</em> and to the data in  <em>_posts</em> and in forms of folders and pages (as index.html), you have everything you need to get going. You can find more information in the <a href="http://jekyllrb.com/docs/home/" title="Browse Jekyll documentation ...">documentation</a> and feel free to <a href="https://github.com/Solomonic/theming.rasta_online" title="Browse on github ...">browse this blog’s more populated folder structure</a></p>
+
+<p><strong>Important:</strong> You NEVER want to make any changes directly in the <strong><em>_site</em></strong> folder, everything in there is gone next time Jekyll regenerates the website.</p>
+
+<h4 id="accessibility">Accessibility</h4>
+
+<h5 id="layout">Layout</h5>
+<p>I consider the learning curve as very steep, so with very little experience a developer or designer is able to control any major aspect of the result. I’m fluent in several template languages for serveral CMS and haven’t found anything easier than the <a href="https://github.com/Shopify/liquid/wiki">Liquid Template engine</a>. You can get by with very few coding skills as long as you can use these expressions:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- build an index list of all posts--&gt;</span>
+<span class="nt">&lt;ul&gt;</span>
+  <span class="c">&lt;!-- Loop all posts --&gt;</span>
+  {% for post in site.posts %}
+    <span class="c">&lt;!-- check condition: author available for ths post --&gt;</span>
+    {% if post.author %}
+    <span class="nt">&lt;li&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ post.url }}"</span><span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    {% endif %}
+  {% endfor %}
+<span class="nt">&lt;/ul&gt;</span>
+<span class="c">&lt;!-- include re-usable snippets from _includes folder--&gt;</span>
+{% include footer.html %}</code></pre></figure>
+
+<h5 id="rapid-prototyping">Rapid prototyping</h5>
+<p>A developer with the understanding of any <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" title="Whats that?">OOP</a> will love <a href="http://jekyllrb.com/docs/frontmatter/" title="More in the documentation ...">Frontmatter</a>. You have 2 object-types by default: <a href="http://jekyllrb.com/docs/posts/" title="Learn more about posts ...">posts</a> and <a href="http://jekyllrb.com/docs/pages/" title="Learn more about posts ...">pages</a>. Both have a <a href="http://jekyllrb.com/docs/variables/" title="Learn more about variables ...">certain set of properties</a> but can be extended with any new property just by adding it to the header of its text file. A default post head will look like</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">faster, cheaper, safer</span>
+<span class="na">date</span><span class="pi">:</span>   <span class="s">2015-11-19  00:00:00 +0700</span>
+<span class="nn">---</span></code></pre></figure>
+
+<p>If we want to add the author property, we just update it to:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">faster, cheaper, safer</span>
+<span class="na">date</span><span class="pi">:</span>   <span class="s">2015-11-19  00:00:00 +0700</span>
+
+<span class="na">author</span><span class="pi">:</span> <span class="s">Jens Krause</span>
+<span class="nn">---</span></code></pre></figure>
+
+<p>The testing and use of the new property in the layout is fairly simple</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">{% if post.author %}
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ post.url }}"</span><span class="nt">&gt;</span>{{ post.author }}<span class="nt">&lt;/a&gt;</span>
+{% endif %}</code></pre></figure>
+
+<p>If this is not enough for your prototype, create your very own <a href="http://jekyllrb.com/docs/collections/" title="Learn more about custom types and collections ...">content types with custom collections</a>. I don’t know about you, but I could build a wide range of applications with it.</p>
+
+<h5 id="content-management">Content management</h5>
+<p>Let’s assume we have a group of people responsible for the content of the website. We call them Editors, and we expect a low technical understanding. Their job is actually to create content and therefore to give life and blood to FantasticContent.Online. Visitors will be attracted by their work and not how lean the website is done or if it loads 0.2s faster or slower. We want to make the Editor’s job as easy as possible, so they can focus on the important things such as creating fantastic content.</p>
+
+<p>Editors will require training to use any system, so instead of teaching the correct use of the CMS, it should be possible to teach them how to create markdown files and submit them into a prepared release cycle. There are markdown readers for any OS available and even <a href="http://dillinger.io/" title="Online markdown editor and reader ...">good online tools</a> which will support the content-team with the creation and updating of the files. I suggest that the understanding and ability to create those markdown files is more rapid and connected with fewer problems than handling content creation in any CMS. Most editors prefer to write offline anyway, so to ask for a well-formated file is very reasonable.</p>
+
+<p>This approach can be very valuable especially in areas with slow and unreliable internet connections, since the content itself can be created offline and submitted by email, ftp or github as soon as the connection is available again, saving a lot of bandwidth in the process compared with the usual through-the-web creation of a traditional CMS.</p>
+
+<h3 id="seo-and-marketing">SEO and marketing</h3>
+
+<p>I have only worked for a very short time with static site generators so I’m not able to back up the following assumptions with real world data, but nevertheless we are able to make some qualified guesses for what we can expect with <strong>S</strong>earch <strong>E</strong>ngine <strong>O</strong>ptimization or, in better words, the indexing behavior. I don’t know exactly how a search engine indexes but could identify setups which work very well and have helped several of my customers to get the top-spot for the desired keywords. It never hurts, if</p>
+
+<ul>
+  <li>we have good content (<strong>most important</strong>)</li>
+  <li>the URLs are well-formed <em>(bad: domain.com/index.php?id=99, good: domain.com/a-title-with-my-keywords)</em></li>
+  <li>we have a title and a description for each article in the HEAD</li>
+  <li>we provide a sitemap.tgz for the crawler bots</li>
+  <li>we use valid HTML</li>
+  <li>we use Webmaster tools to identfy and fix problems</li>
+  <li>meta keywords: I could not identify significant influence of them, but sure …</li>
+</ul>
+
+<p>The URL magic is pretty good when the website is generated. It follows by default the form</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> domain.com/CATEGORY1/CATEGORY2/YEAR/MONTH/DAY/TITLE-OF-POST.html </code></pre></figure>
+
+<p>This blog post has the following Frontmatter variables set:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">faster, cheaper, safer</span>
+<span class="na">date</span><span class="pi">:</span>   <span class="s">2015-11-19  00:00:00 +0700</span>
+
+<span class="na">author</span><span class="pi">:</span> <span class="s">Jens Krause</span>
+
+<span class="na">categories</span><span class="pi">:</span> <span class="s">education software-development</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="s">internet jekyll</span>
+<span class="nn">---</span></code></pre></figure>
+
+<p>The resulting URL and site structure is very SEO and readable.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> rasta.online/education/software-development/2015/11/19/faster-cheaper-safer.html </code></pre></figure>
+
+<p>You can also change the general URL mapping for all posts or set static <em>permalink</em>s for special posts. We have every freedom we need, always just one Frontmatter variable away. Generating a sitemap is no problem, and every other identified positive SEO behavior seems very possible. Once set up, I believe it will have excellent indexing. I will start to collect data over the next weeks and include it in the follow-up SEO articles but my expectations are high.</p>
+
+<p>An popular approach to gather data about the vistor preferences and improve towards a better <a href="http://www.forbes.com/sites/forbestechcouncil/2015/11/19/good-ux-is-good-business-how-to-reap-its-benefits/" title="Importance of UX on Forbes.com...">user experience (UX)</a> is split-testing, or <strong>A/B</strong> campaigns. Usually is the same content presented with 2 different layouts, to see which is better received and lead to higher conversion rates. With the pre-compiled websites, it is very easy to implement those within one domain, just generate the same website 2 times with the different layouts, upload both sites in folder A and folder B and set your splitter algrorithm in front to do the splitting.</p>
+
+<p>Even more interesting in this matter is how two or more domains with the very same content, same technical background and same SEO perform against each other with different layouts. Good <strong>U</strong>ser E<strong>X</strong>perience <strong>D</strong>esign (UXD) leads to better business and is essential to the financial success of a project. Big companies pay really big money for UX analysis and improvements. Believe me, I charged very well, and it was still always worth it.</p>
+
+<h3 id="hosting-re-usability-and-security">Hosting, re-usability and security</h3>
+
+<p>Besides the free hosting options with certain hosters, we gain a new freedom when it comes to content. It is in any case much easier to move to newer and faster servers if you just need to move your assets such as images and a bunch of html files. Hosting providers often offer very cheap services for the first year and increase their prices in the second and following years. This strategy works well because customers go for the low price first, while all their work in the CMS will be really hard to move to another location. This migration usually costs way more than a year of hosting, so they got you don’t they?
+Nope, backup your images and upload them with the latest generated version of your project to the new server, done. Neither Layout nor Content are chained to the hoster anymore and you want them backed up anyway at any time.</p>
+
+<p>Content data is now stored in well-formatted text files in an accessible central location instead of a local database. This is <strong>very</strong> useful for any kind of automated content re-use as in RSS, MailChimp Campaigns or new and more exciting possibilities.</p>
+
+<p>You don’t really need to worry about security aspects of your project. A static page cannot be hacked in the usual sense. A hacker could interfere with your ftp/sftp connection, but it is unlikely, and more importantly, you don’t need to worry that the CMS itself allows exploits.</p>
+
+<h3 id="summary">Summary</h3>
+
+<p>As a professional, I see the approach of a pre-compiled CMS as superior to certain server-side applications. To be able to deploy different layout versions of the same content very cheap and very fast opens up a big field of scientific and business opportunities. My own personal prognosis, in November 2015, is that variations of pre-compiled CMS will take a huge market share as soon there is a free Windows GUI or Android App deploying automated lean websites into a free cloud hosting. Many server-side CMS <strong>just</strong> show content the customer actually doesn’t want to touch. This seems like a lot of trouble since hosting, setup, and maintenance are way more expensive and the content is stuck in one database, which is pretty worthless without the CMS itself.</p>
+
+<p>The biggest drawback of this approach is clearly the missing real-time interaction. Nevertheless, it is very easy to include any kind of widgets for Ajax embeddings or something similar, so 3rd-party services can be utilized to overcome these disadvantages. A good example, for starters, is to use the facebook comments and likes to gain feedback, include a google form for an interactive site-search, and link to a MailChimp newsletter system and basic CRM. More details in the follow-up for the strategic setup of FantasticContent.Online, including amazing other tools we have available for free these days.</p>
+
+<p><em>Stay tuned …</em></p>
+:ET

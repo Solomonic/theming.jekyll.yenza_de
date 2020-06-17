@@ -1,0 +1,48 @@
+I"�<p>On Day 1 of our JAMstack journey we explore working with <strong>Products</strong> and compare the CMS options <strong>Forestry</strong> and <strong>Netlify CMS</strong> with a bareback setup which skips the CMS altogether.</p>
+
+<!--more-->
+
+<p>To gather experience on which route to take I decided to spin up 3 vanilla Instances with <a href="https://www.stackbit.com/" title="Bundles your JAM Stack">StackBit</a> and the <a href="https://github.com/snipcart/stackbit-theme-planty/" title="Planty theme on github">Planty theme</a>, the first with <a href="https://forestry.io/" title="Static Content CMS">Forestry</a>, the second with <a href="https://www.netlifycms.org/" title="Static Content CMS">Netlify CMS</a> and the last without CMS, relying on the ability to push into a repo myself.</p>
+
+<p>I set myself a couple of tasks to figure out if i can do the job for me and my requirements or not. The <a href="https://github.com/snipcart/stackbit-theme-planty/" title="Planty theme on github">Planty theme</a> comes with dummy products and category collections, so we can get our hands dirty immediately.
+I want to:</p>
+<ul>
+  <li>a) be able to manage all existing content (<em>editing, deleting, moving, renaming</em>)</li>
+  <li>b) access all files I’ll may need, let’s say <em>.sass</em> files, <em>includes</em> and images</li>
+  <li>c) create a new <em>Product</em> and assign it to a <em>Category</em> , so it will show in the shop</li>
+  <li>d) create new <em>Categories</em>, assign products and show these products in a new <em>category collection</em></li>
+</ul>
+
+<h3 id="content-management-vs-forestry-cms">Content Management vs. <a href="https://forestry.io/" title="Static Content CMS">Forestry</a> CMS</h3>
+
+<p><a href="https://forestry.io/" title="Static Content CMS">Forestry</a> seem to be the most popular option, so I started here. After the registration process it was up and running in a few minutes. I logged in and the look and feel of it is nice, surely something you can present to an average customer as suitable UI. The navigation is kept simple and through clicking around you are getting pretty fast a good idea what to find where. For many uses this is indeed a proper solution if your project is in need of web-based UI.</p>
+
+<p>There are drawbacks though, which led me to the conclusion <strong>not</strong> to use it. The first thing I noticed that the response of saving content until deployed could take several minutes. Every time when you save something, a commit goes to your connected repo, a build is queued and finally executed. In the free plan is the queue rather fast filled and that can have a serious effect on your work efficiency. This is by no means a deal breaker for me, but the <em>Category management</em> was. To do tasks <em>a)-c)</em> was easy, then I ran into a wall.</p>
+
+<p>I was able to create new Categories, but not to assign them to any product. The form fields in the CMS where not updated, even after triggering additional builds to regenerate the cached config files. I was able to come up with a solution which updates the cache of the form fields, but I spend at least an hour figuring out what was going on and come up with a working fix in the build. This issue was rather frustrating and I hoped avoid it by using <a href="https://www.netlifycms.org/" title="Static Content CMS">Netlify CMS</a> instead.</p>
+
+<h3 id="content-management-vs-netlify-cms">Content Management vs <a href="https://www.netlifycms.org/" title="Static Content CMS">Netlify CMS</a></h3>
+
+<p><a href="https://www.netlifycms.org/" title="Static Content CMS">Netlify CMS</a> was the second option as CMS with my chosen Theme. The UI is less pretty then Forestry but will get the job done and is decent enough. Tasks <em>a)-c)</em> are no problem.</p>
+
+<p>Actually the form fields here allowed you to have access to nested properties, which are not exposed through its competitor. This gives you a greater access and control over your content but comes at the cost of cluttering up the space and ease of use.</p>
+
+<p><a href="https://www.netlifycms.org/" title="Static Content CMS">Netlify CMS</a> is a no-nonsense approach which seems mostly suited for managing complex content types.</p>
+
+<p>I was very keen to see what happens when I create a new Category and if it is possible to assign it to the products … nope … exactly the same issue. To investigate and fix the issue I actually had to pull, edit and push the Repo changes back, working with favorite Editor.</p>
+
+<h3 id="conclusion--no-cms">Conclusion … No CMS</h3>
+
+<p>There was a moment when I realized that the CMS approach is not the way to go for me. I had to spend more time and energy to fix minor CMS related issues then on solving the tasks of building up any Ecommerce content. A CMS in this context is nothing more then a web-based file editor, which commits into a github repository to save changes. Those commit messages don’t hold any information what was changed, so to roll back to any given point in the history you’ll need to find the correct commit by looking through all of them.</p>
+
+<p>I have a comfortable Editor setup on my computer and I’m fully able and willing to use github directly and write meaningful commit messages every time I want to push changes. There is nothing I’m not able to do, even more I can do it more comfortable and work faster, since I just rely on my local builds to see changes instead of waiting for my build to be processed.</p>
+
+<p>I’m also used to tag and release certain states of my work, to define stable versions and give easy access to rollback points. This is in my normal workflow and a feature I don’t want to miss. I prefer to work with my established developer tools and save the overhead of a CMS at all.</p>
+
+<h3 id="what-is-next">What is next?</h3>
+
+<p>The next article we will have a look at how to customize Products to our needs, using custom currencies and be available in multiple languages.</p>
+
+<p>Stay tuned!</p>
+
+:ET
