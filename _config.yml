@@ -7,6 +7,8 @@ baseurl: "https://rasta.online"
 markdown: kramdown
 highlighter: rouge
 
+destination: docs
+
 excerpt_separator: <!--more-->
 
 exclude:

@@ -3,10 +3,10 @@
   <channel>
     <title>rasta.online</title>
     <description>Interested in creating websites and internet technologies, open-source and team-management ? Browse our the educational articles and tutorials.</description>
-    <link>https://rasta.online/</link>
-    <atom:link href="https://rasta.online/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Jun 2020 17:08:06 +0700</pubDate>
-    <lastBuildDate>Wed, 17 Jun 2020 17:08:06 +0700</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 Jun 2020 17:37:36 +0700</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2020 17:37:36 +0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -60,8 +60,8 @@ I want to:&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 16 Dec 2019 13:00:00 +0700</pubDate>
-        <link>https://rasta.online/education/software-development/2019/12/16/day-1-cms-products-categories.html</link>
-        <guid isPermaLink="true">https://rasta.online/education/software-development/2019/12/16/day-1-cms-products-categories.html</guid>
+        <link>/education/software-development/2019/12/16/day-1-cms-products-categories.html</link>
+        <guid isPermaLink="true">/education/software-development/2019/12/16/day-1-cms-products-categories.html</guid>
         
         <category>internet</category>
         
@@ -159,8 +159,8 @@ My &lt;a href=&quot;https://github.com/snipcart/stackbit-theme-planty/&quot; tit
 
 </description>
         <pubDate>Sat, 09 Nov 2019 13:00:00 +0700</pubDate>
-        <link>https://rasta.online/education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html</link>
-        <guid isPermaLink="true">https://rasta.online/education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html</guid>
+        <link>/education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html</link>
+        <guid isPermaLink="true">/education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html</guid>
         
         <category>internet</category>
         
@@ -181,7 +181,7 @@ My &lt;a href=&quot;https://github.com/snipcart/stackbit-theme-planty/&quot; tit
 
 &lt;h3 id=&quot;the-problem&quot;&gt;The problem&lt;/h3&gt;
 
-&lt;p&gt;If you are not sure what I’m talking about, just &lt;a href=&quot;https://facebook.com/sharer.php?u=https://Rasta.Online/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html&quot; title=&quot;Open facebook share diaog...&quot;&gt;open the share dialog here&lt;/a&gt;. You will see a preview image of this article, the article description and authorship. This article deals with problems in this dialog. The information displayed there are part of your websites&lt;/p&gt;
+&lt;p&gt;If you are not sure what I’m talking about, just &lt;a href=&quot;https://facebook.com/sharer.php?u=http://localhost:4000/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html&quot; title=&quot;Open facebook share diaog...&quot;&gt;open the share dialog here&lt;/a&gt;. You will see a preview image of this article, the article description and authorship. This article deals with problems in this dialog. The information displayed there are part of your websites&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;...&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;p&gt;and need to be set correctly to produce good resuls.&lt;/p&gt;
 
@@ -189,7 +189,7 @@ My &lt;a href=&quot;https://github.com/snipcart/stackbit-theme-planty/&quot; tit
 
 &lt;h4 id=&quot;check-your-head&quot;&gt;Check your HEAD&lt;/h4&gt;
 
-&lt;p&gt;If you use a CMS as Wordpress, Joomla!, Drupal, Typo3 or Plone the social-share addon of choice is suppossed to do this and we just need to check if everything is in place. If you &lt;a href=&quot;/https://rasta.online/education/software-development/2015/11/19/faster-cheaper-safer.html&quot; title=&quot;Read more about Jekyll and static site generators ...&quot;&gt;use a static site generator&lt;/a&gt; or simple static html, you easily can include these meta-tags by yourself. You want to inspect the website source code (&lt;em&gt;right click&lt;/em&gt; &amp;gt; &lt;em&gt;view source&lt;/em&gt; ) and search for the following&lt;/p&gt;
+&lt;p&gt;If you use a CMS as Wordpress, Joomla!, Drupal, Typo3 or Plone the social-share addon of choice is suppossed to do this and we just need to check if everything is in place. If you &lt;a href=&quot;/education/software-development/2015/11/19/faster-cheaper-safer.html&quot; title=&quot;Read more about Jekyll and static site generators ...&quot;&gt;use a static site generator&lt;/a&gt; or simple static html, you easily can include these meta-tags by yourself. You want to inspect the website source code (&lt;em&gt;right click&lt;/em&gt; &amp;gt; &lt;em&gt;view source&lt;/em&gt; ) and search for the following&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
@@ -212,7 +212,7 @@ My &lt;a href=&quot;https://github.com/snipcart/stackbit-theme-planty/&quot; tit
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;...&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Compare &lt;a href=&quot;https://facebook.com/sharer.php?u=https://Rasta.Online/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html&quot;&gt;the share dialog&lt;/a&gt; with this articles settings and it should get clear what each tag is doing.&lt;/p&gt;
+&lt;p&gt;Compare &lt;a href=&quot;https://facebook.com/sharer.php?u=http://localhost:4000/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html&quot;&gt;the share dialog&lt;/a&gt; with this articles settings and it should get clear what each tag is doing.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
@@ -223,7 +223,7 @@ My &lt;a href=&quot;https://github.com/snipcart/stackbit-theme-planty/&quot; tit
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:image&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://rasta.online/library/images/facebook-share.jpg&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;This article explains how to set all needed information in open graph tags of your website and how to use the debugger tools to get the latest results.&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:site_name&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Duppy conqueror in the digital jungle.&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:url&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://Rasta.Online/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:url&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://localhost:4000/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:type&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;article&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:locale&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en_US&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt; 
     &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Author info --&amp;gt;&lt;/span&gt;
@@ -235,7 +235,7 @@ My &lt;a href=&quot;https://github.com/snipcart/stackbit-theme-planty/&quot; tit
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;...&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;We need to make sure that these meta-tags with the properties &lt;em&gt;og:title&lt;/em&gt;, &lt;em&gt;og:description&lt;/em&gt;, &lt;em&gt;og:image&lt;/em&gt;, &lt;em&gt;og:site_name&lt;/em&gt;, &lt;em&gt;og:url&lt;/em&gt;, &lt;em&gt;og:type&lt;/em&gt;, &lt;em&gt;og:locale&lt;/em&gt;, &lt;em&gt;article:author&lt;/em&gt;, &lt;em&gt;article:publisher&lt;/em&gt; are included &lt;strong&gt;exactly once&lt;/strong&gt; in the &lt;em&gt;&amp;lt;head&amp;gt;&lt;/em&gt;. I’ve seen problems when you have the &lt;em&gt;og:title&lt;/em&gt; or others twice included. On static html websites you simply write these tags direct into your source-code, if you &lt;a href=&quot;/https://rasta.online/education/software-development/2015/11/19/faster-cheaper-safer.html&quot; title=&quot;Read more about Jekyll and static site generators ...&quot;&gt;use a static site generator&lt;/a&gt; just check &lt;a href=&quot;https://github.com/Solomonic/theming.rasta_online/blob/master/_includes/open_graph.html&quot; title=&quot;Easy Open-graph tags inclusion ...&quot;&gt;this blogs solution&lt;/a&gt;. If you work with a CMS as Wordpress, Joomla, Typo3, Drupal, Django or Plone first look for an addon/extension providing these tags for your system, there are plenty different available. I encountered problems in some Wordpress themes including these tags twice and I had to edit the layout files head.php to make it right. A good theme shouldn’t have the problem, but if you are in the situation and can’t figure it out, &lt;a href=&quot;http://Rasta.Online/contact&quot;&gt;ask for help&lt;/a&gt;. You will need to have control over these tags before you can use the &lt;a href=&quot;https://developers.facebook.com/tools/debug/og/object/&quot; title=&quot;Open debugger tool ...&quot;&gt;Open Graph Object Debugger&lt;/a&gt; in an effective manner.&lt;/p&gt;
+&lt;p&gt;We need to make sure that these meta-tags with the properties &lt;em&gt;og:title&lt;/em&gt;, &lt;em&gt;og:description&lt;/em&gt;, &lt;em&gt;og:image&lt;/em&gt;, &lt;em&gt;og:site_name&lt;/em&gt;, &lt;em&gt;og:url&lt;/em&gt;, &lt;em&gt;og:type&lt;/em&gt;, &lt;em&gt;og:locale&lt;/em&gt;, &lt;em&gt;article:author&lt;/em&gt;, &lt;em&gt;article:publisher&lt;/em&gt; are included &lt;strong&gt;exactly once&lt;/strong&gt; in the &lt;em&gt;&amp;lt;head&amp;gt;&lt;/em&gt;. I’ve seen problems when you have the &lt;em&gt;og:title&lt;/em&gt; or others twice included. On static html websites you simply write these tags direct into your source-code, if you &lt;a href=&quot;/education/software-development/2015/11/19/faster-cheaper-safer.html&quot; title=&quot;Read more about Jekyll and static site generators ...&quot;&gt;use a static site generator&lt;/a&gt; just check &lt;a href=&quot;https://github.com/Solomonic/theming.rasta_online/blob/master/_includes/open_graph.html&quot; title=&quot;Easy Open-graph tags inclusion ...&quot;&gt;this blogs solution&lt;/a&gt;. If you work with a CMS as Wordpress, Joomla, Typo3, Drupal, Django or Plone first look for an addon/extension providing these tags for your system, there are plenty different available. I encountered problems in some Wordpress themes including these tags twice and I had to edit the layout files head.php to make it right. A good theme shouldn’t have the problem, but if you are in the situation and can’t figure it out, &lt;a href=&quot;http://Rasta.Online/contact&quot;&gt;ask for help&lt;/a&gt;. You will need to have control over these tags before you can use the &lt;a href=&quot;https://developers.facebook.com/tools/debug/og/object/&quot; title=&quot;Open debugger tool ...&quot;&gt;Open Graph Object Debugger&lt;/a&gt; in an effective manner.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-debugger&quot;&gt;The Debugger&lt;/h3&gt;
 
@@ -260,8 +260,8 @@ My &lt;a href=&quot;https://github.com/snipcart/stackbit-theme-planty/&quot; tit
 &lt;p&gt;&lt;em&gt;Stay tuned&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Dec 2015 13:00:00 +0700</pubDate>
-        <link>https://rasta.online/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html</link>
-        <guid isPermaLink="true">https://rasta.online/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html</guid>
+        <link>/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html</link>
+        <guid isPermaLink="true">/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html</guid>
         
         <category>internet</category>
         
@@ -308,7 +308,7 @@ common combinations are Content Creators &amp;amp; Marketing or Techies and SEO 
 &lt;p&gt;The odds are pretty good that the techie team is yourself, you found your way here and kept reading. Let’s talk then Rasta.
 We will go for simple solutions, so there is no engineering degree needed, just curiousity and the wish to find and combine the most useful tools around. The work of this team starts with the initial setups of all tools, prepare and test the workflows and to introduce these to other teams. Many of us hate to write documentations, trust me it’s still better to write it one time down instead of explaining the same thing over and over again and get complains from Creators and Business. Once the setup is done, your life will become very easy.&lt;/p&gt;
 
-&lt;p&gt;The basis of FantasticContent.Online brand will be a website we are going to build with the &lt;a href=&quot;http://jekyllrb.com/docs&quot; title=&quot;Visit the Jekyll documentation ...&quot;&gt;Jekyll framework&lt;/a&gt; which I already discussed in the &lt;a href=&quot;/https://rasta.online/education/software-development/2015/11/19/faster-cheaper-safer.html&quot; title=&quot;Read the previous article ...&quot;&gt;previous article&lt;/a&gt; of this series. It allows us to use the hosting service of &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, which actually outsources all our server-troubles for free. No need for server- or security-updates, no wories about broken hardware and backup-safety on highest standard, FantasticContent.Online will take this deal.&lt;/p&gt;
+&lt;p&gt;The basis of FantasticContent.Online brand will be a website we are going to build with the &lt;a href=&quot;http://jekyllrb.com/docs&quot; title=&quot;Visit the Jekyll documentation ...&quot;&gt;Jekyll framework&lt;/a&gt; which I already discussed in the &lt;a href=&quot;/education/software-development/2015/11/19/faster-cheaper-safer.html&quot; title=&quot;Read the previous article ...&quot;&gt;previous article&lt;/a&gt; of this series. It allows us to use the hosting service of &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, which actually outsources all our server-troubles for free. No need for server- or security-updates, no wories about broken hardware and backup-safety on highest standard, FantasticContent.Online will take this deal.&lt;/p&gt;
 
 &lt;p&gt;An other big advantage of &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; is that it allows us to use &lt;a href=&quot;https://github.com/&quot; title=&quot;Visit github.com ...&quot;&gt;GitHub&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Repository_(version_control)&quot; title=&quot;What is a software repository?&quot;&gt;Repositories&lt;/a&gt; as a through-the-web backend for our website, including sophisticated user-right management and real-time updates on the website without any 3rd party software. We can log into github, edit files, push them and the changes are imediatly online. So even the compiling is outsourced, so hardware is mainly used for reading and writing on websites. If you build your own PC please &lt;a href=&quot;https://duckduckgo.com/?q=unix+like+os&amp;amp;t=ffab&amp;amp;ia=about&quot; title=&quot;Good and free ...&quot;&gt;use a Operating System that supports you&lt;/a&gt; instead of Windows, a Mac will also do the job any day.&lt;/p&gt;
 
@@ -371,8 +371,8 @@ We will go for simple solutions, so there is no engineering degree needed, just 
 &lt;p&gt;Stay tuned ….&lt;/p&gt;
 </description>
         <pubDate>Tue, 08 Dec 2015 13:00:00 +0700</pubDate>
-        <link>https://rasta.online/education/software-development/2015/12/08/free-softeware-tools-for-your-online-business-success.html</link>
-        <guid isPermaLink="true">https://rasta.online/education/software-development/2015/12/08/free-softeware-tools-for-your-online-business-success.html</guid>
+        <link>/education/software-development/2015/12/08/free-softeware-tools-for-your-online-business-success.html</link>
+        <guid isPermaLink="true">/education/software-development/2015/12/08/free-softeware-tools-for-your-online-business-success.html</guid>
         
         <category>internet</category>
         
@@ -391,10 +391,10 @@ We will go for simple solutions, so there is no engineering degree needed, just 
 
 &lt;!--more--&gt;
 
-&lt;p&gt;&lt;em&gt;This is the second part of a series of educational articles, covering existing web technologies with the aim to encourage smarter, faster and cheaper solutions for small projects. The previous article explained the concept of CMS. Feel free to &lt;a href=&quot;/https://rasta.online/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html&quot; title=&quot;Read the previous article&quot;&gt;read it here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is the second part of a series of educational articles, covering existing web technologies with the aim to encourage smarter, faster and cheaper solutions for small projects. The previous article explained the concept of CMS. Feel free to &lt;a href=&quot;/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html&quot; title=&quot;Read the previous article&quot;&gt;read it here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;the-new-tool--a-different-kind-of-cms&quot;&gt;The new tool- A different kind of CMS&lt;/h3&gt;
-&lt;p&gt;A CMS is an application, merging together &lt;a href=&quot;/https://rasta.online/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html&quot; title=&quot;Read about this in the previous article&quot;&gt;Content data and Layout&lt;/a&gt; into a website. It is not only possible with a huge server-side application. A Web-developer can use a static site generator to compile any complex and nested site-structures from data and configuration files on their own computer (a.k.a. localhost) and upload the resulting static website folder to the host-server. The compiling is not done on the server in real-time. It is done beforehand, and this make all the difference for the hosting requirements and final page speed.&lt;/p&gt;
+&lt;p&gt;A CMS is an application, merging together &lt;a href=&quot;/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html&quot; title=&quot;Read about this in the previous article&quot;&gt;Content data and Layout&lt;/a&gt; into a website. It is not only possible with a huge server-side application. A Web-developer can use a static site generator to compile any complex and nested site-structures from data and configuration files on their own computer (a.k.a. localhost) and upload the resulting static website folder to the host-server. The compiling is not done on the server in real-time. It is done beforehand, and this make all the difference for the hosting requirements and final page speed.&lt;/p&gt;
 
 &lt;p&gt;My weapon of choice is &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot; title=&quot;Visit the Jekyll Documentation to learn more&quot;&gt;Jekyll&lt;/a&gt;, so I will focus on its advantages and disadvantages I encountered while using it. &lt;a href=&quot;http://jekyllrb.com/&quot; title=&quot;Visit Jekyll website,,&quot;&gt;Jekyll&lt;/a&gt; already powers very trusted sources such as this blog or &lt;a href=&quot;https://pages.github.com/&quot; title=&quot;Visit GitHub Pages&quot;&gt;GitHub Pages&lt;/a&gt; and even allows your project to be hosted by &lt;a href=&quot;https://pages.github.com/&quot; title=&quot;Visit GitHub Pages&quot;&gt;GitHub Pages&lt;/a&gt;, 100% free and direct from a github repository. Anyway, this article will not focus on the &lt;a href=&quot;http://jekyllrb.com/docs/github-pages/&quot; title=&quot;integrate with GitHub Pages&quot;&gt;extra features of one hosting service&lt;/a&gt;. It will discuss the broader possibilies of site-generators using &lt;a href=&quot;http://jekyllrb.com/docs&quot;&gt;Jekyll&lt;/a&gt; as an example.&lt;/p&gt;
 
@@ -563,8 +563,8 @@ Nope, backup your images and upload them with the latest generated version of yo
 &lt;p&gt;&lt;em&gt;Stay tuned …&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 19 Nov 2015 13:00:00 +0700</pubDate>
-        <link>https://rasta.online/education/software-development/2015/11/19/faster-cheaper-safer.html</link>
-        <guid isPermaLink="true">https://rasta.online/education/software-development/2015/11/19/faster-cheaper-safer.html</guid>
+        <link>/education/software-development/2015/11/19/faster-cheaper-safer.html</link>
+        <guid isPermaLink="true">/education/software-development/2015/11/19/faster-cheaper-safer.html</guid>
         
         <category>internet</category>
         
@@ -638,8 +638,8 @@ If a Wordpress professional discusses with the Plone professional, both can make
 &lt;p&gt;&lt;em&gt;In the follow-up article, I want to shed some light on a different professional approach for low-cost, high-speed web projects, following best pratices, and it may end up adding a new tool to your digital toolbox. Stay tuned until we dive a little into pre-compiled websites and what they can offer.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Nov 2015 13:00:00 +0700</pubDate>
-        <link>https://rasta.online/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html</link>
-        <guid isPermaLink="true">https://rasta.online/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html</guid>
+        <link>/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html</link>
+        <guid isPermaLink="true">/education/software-development/2015/11/17/cms-wordpress-joomla-drupal-django-typo3-plone.html</guid>
         
         <category>internet</category>
         
