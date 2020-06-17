@@ -1,0 +1,26 @@
+---
+layout: default
+seo_description: {{page.short_bio}}
+---
+
+<h1>{{page.title}}</h1>
+<p class="short_bio">{{page.short_bio}}</p>
+{% if page.image%}
+	<p class="artist_image">
+		<img src="{{page.image}}">
+	</p>
+	<p class="image_description">{{page.image_description}}</p>
+{% endif %}
+{% if page.bio%}
+	{% for p in page.bio %}
+		<p>{{p}}</p>
+	{% endfor %}
+{% endif %}
+
+<ul class="invisible">
+{% for tune in site.data.music %}
+   {% if tune.artist == page.title or tune.feature contains page.title %}
+  	{% include embedded_list.html %}
+  {% endif %}
+{% endfor %}
+</ul>

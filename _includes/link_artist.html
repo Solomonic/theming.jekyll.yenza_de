@@ -1,0 +1,6 @@
+{% assign found_artist = site.data.artists | where:"name", artist %}
+{% if found_artist.size>0 %}
+	<a href="{{ artist | datapage_url: '/music/artist' | prepend: site.baseurl }}">{{artist}}</a>
+{% else %}
+	{{artist}}
+{% endif %}

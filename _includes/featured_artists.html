@@ -1,0 +1,9 @@
+{% if tune.feature %}
+	{% assign feat_counter = 0 %}
+	(feat.:
+	{% for artist in tune.feature  %}
+		{% if feat_counter>0 %}&{% endif %}
+		{% include link_artist.html %}
+		{% assign feat_counter = feat_counter | plus: 1 %}
+	{% endfor%})
+{% endif %}

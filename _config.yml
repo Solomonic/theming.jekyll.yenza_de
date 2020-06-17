@@ -40,3 +40,13 @@ defaults:
       type: "posts"
     values:
       share: rasta
+
+plugins:
+  - jekyll-datapage-generator
+
+page_gen:
+- data: 'artists'
+  template: 'artist'
+  name: 'name'
+  title: 'name'
+  dir: 'music/artist'
