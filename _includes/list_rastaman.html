@@ -3,7 +3,9 @@
    {% if tune.tag == "rastaman_tunes"%}
   <li><article class="video">
         <h4>{{tune.artist}}:&nbsp; <i>{{tune.title}}</i></h4>
-        <iframe width="560" height="315" src="{{tune.link}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        <div class="iframe-container">
+        	<iframe width="560" height="315" src="{{tune.link}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        </div>
        	<p><i>{{tune.description}}</i></p>
        </article>
    </li>
