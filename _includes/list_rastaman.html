@@ -1,14 +1,7 @@
 <ul class="invisible">
 {% for tune in site.data.music %}
    {% if tune.tag == "rastaman_tunes"%}
-  <li><article class="video">
-        <h4>{{tune.artist}}:&nbsp; <i>{{tune.title}}</i></h4>
-        <div class="iframe-container">
-        	<iframe width="560" height="315" src="{{tune.link}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
-        </div>
-       	<p><i>{{tune.description}}</i></p>
-       </article>
-   </li>
+  	{% include embedded_list.html %}
   {% endif %}
 {% endfor %}
 </ul>
