@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title>JAM Day 0 - What are we going to do?</title>
+
+  <meta name="description" content="On Day 0 of our JAMstack journey we are going to define our goals and look at the tools we are using.">
+
+  <meta content="text/plain" name="DC.format">
+
+  <meta content="Jens Krause" name="DC.creator">
+
+  <meta content="ALL" name="robots">
+  <meta content="Global" name="distribution">
+  <meta content="Global" name="DC.distribution">
+  <meta content="en" name="DC.language">
+  
+    <meta property="og:title" content="JAM Day 0 - What are we going to do?" />
+  <meta property="og:site_name" content="Duppy conqueror in the digital jungle."/>
+
+  <meta property="og:url" content="http://localhost:4000/education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html" />
+  <meta property="og:type" content="article" />
+  <!--
+  <meta property="fb:app_id" content="" /> -->
+  <meta property="og:locale" content="en_US" /> 
+ 
+
+  <meta property="og:description" content="On Day 0 of our JAMstack journey we are going to define our goals and look at the tools we are using.">
+
+
+  <meta property="article:author" content="" />
+  <meta property="article:publisher" content="" />
+
+  <meta property="og:image" content="http://rasta.online/library/images/JAM2019.png" />
+
+
+
+  <link rel="stylesheet" href="/font-awesome-4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html">
+  <link rel="alternate" type="application/rss+xml" title="rasta.online" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+    <div id="global-wrapper">
+    
+    <header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" title="Interested in creating websites and internet technologies, open-source and team-management ? Browse our the educational articles and tutorials." href="/">
+      <span class="fa-stack fa-2x">
+         <i class="fa fa-home fa-stack-2x home-green"></i>
+        <i class="fa fa-home fa-stack-2x home-yellow"></i>
+        <i class="fa fa-home fa-stack-2x home-red"></i>
+        <i class="fa fa-home fa-stack-2x"></i>
+      </span>
+    </a>
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="/music">Music</a>
+<!--<a class="page-link" href="/shop">Shop</a>-->
+<a class="page-link" href="/education">Education</a>
+<a class="page-link" href="/about">About</a>
+<a class="page-link" href="/contact">Contact</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div  id="top" class="wrapper">
+        
+        <div class="series-navigation">
+    
+        <a class="prev_article" title="Read previous article: debug the facebook share dialog" href="/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html" ><span class="fa fa-angle-double-left fa-lg"></span> <span class="text">debug the facebook share dialog</span><span class="small-text">Read previous ...</span> </a> 
+    
+    
+        <a class="next_article" title="Read follow up: Day 1 - Content Management" href="/education/software-development/2019/12/16/day-1-cms-products-categories.html" > <span class="text">Follow up: Day 1 - Content Management</span> <span class="small-text">Read follow up</span> <span class="fa fa-angle-double-right fa-lg"></span></a> 
+    
+</div>
+  
+
+<article class="post article full" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h2 class="post-title" itemprop="name headline">JAM Day 0 - What are we going to do?</h2>
+    
+    <p class="post-meta"><time datetime="2019-11-09T13:00:00+07:00" itemprop="datePublished dateModified">Nov 9, 2019</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jens Krause</span></span></p>
+    
+
+  </header>
+
+  <div class="post-content" itemprop="articleBody mainEntityOfPage">
+    <p>After reading a couple of articles about the current developments in the <strong>JAM</strong> Stack (<strong>J</strong>avascript, <strong>A</strong>PI, <strong>M</strong>arkdown) I got really excited about getting my hands dirty and build a little project. Since the usual tutorials often lack the requirements of real-world applications I got the idea of creating an functional online shop, utilizing shiny new tools as <strong>StackBit</strong> which are available for free.</p>
+
+<!--more-->
+
+<p>My target will be to spend the lowest amount of money and time while building a custom branded, fully operational, automatic deployable shop which is suitable for startup and small business purpose, but extendable for future growth. 
+But first things first, lets make a battle plan.</p>
+
+<h3 id="objective-herbal-tea-shop">Objective: Herbal Tea Shop</h3>
+
+<p>Me and my family like a rather natural diet, we avoid processed foods and enjoy quite a variety of herbal teas. Over the years we gained our experiences and now entertain the idea for a little side-hustle of promoting and selling those teas online. This is an experiment with a rather big chance of failing, so we aim low in regards of investments and just give it a try.</p>
+
+<p>Before we are going to make real money we will be able to manage our products, prices and customers with familiar office tools, so we are not looking for any warehouse management or CRM solution, we just want to present the products and give the buyers an option to order. Neither will we start out with employees, so even user permission management is not an important concern in the beginning.</p>
+
+<p>We will need to make the site multilingual though and provide prices in different currencies as essential part of our marketing strategy, so it will be more complicated as a plain vanilla tutorial.</p>
+
+<h3 id="the-tools">The Tools</h3>
+
+<p><em>Disclaimer:</em> This is not a paid promotion of any of the following services, I just want to show what I use for my particular project and which experiences I’m going to have with each. In the basic level all tools are free, if I hit a wall and need to pay-to-play I will state that very clearly and look for an alternative solution.</p>
+
+<h4 id="stackbit"><a href="https://www.stackbit.com/" title="Bundles your JAM Stack">StackBit</a></h4>
+
+<p><a href="https://www.stackbit.com/" title="Bundles your JAM Stack">StackBit</a> will be the backbone for our new shop. It is a very easy and fast way to bundle all the JAM Stack in one UI and bootstrap a new website literally in minutes. It gives you the option to use a pre-build or any custom themes, let you choose your <em>S</em>tatic <em>S</em>ite <em>G</em>enerator and a <a href="https://en.wikipedia.org/wiki/Content_management_system" title="Content Management System">CMS</a>. The code and data will live in a <a href="https://www.github.com/" title="Mange your code repositories">GitHub</a> repository and deployed with <a href="https://www.netlify.com/" title="Continuous deployment and serverless functions">Netlify</a>.</p>
+
+<p>This tool has a sleek dashboard which allows you to create and manage your <strong>JAM</strong> projects. It will do the work of wiring the components together without any complicated integrations and provides you with the links and API key you may need.</p>
+
+<p>I started registering with <a href="https://github.com/Solomonic" title="Solomonic">my GitHub account</a> and gave <a href="https://www.stackbit.com/" title="Bundles your JAM Stack">StackBit</a> the required authorizations and was on my way of creating my project by pressing the <strong>+ New Project</strong> button, easy as cake so far.</p>
+
+<h4 id="theming">Theming</h4>
+
+<p>First you are required to choose one from a list of currently ten professional looking themes or adding a <a href="https://www.github.com/" title="Mange your code repositories">GitHub</a> link to a custom theme. You have a <strong>Live Preview</strong> for each theme and for blogging, a portfolio, documentation or most other purposes is the selection already reasonably well. This step also shows a preview of over 20 upcoming themes which you can’t select yet but gets you and idea what is planned for the near future.</p>
+
+<p>There is a <em>Vanilla theme</em> as well which is most likely the best starting point if you want to make a fully customer specific theme.</p>
+
+<h4 id="custom-planty-theme">Custom <a href="https://github.com/snipcart/stackbit-theme-planty/" title="Planty theme on github">Planty theme</a></h4>
+
+<p>I didn’t find anything shop like though, so I explored the <strong>Custom Theme</strong> option and searched the web for JAMstack themes.
+I found the <a href="https://github.com/snipcart/stackbit-theme-planty/" title="Planty theme on github">Planty theme</a> by <a href="https://snipcart.com/" title="Javascript based Shopping cart solution">SnipCart</a>. The theme looks nice and is ready for getting integrated with a JavaScript based Shopping Cart. In the ReadMe of the repository  is a shiny <a href="https://app.stackbit.com/create?theme=https://github.com/snipcart/stackbit-theme-planty&amp;ssg=jekyll" title="Create a new project with Planty Theme">Create with StackBit</a> button which creates a new project in <a href="https://www.stackbit.com/" title="Bundles your JAM Stack">StackBit</a> with <a href="https://github.com/snipcart/stackbit-theme-planty/" title="Planty theme on github">Planty theme</a> already set as the custom theme. Here you also can clear this theme-URL and add your own repository-URL or paste the StackBit sample repo if you just want to explore how to make custom themes.</p>
+
+<h4 id="site-generator">Site Generator</h4>
+
+<p>In the next step you have to choose your site generator. Currently you have the options of <a href="https://jekyllrb.com/" title="Static Site Generator working with github pages">Jekyll</a>, <a href="https://gohugo.io/" title="Super Fast Go based Static Site Generator">Hugo</a> and <a href="https://www.gatsbyjs.org/" title="JavaScript based Static Site Generator for React">Gatsby</a>, while more options like VuePress and Hexo are already announced. I’ve choosen <a href="https://jekyllrb.com/" title="Static Site Generator working with github pages">Jekyll</a>, I like that it also can run with <a href="https://pages.github.com/" title="GitHub hosted Pages">GitHub Pages</a> and it is the one I have the most experience with.</p>
+
+<p><strong>Continue to CMS</strong></p>
+
+<h4 id="cms">CMS</h4>
+
+<p>Here we can currently choose between 6 Options: <a href="https://forestry.io/" title="Static Content CMS">Forestry</a>, <a href="https://www.netlifycms.org/" title="Static Content CMS">Netlify CMS</a>, <strong>Contentful</strong>, <strong>DatoCMS</strong>, <strong>Sanity</strong> or <strong>No CMS</strong>.
+My <a href="https://github.com/snipcart/stackbit-theme-planty/" title="Planty theme on github">Planty theme</a> supports <a href="https://forestry.io/" title="Static Content CMS">Forestry</a> and <a href="https://www.netlifycms.org/" title="Static Content CMS">Netlify CMS</a> but since I actually don’t know either, I want to test them out first and choose <strong>No CMS</strong> for now. Anyway, since I try to understand how the content flow actually works I figure its a good option to work without it first and add it manually later on.</p>
+
+<h4 id="repository">Repository</h4>
+
+<p>Currently the <strong>repository</strong> with the website data has to be on <a href="https://www.github.com/" title="Mange your code repositories">GitHub</a>, GitLab and Bitbucket Integrations are announced though. Since this would be my first choice anyway I’m good with that and move on to Deployment.</p>
+
+<h4 id="deployment">Deployment</h4>
+
+<p>Deployments are right now just done with <a href="https://www.netlify.com/" title="Continuous deployment and serverless functions">Netlify</a>. I just created a free account with my <a href="https://www.github.com/" title="Mange your code repositories">GitHub</a> login, authorized it and seem to be good to go. <a href="https://pages.github.com/" title="GitHub hosted Pages">GitHub Pages</a> and <strong>GitLab Pages</strong> are announced but for now we’ll see how well <a href="https://www.netlify.com/" title="Continuous deployment and serverless functions">Netlify</a> does the job.</p>
+
+<h4 id="connect-accounts">Connect Accounts</h4>
+
+<p>First of all I have to enter a name for the project and I call it <strong>Rasta-Herb-Teas</strong> and then connect it to my <a href="https://www.github.com/" title="Mange your code repositories">GitHub</a> account. A few clicks later everything seems to be alright. <a href="https://www.stackbit.com/" title="Bundles your JAM Stack">StackBit</a> will now create a <em>public</em> repository with the name <strong>rasta-herb-teas</strong> for my user.</p>
+
+<h4 id="create-project">Create project</h4>
+
+<p>I see a message that my site is currently deploying and less then 2 Minutes later	I got the notification of success. My site is now live available at <code class="highlighter-rouge">https://rasta-herb-teas-BUILD_ID.netlify.com/</code>, this link can be shared.</p>
+
+<p>When I follow the link I see indeed a working site build with my template, plus a <a href="https://www.stackbit.com/" title="Bundles your JAM Stack">StackBit</a> management overlay that allows me to rebuild from here or go directly to the <a href="https://www.netlify.com/" title="Continuous deployment and serverless functions">Netlify</a> project or <a href="https://www.github.com/" title="Mange your code repositories">GitHub</a> repository. That’s neat!</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>The actual creation process of bootstrapping a working website with a selected theme and dummy content takes indeed just a few minutes and can be done even from a mobile phone without a problem. After all it’s just choose and click, the only typing are your password and project name.</p>
+
+<p>For the very first project it took me clearly longer since I had to register and authorize the components. I spend by far the most time choosing a template but it felt self-explanatory all the time. Until now <a href="https://www.stackbit.com/" title="Bundles your JAM Stack">StackBit</a> gets a clear thumbs up, it did what it promised and looked good while doing it.</p>
+
+<p>You can spin up a fresh professional prototype which is online available while talking with a customer. This allows you to get into the specific details in the very first meeting and is the easiest and fastest bootstrapping I’ve seen so far.</p>
+
+<h3 id="whats-next">Whats next?</h3>
+
+<p>This article just aimed to outline the project and tools. In the follow up I want to apply a branding and work with the products, so it already get the looks and feels of a real shop. I strive to find a strategy how to deal with multilingual contents and try to figure out which CMS best fits my needs.</p>
+
+<p>Stay tuned!</p>
+
+
+  </div>
+   <div class="microdata">
+    <meta itemprop="url" content="http://localhost:4000/education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html">
+    
+    <meta itemprop="image" content="http://rasta.online/library/images/JAM2019.png">
+    
+    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="rasta.online">
+        <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="http://rasta.online/library/images/rasta-logo.png">
+        </span>
+    </span>
+</div>  
+</article>
+ 
+        <div class="series-navigation">
+    
+        <a class="prev_article" title="Read previous article: debug the facebook share dialog" href="/education/software-development/2015/12/11/facebook-share-dialog-and-open-graph-meta-tags.html" ><span class="fa fa-angle-double-left fa-lg"></span> <span class="text">debug the facebook share dialog</span><span class="small-text">Read previous ...</span> </a> 
+    
+    
+        <a class="next_article" title="Read follow up: Day 1 - Content Management" href="/education/software-development/2019/12/16/day-1-cms-products-categories.html" > <span class="text">Follow up: Day 1 - Content Management</span> <span class="small-text">Read follow up</span> <span class="fa fa-angle-double-right fa-lg"></span></a> 
+    
+</div>
+  
+    
+
+      </div>
+    </div>
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <h3>Rasta abroad</h3>
+        <ul class="invisible">
+          <li><a href="https://RapidAgileSoftware.github.io" target="_blank" title="Rapid Agile Software"><span class="fa fa-lg fa-file-o"></span> Rapid Agile Software</a></li>
+          <li><a href="https://github.com/RapidAgileSoftware" target="_blank" title="Follow a Rasta on github.com"><span class="fa fa-lg fa-github"></span> GitHub</a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/jens-krause-2a88901a6"><i class="fa fa-linkedin-square aria-hidden="true"></i><span class="footer_link_text"> LinkedIn</span></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <h3>Contact</h3>
+        <ul class="invisible">
+           <li><a href="https://RapidAgileSoftware.github.io/contact"><span aria-hidden="true" title="Contact form" aria-label="conact form" class="fa fa-align-justify"></span> Contact form</a></li>
+           <li><a href="mailto:info@rasta.online"><span aria-hidden="true" title="Email" aria-label="Email" class="fa fa-envelope"></span> Email</a></li>
+           <li><a href="https://instagram.com/ras.yen" target="_blank" title="Follow a Rasta on Instagram"><span class="fa fa-lg fa-instagram"></span> Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <h3>QuickLinks</h3>
+        <ul>    
+
+    
+          <li><a class="page-link" href="/about/">About</a></li>
+    
+
+    
+
+    
+          <li><a class="page-link" href="/contact/">Contact</a></li>
+    
+
+    
+          <li><a class="page-link" href="/education/">Education</a></li>
+    
+
+    
+
+    
+          <li><a class="page-link" href="/music/">Music</a></li>
+    
+
+    
+
+    
+
+    
+
+    
+          <li><a class="page-link" href="/shop/">Shop</a></li>
+    
+
+    
+
+    
+
+</ul>
+
+      </div>
+
+    </div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <a href="#top"><span aria-hidden="true" title="Scroll to top" aria-label="Scroll to top" class="fa fa-arrow-circle-o-up fa-lg"></span> Back to top</a>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <a href="/sitemap.xml"><span class="fa fa-sitemap fa-lg" aria-hidden="true" title="to Sitemap" aria-label="to Sitemap"></span> Sitemap</a>
+      </div>
+
+      <div id="colophone" class="footer-col footer-col-3">
+        <a href="/"><span class="fa fa-copyright"> 2002-2020</span> All rights reserved. </a>
+    </div>
+
+  </div>
+
+  </div>
+  
+
+</footer>
+
+
+    </div>
+  </body>
+
+</html>
