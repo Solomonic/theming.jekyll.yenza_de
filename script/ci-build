@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
 #set -e # halt script on error
 
-#if [ -n $TRAVIS_TAG ]
-#then
 bundle exec jekyll build
 git status
-git checkout -b test
-git add .
-git commit -m"Automated build"
+git add docs
+# this push should not trigger a build
+git commit -m"[skip travis] Automated build"
 git remote set-url origin https://$ROBOT@github.com/Solomonic/theming.rasta_online.git
-git push --set-upstream origin test
-#fi
+git push
 
