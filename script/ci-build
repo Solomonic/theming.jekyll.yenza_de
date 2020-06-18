@@ -6,7 +6,7 @@ bundle exec jekyll build --trace
 git status
 git diff
 
-git checkout test
+git checkout -b test
 git add .
 git commit -m"updated site build"
 git push
