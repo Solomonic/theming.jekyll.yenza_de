@@ -6,8 +6,9 @@ install:
 script:
   - yaml-lint _data/
   - "./script/ci-build"
-only:
-  - staging
+branches:
+  only:
+    - staging
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
