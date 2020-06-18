@@ -7,5 +7,5 @@ git add docs
 # this push should not trigger a build
 git commit -m"[skip travis] Automated build"
 git remote set-url origin https://$ROBOT@github.com/Solomonic/theming.rasta_online.git
-git push
+git push origin HEAD:master
 
