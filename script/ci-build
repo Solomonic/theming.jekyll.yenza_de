@@ -6,11 +6,8 @@ then
 	JEKYLL_ENV="production" bundle exec jekyll build
 	git status
 	git remote update > /dev/null
-	git_remote_state=$(git status -uno | grep 'branch is ahead' | wc -l)
-	if git_remote_state; then
-		git add .
-		git commit -m"[skip travis] Automated build"
-	fi
+	git add .
+	git commit -m"[skip travis] Automated build"
 	git remote set-url origin https://$ROBOT@github.com/Solomonic/theming.rasta_online.git
 	git push origin HEAD:master --force
 fi
