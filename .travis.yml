@@ -5,13 +5,9 @@ install:
   - bundle install
 script:
   - yaml-lint _data/
-  
-deploy:
-    provider: script
-    script: script/ci-build
-    skip_cleanup: false
-    on:
-      tags: true
+  - "./script/ci-build"
+only:
+  - staging
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
