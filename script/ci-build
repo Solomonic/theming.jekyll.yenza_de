@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 #set -e # halt script on error
 
-bundle exec jekyll build --trace
+bundle exec jekyll build
 
 git status
-git diff
 
 git checkout -b test
 git add .
 git commit -m"updated site build"
-git push
+git push --set-upstream origin test
 
 
