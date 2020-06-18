@@ -1,12 +1,12 @@
 <ul class="invisible">
 {% assign counter = 0 %}
 {% for tune in site.data.music %}
-   {% if counter < 4 and tune.tag == "rastaman_tunes"%}
+   {% if counter < 3 and tune.tag == "rastaman_tunes"%}
     {% include embedded_list.html %}
    {% assign counter = counter | plus: 1 %}
   {% endif %}
 {% endfor %}
 </ul>
-{% if counter >= 4%}
+{% if counter >= 3%}
 	<p><a href="category/rastaman-tunes.html">Show all Rastaman tunes</a></p>
 {% endif %}
