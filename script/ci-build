@@ -4,9 +4,7 @@
 bundle exec jekyll build
 
 git status
-git stash
-git checkout gh-pages
-git stash pop
-git add .
-git commit -m"updated site build"
+
+#git add .
+#git commit -m"updated site build"
 
