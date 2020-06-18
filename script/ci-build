@@ -3,6 +3,7 @@
 
 if [ -n $TRAVIS_TAG ]
 then
+	bundle install
 	JEKYLL_ENV="production" bundle exec jekyll build
 	git status
 	git add .
