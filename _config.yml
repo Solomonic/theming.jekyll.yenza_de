@@ -2,7 +2,7 @@
 title: rasta.online
 url: "https://Rasta.Online"
 name: Duppy conqueror in the digital jungle.
-baseurl: "https://rasta.online"
+baseurl: ""
 
 markdown: kramdown
 highlighter: rouge
@@ -42,9 +42,11 @@ defaults:
       type: "posts"
     values:
       share: rasta
-
-plugins:
-  - jekyll-datapage-generator
+  -
+    scope:
+      path: "library/**"
+    values:
+      sitemap: false
 
 page_gen:
 - data: 'artists'
@@ -52,3 +54,9 @@ page_gen:
   name: 'name'
   title: 'name'
   dir: 'music/artist'
+
+plugins:
+  - jekyll-datapage-generator
+  - jekyll-sitemap
+
+
