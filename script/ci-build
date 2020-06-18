@@ -5,6 +5,8 @@ bundle exec jekyll build
 
 git status
 
+git diff docs/
+
 #git add .
 #git commit -m"updated site build"
 

@@ -1,5 +1,5 @@
-.sass-cache
-.jekyll-metadata
-.jekyll-cache
-.bundle
-vendor
+.sass-cache/
+.jekyll-metadata/
+.jekyll-cache/
+.bundle/
+vendor/
