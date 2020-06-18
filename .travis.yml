@@ -1,7 +1,11 @@
 language: ruby
 rvm:
 - 2.6.3
-script: "./script/ci-build"
+install:
+  - gem install yaml-lint
+script:
+  - yaml-lint _data/
+after_success: "./script/ci-build"
 branches:
   only:
   - master
