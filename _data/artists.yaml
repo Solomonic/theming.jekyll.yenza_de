@@ -29,3 +29,10 @@
   image:
     - 'https://upload.wikimedia.org/wikipedia/en/d/da/Miller_and_Marley.jpg'
   image_description: Jacob Miller (left) joking  with his friend Bob Marley (right)
+
+-  name: Jens Krause
+   short_bio: >-
+    Jens is a Software Developer
+  bio:
+    - >-
+      now he is playing around with automated builds
