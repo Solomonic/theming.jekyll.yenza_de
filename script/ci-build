@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 #set -e # halt script on error
 
-bundle exec jekyll build
+bundle exec jekyll build --trace
 
 git status
+git diff
 
-git diff docs/
+git checkout test
+git add .
+git commit -m"updated site build"
+git push
 
-#git add .
-#git commit -m"updated site build"
 
