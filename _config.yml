@@ -57,6 +57,7 @@ page_gen:
 
 plugins:
   - jekyll-datapage-generator
+  - jekyll-last-modified-at
   - jekyll-sitemap
 
 
