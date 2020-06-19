@@ -6,6 +6,12 @@ install:
 script:
   - yaml-lint _data/
   - "./script/ci-build"
+deploy:
+  provider: script
+  script: bash script/deploy.sh production $TRAVIS_TAG
+  on:
+    tags: true
+
 branches:
   only:
     - staging
