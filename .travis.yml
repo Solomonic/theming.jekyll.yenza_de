@@ -5,7 +5,7 @@ install:
   - bundle install
 script:
   - yaml-lint _data/
-  - "./script/ci-build"
+  - "./script/ci-build $TRAVIS_TAG"
 deploy:
   provider: script
   script: bash script/deploy.sh $TRAVIS_TAG
