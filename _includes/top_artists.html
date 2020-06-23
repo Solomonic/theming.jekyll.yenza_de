@@ -1,0 +1,5 @@
+{% assign artist_list = site.data.artists| sort: "name" %}
+{% for artist in artist_list %}
+  <a href="{{ artist.name | datapage_url: '/music/artist' | prepend: site.baseurl }}">{{artist.name}}</a>
+  &nbsp;&nbsp;
+{% endfor %}
