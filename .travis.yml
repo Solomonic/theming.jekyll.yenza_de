@@ -8,9 +8,10 @@ script:
   - "./script/ci-build"
 deploy:
   provider: script
-  script: bash script/deploy.sh production $TRAVIS_TAG
+  script: bash script/deploy.sh $TRAVIS_TAG
   on:
     tags: true
+    branch: staging
 
 branches:
   only:
