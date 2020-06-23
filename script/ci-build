@@ -3,9 +3,3 @@
 
 JEKYLL_ENV="production" bundle exec jekyll build
 git status
-
-if ["$0" !=""]; then
-	echo $0
-else
-	echo "No Tag recorgnised"
-fi
