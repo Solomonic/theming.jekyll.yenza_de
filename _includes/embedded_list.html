@@ -6,7 +6,12 @@
         	<i>{{tune.title}} {% include featured_artists.html %}</i></h4>
 
         <div class="iframe-container">
-          <iframe width="560" height="315" src="{{tune.link}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
+          {% if tune.link_key" %}
+            {% assign link = "https://www.youtube.com/embed/" | append: tune.link_key %}
+          {% else %}
+            {% assign link = tune.link %}
+          {% endif %}
+          <iframe width="560" height="315" src="{{link}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
         </div>
        	<p><i>{{tune.description}}</i></p>
      </article>

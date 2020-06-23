@@ -1,51 +1,51 @@
 - title: Lion is a Lion
   description: The Rasta intellect go past the internet. Filmed in the motherland Ethiopia
   artist: Pressure Busspipe
-  link: 'https://www.youtube.com/embed/eBwa9K4gaiM'
+  link_key: eBwa9K4gaiM
   tag: rastaman_tunes
 - title: I'm a Rastaman
   description: >-
     I'm a Rastaman - not a dreadlock. Said I'm a living man and I've got Jah to
     praise.
   artist: Jacob Miller
-  link: 'https:////www.youtube.com/embed/HG-vJc10vFw'
+  link_key: HG-vJc10vFw
   tag: rastaman_tunes
 - title: Taking Over
   description: >-
     Rastaman we taking over and we've got nothing to fear, taking over
     righteousness me declare
   artist: Sizzla
-  link: 'https://www.youtube.com/embed/_iaxtVBHcBs'
+  link_key: _iaxtVBHcBs
   tag: rastaman_tunes
 - title: Rastaman Wheel out
   description: >-
     Officer ease out, don't you have no fear? Officer ease out and don't you
     touch me by my hair
   artist: Chronixx
-  link: 'https://www.youtube.com/embed/Nxh0O-MLHWE'
+  link_key: Nxh0O-MLHWE
   tag: rastaman_tunes
 - title: Natty Dread
   description: 'Natty Dreadlock in a Babylon, a dreadlock Congo Bongo I'
   artist: Bob Marley
-  link: 'https://www.youtube.com/embed/GGHKdpUlnwE'
+  link_key: GGHKdpUlnwE
   tag: rastaman_tunes
 - title: Why Am I a Rastaman
   description: Why am I a rastaman? For he taught I the love To give to everyone.
   artist: Culture
-  link: 'https://www.youtube.com/embed/m96rMu-o9MM'
+  link_key: m96rMu-o9MM
   tag: rastaman_tunes
 - title: Mongst I&I 
   artist: Midnite
   description: >-
     Their pride is wounded, a correspondent had them responding, didn't know the tape was still running
-  link: 'https://www.youtube.com/embed/uJXt36OdVwE'
+  link_key: uJXt36OdVwE
   tag: rastaman_tunes
 - title: Rastaman Vibration
   description: >-
     Say you just can't live that negative way. If you know what I mean make way
     for the positive day
   artist: Bob Marley
-  link: 'https://www.youtube.com/embed/V17_RumSEDE'
+  link_key: V17_RumSEDE
   tag: rastaman_tunes
 - title: Rock Stone
   description: 'One by One, One by One, we are stepping out of Babylon'
@@ -53,7 +53,7 @@
   feature:
     - Sizzla
     - Capleton
-  link: 'https://www.youtube.com/embed/4FER1-9GHSk'
+  link_key: 4FER1-9GHSk
   tag: rastaman_tunes
 - title: Tenement Yard
   description: >-
@@ -63,7 +63,7 @@
   feature:
     - Jacob Miller
     - Inner Circle
-  link: 'https://www.youtube.com/embed/EJRTk73urqE'
+  link_key: EJRTk73urqE
   tag: rastaman_tunes
 - title: Jah Army
   description: We are soldiers in Jah Army
@@ -71,42 +71,42 @@
   feature:
     - Damian Marley
     - Buju Banton
-  link: 'https://www.youtube.com/embed/M79KsXmsvec'
+  link_key: M79KsXmsvec
   tag: rastaman_tunes
 - title: Rasta Love
   description: >-
     And she didn't know how to tell him she was in love with a Rastaman. Fire
     was burning and burning to let out what she was holding in
   artist: Protoje
-  link: 'https://www.youtube.com/embed/AkWXXGe49cw'
+  link_key: AkWXXGe49cw
   tag: love_tunes
 - title: Love and Affection
   description: >-
     You got my attention, you need no correction.
     Make Jah pure blessings in your direction
   artist: Pressure Busspipe
-  link: 'https://www.youtube.com/embed/KHVQVVNmh1U'
+  link_key: KHVQVVNmh1U
   tag: love_tunes
 - title: Vigin Islands Nice
   description: >-
     Virgin Islands teachers never raise no fool mama send me school
     When it's difficult we still ah push thru
   artist: Pressure Busspipe
-  link: 'https://www.youtube.com/embed/54aPmBnAj00'
+  link_key: 54aPmBnAj00
   tag: other
 - title: King Selassie Fist
   description: >-
     All praises be to His majesty King Haile I Selassie first.
     The wonderful counsellor is the prince of peace
   artist: Pressure Busspipe
-  link: 'https://www.youtube.com/embed/GPbV55d50Uo'
+  link_key: GPbV55d50Uo
   tag: rastaman_tunes
 - title: I'm Living
   description: >-
     I'm living for the young and the old, the blind and the deaf and the dumb as you know
     I'm giving, Jah Jah love to all of those, beautiful people of the world
   artist: Sizzla
-  link: 'https://www.youtube.com/embed/yiANaTpcSEQ'
+  link_key: yiANaTpcSEQ
   tag: rastaman_tunes
 - title: Righteous Path
   description: They make the Lions rise up fast, righteous path, tell babylon the fight just start
@@ -116,20 +116,19 @@
     - Inphared
     - Emanuel Stain
     - Fyah Roiall
-  link: 'https://www.youtube.com/embed/VvqxOPX_cZc'
+  link_key: VvqxOPX_cZc
   tag: rastaman_tunes
-
 - title: Stand Firm
   description: >-
     Liberate yourself and educate a one, Victory comes with unification
   artist: Pressure Busspipe
-  link: 'https://www.youtube.com/embed/b5WMHFss0vY'
+  link_key: b5WMHFss0vY
   tag: rastaman_tunes
 - title: Judgement Yard Freestyle September to remember
   description: >-
     Amazing Freestyle ... Babylon you can't violate no youth
   artist: Sizzla
-  link: 'https://www.youtube.com/embed/e0DLJ_1Sapg'
+  link_key: e0DLJ_1Sapg
   feature:
     - Chronixx
     - Jah Cure
@@ -138,59 +137,149 @@
   description: >-
     Yes Jah, be I strong, whenever they rise against us. They want to do us wrong, the powers of Selassie protect us
   artist: Sizzla
-  link: 'https://www.youtube.com/embed/kek3q6X-lgc'
+  link_key: kek3q6X-lgc
   tag: rastaman_tunes
 - title: Good Love
   description: >-
     Girl I wanna give good love
   artist: Sizzla
-  link: 'https://www.youtube.com/embed/VsJWDVJA8l0'
+  link_key: VsJWDVJA8l0
   tag: love_tunes
 - title: Unafraid
   description: >-
     Sisters unafraid to make an example of a guy or a woman for that matter, who'd ever dare to try
   artist: Jah9
-  link: 'https://www.youtube.com/embed/qDNVHYCzH3M'
+  link_key: qDNVHYCzH3M
   tag: empress
 - title: Bam Bam
   description: >-
     Dis woman neva trouble no one, I'm a lady, I'm not a man, MC is my ambition.
   artist: Sister Nancy
-  link: 'https://www.youtube.com/embed/qXnT3LFTc-s'
+  link_key: qXnT3LFTc-s
   tag: empress
 - title: Burning
   artist: Koffee
   description: >-
     Mommy say be doctor, Granny say be preacher, want to be a Rasta, Daddy be neater.
-  link: 'https://www.youtube.com/embed/ySXe2p0daQk'
+  link_key: ySXe2p0daQk
   tag: empress
 - title: Man Is The Least
   description: >-
     Man a di least of mi problem, so mi let idiot fi have dem
   artist: Lady Saw
-  link: 'https://www.youtube.com/embed/ynPLAn8IGuM'
+  link_key: ynPLAn8IGuM
   tag: empress
 - title: Rasta Nuh Chat Rasta
   artist: Queen Ifrica
   description: >-
     Elevate one another, when you debate one another, stop betray one another, uplift one another
-  link: 'https://www.youtube.com/embed/vOmePPbps7M'
+  link_key: vOmePPbps7M
   tag: empress  
 - title: Everything Is Everything
   artist: Lauryn Hill
   description: >-
     I wrote these words for everyone who struggles in their youth. Who won't accept deception, instead of what is truth.
-  link: 'https://www.youtube.com/embed/i3_dOWYHS7I'
+  link_key: i3_dOWYHS7I
   tag: empress
 - title: Bag Lady
   artist: Eryka Badu
   description: >-
     Bag lady you gone hurt your back, dragging all them bags like that. I guess nobody ever told you, all you must hold onto, is you.
-  link: 'https://www.youtube.com/embed/OqN0jsSeqPo'
+  link_key: OqN0jsSeqPo
   tag: empress
 - title: Bang Bang Bang
   artist: Tracy Chapman
   description: >-
     What you go and do, you go and give the boy a gun, now there ain't no place to run to
-  link: 'https://www.youtube.com/embed/IrRA7WMI1ks'
+  link_key: IrRA7WMI1ks
   tag: empress
+- title: Could It Be
+  artist: Jah9
+  description: >-
+    Her life is invested, her faith has been tested. The fruit of her remission is surrender to the promise of eternal life
+  link_key: FASSSfb6Kyk
+  tag: empress
+- title: Love has found I
+  artist: Jah9
+  description: >-
+    I take a risk, I let him in, I'm unafraid, I admit to him
+  link_key: FEwdYgjzk00
+  tag: love_tunes
+- title: Hardcore
+  artist: Jah9
+  description: >-
+    Hardcore, you can not claim a victory till your heart pure
+  feature:
+    - Chronixx
+  link_key: xr6Kcgl0r5E
+  tag: teach_dem
+- title: Avocado
+  artist: Jah9
+  description: >-
+    Him teach mi all principles him learn from the land and as a me alone him have mi nahfi share him passion
+  link_key: jLLrwjArljI
+  tag: jah9
+- title: Humble Mi
+  artist: Jah9
+  description: >-
+    The more that I learn show the little that I know and it humble mi more and more, the truth set me free and encourages me
+  link_key: Fp2LNyMssCA
+  tag: teach_dem
+- title: Note To Self (Okay)
+  artist: Jah9
+  description: >-
+    Words may not say exactly how I'm feeling. The hurt and the hate and the love I'm receiving
+  feature:
+    - Chronixx
+  link_key: CSkfTjZV2SU
+  tag: jah9
+- title: Highly (Get To Me)
+  artist: Jah9
+  description: >-
+    You are not a king, you are just a pawn, scattering the seeds from which the masses will be born
+  link_key: jA4abnK5VHQ
+  tag: teach_dem
+- title: Steamers A Bubble
+  artist: Jah9
+  description: >-
+    Music a bubble, Steamers a bubble, Bun chalice a bubble from morning to dark
+  link_key: KHeNihblqDI
+  tag: ganja
+- title: Dela Move
+  artist: Chronixx
+  description: >-
+    I have got some songs with many meanings, read between di line, now ah dis prophecy revealing
+  link_key: HXE9WAHp1o0
+  tag: chronixx
+- title: Skankin' Sweet
+  artist: Chronixx
+  description: >-
+    When your best friends are gone and it's only you light up a spliff turn up the music
+  link_key: 049km3Vc02c
+  tag: ganja
+- title: Here comes trouble
+  artist: Chronixx
+  description: >-
+    Sent by the savior welcome the rasta youths, I an I a start recruit soldiers fi Selassie-I army
+  link_key: LfeIfiiBTfY
+  tag: rastaman_tunes
+- title: Majesty
+  artist: Chronixx
+  description: >-
+    Queen of the the jungle, you are the lioness. Other feline a grumble but you're always tryin' your best
+  link_key: yQJz43Hrsow
+  tag: love_tunes
+- title: Likes
+  artist: Chronixx
+  description: >-
+    Me tweet for the love, me nuh tweet for the likes, make them know, success don't come overnight
+  link_key: 6Wq_K61Mh1A
+  tag: teach_dem
+- title: Behind Curtain
+  artist: Chronixx
+  description: >-
+    Best friend a come for take your life, a the worst thing you could ever see
+  link_key: M3Kj-h88-7o
+  tag: chronixx
+
+
