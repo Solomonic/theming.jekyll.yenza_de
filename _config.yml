@@ -55,6 +55,16 @@ page_gen:
   title: 'name'
   dir: 'music/artist'
 
+
+  strip: true
+  base_path: library/images
+  output_path_format: library/images/resized/%{width}/%{basename}
+  cache: true
+
+picture:
+  source: "library/images"
+  output: "library/images/generated"
+
 plugins:
   - jekyll-datapage-generator
   - jekyll-last-modified-at
