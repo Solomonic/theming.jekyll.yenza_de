@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 git status
-printf "\n" | pecl install imagick
 bundle install
 JEKYLL_ENV="production" bundle exec jekyll build
 git status

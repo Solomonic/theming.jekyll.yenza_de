@@ -3,7 +3,7 @@ rvm:
 - 2.6.3
 before_install:
   provider: script
-  script: bash script/install_imagemagick.sh
+  script: bash script/install_IM.sh
 install:
   - identify -version
   - bundle install
