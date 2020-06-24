@@ -1,10 +1,62 @@
 language: ruby
 rvm:
 - 2.6.3
+
+sudo: false
+dist: precise
+cache:
+  directories:
+  - "$HOME/opt"
+addons:
+  apt:
+    packages:
+      - libjpeg-dev
+      - libpng-dev
+      - libgif-dev
+      - libcurl4-openssl-dev
+env:
+  global:
+  - IMAGEMAGICK_VERSION: '7.0.3-10'
+  - LIBWEBP_VERSION: '0.5.1'
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - secure: Q2y4lVummKf7SHBUmouAnAr9S9h2Y2IpNZa0xWUVjATEu1ulHRobr8PLU7Cm5jfsHjRpTEpw++bb1/tsOauiA5ieHx5cZ1EqBeieVTIX724sl9oy71cR4dgvys3pM9C8VQD52SXiLo20QjZ/k+DYaRUBRhyrwy3IRARlVw+OiO+TrzGu7hdN7nDzJfliUvIUbi2jtkq1fvpS0bxsZ9Qvo4/BBWq6rAVbBRmzFEa9gv/rU+enkL0zgHzslYPMAi34Rpnahshs3TcGG1tBIsLQfOyquhpwsI6fPRjlcXjPxdFWn90Qv1ITwLAmDhUPtJKpi0+8XaHdb6j09+LpAIdznrPvhS00uGSooXrLf3YcY7lL3vpaxaaZv/upDz7cpLVQq1YQR0O8FYAaQLuQJ1/XzRhjELuMWpF8lnWv83DRtslSLlfIelxlHpiT1zL9XAzlTtygm/9XzzL7e79QL4zliwfrY+ZBKlqT5PzNypljtaj7+0Nbuw0Jnz3mRIov2T0DD56vVU5AcbJDL4j0W2JNjbLcrNH0KLGEYaO9shoRKfQfDiKtarShFBo41tmKkcfGJ+70oT+FMKfS8NPBfu9cq0erLqs8Y3Wk4Kr7B1PBBALnnPT42CLi4xT5zOw9J7q+AliBLkKl38eV/Atn19XMfp1yf8RFpjmxTkdB0BTqWKg=
+
+# Install newer libwebp and imagemagick
+before_install:
+  # Update PATH so that travis can find newer imagemagick
+  - export PATH=$HOME/opt/bin:$PATH
+
+  # Checks if Imagemagick is already sufficient version
+  # If not installs it from the sources
+  - convert -version | grep $IMAGEMAGICK_VERSION || {
+    export CORES=$(nproc) &&
+    echo "Using $CORES cores for compiling..." &&
+    cd /tmp &&
+    curl -O https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-$LIBWEBP_VERSION.tar.gz &&
+    tar xvzf libwebp-$LIBWEBP_VERSION.tar.gz &&
+    cd libwebp-* &&
+    ./configure --prefix=$HOME/opt &&
+    make -j$CORES &&
+    make install -j$CORES &&
+    cd /tmp &&
+    curl -O https://www.imagemagick.org/download/ImageMagick-$IMAGEMAGICK_VERSION.tar.gz &&
+    tar xvzf ImageMagick-$IMAGEMAGICK_VERSION.tar.gz &&
+    cd ImageMagick-* &&
+    ./configure --prefix=$HOME/opt &&
+    make -j$CORES &&
+    make install -j$CORES &&
+    $HOME/opt/bin/magick -version | grep $IMAGEMAGICK_VERSION &&
+    cd $TRAVIS_BUILD_DIR; }
+
+  # Update library paths for programs
+  - export LD_FLAGS=-L$HOME/opt/lib
+  - export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:$HOME/opt/lib
+  - export CPATH=$CPATH:$HOME/opt/include
+
 install:
   before_script:
-  - apt-get install imagemagick
-  - convert --version
+  - identify -version
+  - convert -version
   - bundle install
 script:
   - yaml-lint _data/
@@ -21,15 +73,6 @@ branches:
   only:
     - staging
     - /\d+\.\d+(\.\d+)?(-\S*)?$/
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - secure: Q2y4lVummKf7SHBUmouAnAr9S9h2Y2IpNZa0xWUVjATEu1ulHRobr8PLU7Cm5jfsHjRpTEpw++bb1/tsOauiA5ieHx5cZ1EqBeieVTIX724sl9oy71cR4dgvys3pM9C8VQD52SXiLo20QjZ/k+DYaRUBRhyrwy3IRARlVw+OiO+TrzGu7hdN7nDzJfliUvIUbi2jtkq1fvpS0bxsZ9Qvo4/BBWq6rAVbBRmzFEa9gv/rU+enkL0zgHzslYPMAi34Rpnahshs3TcGG1tBIsLQfOyquhpwsI6fPRjlcXjPxdFWn90Qv1ITwLAmDhUPtJKpi0+8XaHdb6j09+LpAIdznrPvhS00uGSooXrLf3YcY7lL3vpaxaaZv/upDz7cpLVQq1YQR0O8FYAaQLuQJ1/XzRhjELuMWpF8lnWv83DRtslSLlfIelxlHpiT1zL9XAzlTtygm/9XzzL7e79QL4zliwfrY+ZBKlqT5PzNypljtaj7+0Nbuw0Jnz3mRIov2T0DD56vVU5AcbJDL4j0W2JNjbLcrNH0KLGEYaO9shoRKfQfDiKtarShFBo41tmKkcfGJ+70oT+FMKfS8NPBfu9cq0erLqs8Y3Wk4Kr7B1PBBALnnPT42CLi4xT5zOw9J7q+AliBLkKl38eV/Atn19XMfp1yf8RFpjmxTkdB0BTqWKg=
-addons:
-  apt:
-    packages:
-    - libcurl4-openssl-dev
-sudo: false
-cache: bundler
+
 notifications:
   email: false
