@@ -1,10 +1,10 @@
 language: ruby
 rvm:
 - 2.6.3
-before_install:
-  provider: script
-  script: bash script/install_IM.sh
+
 install:
+  - identify -version
+  - "./script/install_IM.sh"
   - identify -version
   - bundle install
 script:
