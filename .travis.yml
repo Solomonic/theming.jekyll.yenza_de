@@ -3,7 +3,7 @@ rvm:
 - 2.6.3
 install:
   before_script:
-  - printf "\n" | pecl install imagick
+  - convert --version
   - bundle install
 script:
   - yaml-lint _data/
