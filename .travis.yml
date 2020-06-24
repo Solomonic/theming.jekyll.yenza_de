@@ -4,9 +4,6 @@ rvm:
 dist: trusty
 
 install:
-  - identify -version
-  #- "./script/install_IM.sh"
-  - convert -version
   - bundle install
 script:
   - yaml-lint _data/
