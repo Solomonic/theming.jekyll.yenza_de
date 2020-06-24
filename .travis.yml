@@ -32,7 +32,7 @@ addons:
     packages:
     - libcurl4-openssl-dev
     - libwebp-dev
-sudo: required
+sudo: false
 cache: bundler
 notifications:
   email: false
