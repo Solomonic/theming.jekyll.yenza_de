@@ -4,8 +4,8 @@ rvm:
 
 install:
   - identify -version
-  - "./script/install_IM.sh"
-  - identify -version
+  #- "./script/install_IM.sh"
+  - convert -version
   - bundle install
 script:
   - yaml-lint _data/
@@ -30,6 +30,7 @@ addons:
   apt:
     packages:
     - libcurl4-openssl-dev
+    - libwebp-dev
 sudo: required
 cache: bundler
 notifications:
