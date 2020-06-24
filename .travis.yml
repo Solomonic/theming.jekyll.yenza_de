@@ -1,6 +1,9 @@
 language: ruby
 rvm:
 - 2.6.3
+before_install:
+  provider: script
+  script: bash script/install_imagemagick.sh
 install:
   - identify -version
   - bundle install
@@ -27,7 +30,7 @@ addons:
   apt:
     packages:
     - libcurl4-openssl-dev
-sudo: false
+sudo: required
 cache: bundler
 notifications:
   email: false
