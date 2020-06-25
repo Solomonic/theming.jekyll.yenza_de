@@ -14,15 +14,38 @@ share: rasta
   <p>"<b>Education</b> develops the intellect; and the intellect distinguishes man from other creatures. It is <b>education</b> that enables man to harness nature and utilize her resources for the well-being and improvement of his life."</p>
   <p><i>H.i.M. Haile Selassie I</i></p>
 
-  
-  <div class="article full">
+  <section id="tune_list">
+    <div class="article full">
     <a title="Explore our music section ... " href="{{site.baseurl}}/music">{% picture ReggaeHeader.png %}</a>
     <h2 class="page-heading center"><a title="Explore our music section ... " href="{{site.baseurl}}/music">Explore the music ...</a></h2>
-    
+    <div class="entry">
+      <a class="image" title="Explore Essential Rastaman tunes... " href="{{site.baseurl}}/music/category/rastaman-tunes.html">
+      {% picture thumbnail flying_dreads.jpg %}
+      </a>
+        <a class="text" title="Explore Essential Rastaman tunes... " href="{{site.baseurl}}/music/category/rastaman-tunes.html">
+          Essential Rastaman Tunes
+        </a>
+    </div>
+    <div class="entry">
+      <a class="image" title="Explore Essential Rastaman tunes... " href="{{site.baseurl}}/music/category/empress-tunes.html">
+        {% picture thumbnail empress.jpg %}
+      </a>
+      <a class="text" title="Explore Essential Rastaman tunes... " href="{{site.baseurl}}/music/category/empress-tunes.html">
+          Essential Empress Tunes
+      </a>
+    </div>
+    <div class="artists">
+      <h3>Featured Artists</h3>
+      {% include top_artists.html %}
+    </div>
   </div>
+    
+  </section>
   <section>
     <div class="article full">
       <h2><i class="fa fa-graduation-cap fa-lg"></i> Software posts</h2>
+      <a title="Explore our software section ... " href="{{site.baseurl}}/education">{% picture coding.jpg %}</a>
+        <br><br>
         {% include education_list.html %}
 
         <h3><span class="fa fa-external-link fa-lg"></span> Also check these blogs:</h3>

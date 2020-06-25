@@ -3,12 +3,12 @@
   artist: Pressure Busspipe
   link_key: eBwa9K4gaiM
   tag: rastaman_tunes
-- title: I'm a Rastaman
+- title: I am Natty
   description: >-
     I'm a Rastaman - not a dreadlock. Said I'm a living man and I've got Jah to
     praise.
   artist: Jacob Miller
-  link_key: HG-vJc10vFw
+  link_key: HDEUeT88ajQ
   tag: rastaman_tunes
 - title: Taking Over
   description: >-
@@ -55,6 +55,18 @@
     - Capleton
   link_key: 4FER1-9GHSk
   tag: rastaman_tunes
+- title: We are Rockers
+  artist: Jacob Miller
+  description: >-
+    Live in Paris 1979 :Jacob Miller and Inner Circle.
+  link_key: s389eQouv_s
+  tag: live
+- title: Tenement Yard
+  artist: Jacob Miller
+  description: >-
+    Performance with Inner Circle in the legendary Rockers movie
+  link_key: Fz-GIYleLSY
+  tag: jacob_miller
 - title: Tenement Yard
   description: >-
     Dreadlocks can't live in a tenement yard. Too much su-su su-su su-su, too
@@ -145,11 +157,11 @@
   artist: Sizzla
   link_key: VsJWDVJA8l0
   tag: love_tunes
-- title: Unafraid
-  description: >-
-    Sisters unafraid to make an example of a guy or a woman for that matter, who'd ever dare to try
+- title: Could It Be
   artist: Jah9
-  link_key: qDNVHYCzH3M
+  description: >-
+    Her life is invested, her faith has been tested. The fruit of her remission is surrender to the promise of eternal life
+  link_key: FASSSfb6Kyk
   tag: empress
 - title: Bam Bam
   description: >-
@@ -168,6 +180,12 @@
     Man a di least of mi problem, so mi let idiot fi have dem
   artist: Lady Saw
   link_key: ynPLAn8IGuM
+  tag: empress
+- title: Unafraid
+  description: >-
+    Sisters unafraid to make an example of a guy or a woman for that matter, who'd ever dare to try
+  artist: Jah9
+  link_key: qDNVHYCzH3M
   tag: empress
 - title: Rasta Nuh Chat Rasta
   artist: Queen Ifrica
@@ -192,12 +210,6 @@
   description: >-
     What you go and do, you go and give the boy a gun, now there ain't no place to run to
   link_key: IrRA7WMI1ks
-  tag: empress
-- title: Could It Be
-  artist: Jah9
-  description: >-
-    Her life is invested, her faith has been tested. The fruit of her remission is surrender to the promise of eternal life
-  link_key: FASSSfb6Kyk
   tag: empress
 - title: Love has found I
   artist: Jah9
@@ -281,5 +293,16 @@
     Best friend a come for take your life, a the worst thing you could ever see
   link_key: M3Kj-h88-7o
   tag: chronixx
-
+- title: Tired Fe Lick Weed
+  artist: Jacob Miller
+  description: >-
+    Tired fe lick weed in a bush, Tired fe lick pipe in a gully. We want to come out in the open where the breeze can blow it so far away
+  link_key: 9kxe-O15xjE
+  tag: ganja
+- title: All Night Till Daylight
+  artist: Jacob Miller
+  description: >-
+    I nah jester, I a go at a Jenny and her sister, it was all night, till daylight
+  link_key: iALoWdVT26Y
+  tag: jacob_miller
 
