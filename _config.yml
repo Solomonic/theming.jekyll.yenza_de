@@ -65,14 +65,8 @@ picture:
   source: "library/images"
   output: "library/images/generated"
 
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-171127078-1
-    anonymizeIp: false
-
 plugins:
   - jekyll-datapage-generator
   - jekyll-last-modified-at
   - jekyll-sitemap
-  - jekyll-analytics
 

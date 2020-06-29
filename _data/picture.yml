@@ -1,6 +1,10 @@
 markup_presets:
   default:
     formats: [webp, original]
+    size: 600px
+    fallback_width: 600
+    widths: [200, 400, 600]
+    
   icon:
     base_width: 20 # How wide the 1x image should be
     pixel_ratios: [1, 1.5, 2]
@@ -13,3 +17,10 @@ markup_presets:
     fallback_width: 200
     attributes:
       img: 'class="thumbnail"'
+  cover:
+    base_width: 600 # How wide the 1x image should be
+    pixel_ratios: [1]
+    fallback_width: 600
+    attributes:
+      img: 'class="cover"'
+suppress_warnings: true
