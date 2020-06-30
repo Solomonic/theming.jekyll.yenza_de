@@ -10,5 +10,5 @@ group :jekyll_plugins do
 	gem "jekyll-last-modified-at"
 	gem "jekyll-sitemap"
   	gem 'jekyll_picture_tag'
-  	gem 'jekyll-analytics'
+  	gem 'jekyll-minifier'
 end

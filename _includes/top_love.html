@@ -1,0 +1,12 @@
+<ul class="invisible">
+{% assign counter = 0 %}
+{% for tune in site.data.music %}
+   {% if counter < 3 and tune.tag == "love_tunes"%}
+    {% include embedded_list.html %}
+   {% assign counter = counter | plus: 1 %}
+  {% endif %}
+{% endfor %}
+</ul>
+{% if counter >= 3%}
+	<p><a href="category/love-songs.html">Show all Reggae Love Songs</a></p>
+{% endif %}

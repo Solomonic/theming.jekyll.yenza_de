@@ -98,6 +98,18 @@
   artist: Protoje
   link_key: AkWXXGe49cw
   tag: love_tunes
+- title: Majesty
+  artist: Chronixx
+  description: >-
+    Queen of the the jungle, you are the lioness. Other feline a grumble but you're always tryin' your best
+  link_key: yQJz43Hrsow
+  tag: love_tunes
+- title: African Daughter
+  artist: Samory I
+  link_key: JS3TPFzzTek
+  description: >-
+    A you alone me prefer, mine - always and forever
+  tag: love_tunes
 - title: Love and Affection
   description: >-
     You got my attention, you need no correction.
@@ -288,12 +300,6 @@
     Sent by the savior welcome the rasta youths, I an I a start recruit soldiers fi Selassie-I army
   link_key: LfeIfiiBTfY
   tag: rastaman_tunes
-- title: Majesty
-  artist: Chronixx
-  description: >-
-    Queen of the the jungle, you are the lioness. Other feline a grumble but you're always tryin' your best
-  link_key: yQJz43Hrsow
-  tag: love_tunes
 - title: Likes
   artist: Chronixx
   description: >-
@@ -680,12 +686,6 @@
   description: >-
     Where the youth them not afraid for buss the Gun them, them don't care if a night or if a sun den, when them buss it all Doberman a run den
   tag: teach_dem
-- title: African Daughter
-  artist: Samory I
-  link_key: JS3TPFzzTek
-  description: >-
-    A you alone me prefer, mine - always and forever
-  tag: love_tunes
 - title: Is It because I'm Black
   artist: Samory I
   link_key: i8pephM5Xms
