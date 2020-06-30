@@ -3,7 +3,7 @@
     {% assign author = site.data.authors[mypost.author] %}
   <li><article class="news">
         {% if mypost.image %}
-        <div class="thumbnail"><a target="_blank" href="{{mypost.thumblink}}" title="{{mypost.title}}"><img alt="{{mypost.title}}" src="{{site.path-image}}/{{mypost.image}}" /></a></div>
+        <div class="thumbnail"><a target="_blank" href="{{mypost.thumblink}}" title="{{mypost.title}}">{% picture icon {{mypost.image}} --alt {{mypost.title}}%}</a></div>
         {% endif %}
         <h2 class="article-headline"><a title="{{mypost.title}}" href="{{ mypost.link }}" target="{{mypost.author}}">{{mypost.title}}</a></h2>
         <div class="description">
