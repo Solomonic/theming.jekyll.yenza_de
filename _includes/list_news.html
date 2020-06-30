@@ -2,16 +2,35 @@
 {% for mypost in site.data.news %}
     {% assign author = site.data.authors[mypost.author] %}
   <li><article class="news">
-        {% if mypost.image %}
-        <div class="thumbnail"><a target="_blank" href="{{mypost.thumblink}}" title="{{mypost.title}}">{% picture icon {{mypost.image}} --alt {{mypost.title}}%}</a></div>
+        {% if mypost.link contains "http://" or  mypost.link contains "https://" %}
+            {% assign target = "_blank" %}
+            {% assign link_phrase = "research" %}
+        {% else%}
+            {% assign target = "_self" %}
+            {% assign link_phrase = "check it out" %}
         {% endif %}
-        <h2 class="article-headline"><a title="{{mypost.title}}" href="{{ mypost.link }}" target="{{mypost.author}}">{{mypost.title}}</a></h2>
+        {% if mypost.image %}
+        <div class="thumbnail">
+            {% if mypost.thumblink %}
+                {% assign thumb_link = mypost.thumblink %}
+            {% else %}
+                {% assign thumb_link = mypost.link %}
+            {% endif%}
+            {% if thumb_link contains "http://" or thumb_link contains "https://" %}
+                {% assign thumb_target = "_blank" %}
+            {% else %}
+                {% assign thumb_target = target %}
+            {% endif %}
+            <a target="{{thumb_target}}" href="{{thumb_link}}" title="{{mypost.title}}">{% picture icon {{mypost.image}} --alt {{mypost.title}}%}</a>
+        </div>
+        {% endif %}
+        <h2 class="article-headline"><a title="{{mypost.title}}" href="{{ mypost.link }}" target="{{target}}">{{mypost.title}}</a></h2>
         <div class="description">
             <time datetime="{{ mypost.date | date_to_xmlschema }}">{{ mypost.date | date: "%-d %b %Y" }}</time>:
             {{ mypost.description}}
         </div>
         {% if mypost.link %}
-            <a title="Research yourself: {{mypost.title}}" target="{{mypost.author}}" href="{{ mypost.link }}"><strong>... research </strong><span class="fa fa-external-link"></span></a>
+            <a title="{{link_phrase}}: {{mypost.title}}" target="{{target}}" href="{{ mypost.link }}"><strong>... {{link_phrase}} </strong><span class="fa fa-external-link"></span></a>
         {% endif %}
     </article>
 </li>

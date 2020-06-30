@@ -1,3 +1,10 @@
+- title: Rasta.Online Goes Reggae
+  description: We love music and for us is Reggae more then entertainment. It teaches and calms us down in troubled times, it makes us happy and life wouldn't be the same without it. To share our love and passion we added a new section on the website, where you can explore and enjoy our personal favorites, uplifting song by brilliant artists. BigUp yourself and keep the fire Blazin'!
+  image: rastaman_shadow.jpg
+  link: music
+  author: jens
+  date: 30.07.2020
+
 - title: Want to get published here?
   description: Due to a big commercial workload in the last months we've not be able to follow up on the latest article series again. After some discussions we decided now to open up opportunities for non-related technical bloggers to contribute and reach our community with high quality content. So if you feel the urge in your heart to get published here on rasta.online, please feel free to shoot us an email to contributions@rasta.online with what you have in mind. For the sake of our dear readers we'll ensure though that we keep this blog advertisement free and maintain the integrity and good spirit in which this project started. 
   author: jens
@@ -6,7 +13,7 @@
 - title: Deep dive into JAM Stack ... a new series of articles is in the works
   description: It feels good to be back in this community. Through our recent changes the hosting structure I stumbled over the extended JAM Stack approach for delivering contemporary web solutions. Even though Rasta.Online works with its basics for multiple years now, after all this blog is build with a Static Site Generator, nailing the "M succesfully. We are promoting the underlying ideas since the 2015 article "Faster, cheaper, safer" but never did more then scratching on the very surface of what is possible today. To change that a series will follow how to create a functional ecommerce solution, which is cheap, reliable and fast. Stay tuned! 
   author: jens
-  link: https://rasta.online/education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html
+  link: education/software-development/2019/11/09/day-0-defining-the-goals-for-jam-ecommerce.html
   image: JAM2019.png
   thumblink: https://snipcart.com/blog/jamstack
   date: 08.11.2019
