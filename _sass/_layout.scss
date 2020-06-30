@@ -470,6 +470,11 @@ html, body{
     }
 }
 
+pre{
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
 .article-headline,
 h2.article-headline,
 h2.post-title{

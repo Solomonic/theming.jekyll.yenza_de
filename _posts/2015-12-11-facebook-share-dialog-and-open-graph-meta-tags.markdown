@@ -38,8 +38,11 @@ If you use a CMS as Wordpress, Joomla!, Drupal, Typo3 or Plone the social-share 
       ...
     <!- Search for these meta tags -->
     <meta property="og:title" content="The main title for our post" />
-    <meta property="og:image" content="absolute URL to the image shown with the share" />
-    <meta property="og:description" content="The description is the long text in the share dialog, explaining your visitors what they can get in your blog.">
+    <meta property="og:image" 
+      content="absolute URL to the image shown with the share" />
+    <meta property="og:description" 
+      content="The description is the long text in the share dialog, 
+                explaining your visitors what they can get in your blog.">
     <meta property="og:site_name" content="The name of your site or something catchy"/>
     <meta property="og:url" content="URL: this article" />
     <meta property="og:type" content="website or article?" />
@@ -93,7 +96,7 @@ As result are we getting a page with all the **latest** data. Just scroll down a
 - for big image effect: use picture of **1200 x 630px** or bigger for high resolution devices or at least 600 x 315px
 - to avoid unwanted cropping of the image, try a **ratio close to 1.91:1**
 
-We want to check each post one by one, to ensure the correct images and text is showing. I for example had an issue, that the image used on _http://Rasta.Online/about_ was not updated besides the fact that the path was correct, the image well sized and available through the web. I **fetched new scrape information** couple of times but with no change. Finally I tried _http://Rasta.Online/about_***/*** and I got the updated results, everything works now fine. 
+We want to check each post one by one, to ensure the correct images and text is showing. I for example had an issue, that the image used on _http://Rasta.Online/about_ was not updated besides the fact that the path was correct, the image well sized and available through the web. I **fetched new scrape information** couple of times but with no change. Finally I tried _http://Rasta.Online/about_***/*** and I got the updated results, everything works now fine.
 
 ### Summary
 
