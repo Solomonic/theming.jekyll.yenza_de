@@ -65,8 +65,12 @@ picture:
   source: "library/images"
   output: "library/images/generated"
 
+jekyll-minifier:
+  compress_css: false
+
 plugins:
   - jekyll-datapage-generator
   - jekyll-last-modified-at
   - jekyll-sitemap
+  - jekyll-minifier
 
