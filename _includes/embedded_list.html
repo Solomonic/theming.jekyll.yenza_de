@@ -6,7 +6,7 @@
         	<i>{{tune.title}} {% include featured_artists.html %}</i></h4>
 
         <div class="iframe-container">
-          {% if tune.link_key" %}
+          {% if tune.link_key %}
             {% assign link = "https://www.youtube.com/embed/" | append: tune.link_key %}
           {% else %}
             {% assign link = tune.link %}
