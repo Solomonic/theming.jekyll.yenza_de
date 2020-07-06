@@ -1,15 +1,16 @@
 ---
-layout: default
+layout: page
 title: What is Rastafari?
 
 navigation: eductation
 seo_description: There are many misconceptions about Rastafari. Let me share my point of view after 20 years of being a Rastaman.
 
+toc: true
+
 share: rasta
 ---
 
-
-## Introduction
+## Introduction 
 
 There are many misconceptions about Rastafari. For many Rastafari means chilling at the beach, 
 wearing dreadlocks, smoking weed, listen to Reggae music and having a relaxed time. Even though these
@@ -19,10 +20,9 @@ participate in some or all of them while being no less Rasta.
 
 An other typical understanding is that Rasta is **only** for black people and that anyone with the wrong amount of melanin
 or origin is guilty of cultural appropriation, stealing from black culture for the very own benefit. I am
-a causasian male and I am a Rastaman, so naturally I reject those claims for the depth of my heart. One may disagree
+a Caucasian male and I am a Rastaman, so naturally I reject those claims for the depth of my heart. One may disagree
 but if you are interested in this topic and have the patience to read my points of view gathered over my entire adult life, 
 you may decide by yourself and come to your very own conclusions.
-
 
 ## Rastafari is NOT a religion
 
@@ -141,7 +141,7 @@ because not following any particular way, in the end your heart and treatment of
 
 Nevertheless there are very common practices which I'm going to explain.
 
-### Food - Ital is Vital
+## Food - Ital is Vital
 
 One of the most important aspects of Rasta Livety is the food we eat. Every Rasta strives to eat Ital, a healthy diet that keeps your body
 and mind strong and prevents diseases. In general Ital means a natural diet without heavily processed foods, chemicals additives and the heavy usage of salt. Food should be something positive and not harmful, therefore fruits, veggies and herbs are the preferred ingredients for an Ital meal.
@@ -172,7 +172,7 @@ make sure they get the best quality which is not poisoned with the heavy usage o
 {% assign key = "D0TsH2rwuRg" %}
 {% include video_youtube.html %}
 
-### Ganja and Meditation
+## Ganja and Meditation
 
 Since Rasta promotes a healthy lifestyle is the usage of drugs frowned upon. That includes alcohol, tobacco and any kind of chemical drug
 that messes yourself up and weakens your brain and body. It it quite strange to me that many people have the misconception that Rastas are

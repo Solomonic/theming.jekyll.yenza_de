@@ -11,4 +11,5 @@ group :jekyll_plugins do
 	gem "jekyll-sitemap"
   	gem 'jekyll_picture_tag'
   	gem 'jekyll-minifier'
+  	gem 'jekyll-toc'
 end

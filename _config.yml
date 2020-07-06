@@ -68,9 +68,14 @@ picture:
 jekyll-minifier:
   compress_css: true
 
+toc:
+  min_level: 1 # default: 1
+  max_level: 2 # default: 6
+
 plugins:
   - jekyll-datapage-generator
   - jekyll-last-modified-at
   - jekyll-sitemap
   - jekyll-minifier
+  - jekyll-toc
 
