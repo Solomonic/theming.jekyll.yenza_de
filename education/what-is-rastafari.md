@@ -8,6 +8,7 @@ seo_description: There are many misconceptions about Rastafari. Let me share my 
 toc: true
 
 share: rasta
+image: https://rasta.online/library/images/flag.png
 ---
 
 ## Introduction 

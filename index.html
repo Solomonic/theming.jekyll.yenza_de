@@ -52,14 +52,9 @@ share: rasta
       <h3>Featured Artists</h3>
       {% include top_artists.html %}
     </div>
-    <div class="entry">
-      <h2>Blog Post</h2>
-      <a class="image" title="What is Rastafari?" href="{{site.baseurl}}/education/what-is-rastafari.html">
-      {% picture thumbnail flag.png %}
-      </a>
-        <a class="text" title="What is Rastafari?" href="{{site.baseurl}}/education/what-is-rastafari.html">
-          What is Rastafari?
-        </a>
+    <div class="rasta_blog">
+      <h2>Rasta Blog</h2>
+    {% include what-is-rasta.html %}
     </div>
   </div>
     

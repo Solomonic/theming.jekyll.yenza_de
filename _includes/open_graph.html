@@ -17,6 +17,8 @@
   <meta property="article:publisher" content="{{ site.fb-url }}" />
 {% if page.image %}
   <meta property="og:image" content="{{page.image}}" />
+{% elsif page.dir == "/music/" %}
+  <meta property="og:image" content="{{site.path-image}}/soundsystem.jpg" />
 {% else %}
   <meta property="og:image" content="{{site.path-image}}/default.jpg" />
 {% endif %}
