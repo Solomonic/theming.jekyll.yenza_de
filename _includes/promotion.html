@@ -1,0 +1,10 @@
+{% assign promo-shirts = site.data.promotion-shirts | where:"slot", slot %}
+<div class="center promo">
+{% for shirt in promo-shirts %}
+	{% assign link = "https://" | append: shirt.link %}
+	{% assign image = "/promo/" | append: shirt.image %}
+	<a target="dbh" href="{{link}}" title="{{shirt.alt}}">
+		{% picture promo {{image}} --alt {{shirt.alt}} %}
+	</a>
+{% endfor %}
+</div>

@@ -1,0 +1,90 @@
+- slot: music-top-reggae
+  link: dbh.7eer.net/9XW0j
+  image: reggae-roots-selassie-i.jpg
+  alt: Reggae Roots Selassie I
+  categories:
+    - Reggae
+    - Roots
+    - Selassie I
+- slot: music-top-reggae
+  link: dbh.7eer.net/3GPDK
+  image: reggae-roots-rock.jpg
+  alt: Reggae Roots Rock
+  categories:
+    - Reggae
+    - Roots
+    - Rock
+- slot: music-top-reggae
+  link: dbh.7eer.net/Q5OqP
+  image: reggae-got-soul.jpg
+  alt: Reggae Got Soul
+  categories:
+    - Reggae
+    - Soul
+- slot: music-top-reggae
+  link: dbh.7eer.net/kmjnz
+  image: roots-rock-reggae-2.jpg
+  alt: Roots Rock Reggae
+  categories:
+    - Reggae
+    - Roots
+    - Rock
+- slot: music-top-rastaman
+  link: dbh.7eer.net/9XW5W
+  image: african-king.jpg
+  alt: African King
+  categories:
+    - Africa
+    - King
+    - Lion
+- slot: music-top-rastaman
+  link: dbh.7eer.net/e64mX
+  image: my-roots.jpg
+  alt: Africa My Roots
+  categories:
+    - Africa
+    - Roots
+- slot: music-top-rastaman
+  link: dbh.7eer.net/dmomq
+  image: rastaman-vibration.jpg
+  alt: Rastaman Vibration
+  categories:
+    - Bob Marley
+    - Rastaman
+    - Album
+- slot: music-top-rastaman
+  link: dbh.7eer.net/a010b
+  image: ion-lion-rastaman.jpg
+  alt: Rasta Lion Man
+  categories:
+    - Rastaman
+    - Lion
+- slot: music-top-empress
+  link: dbh.7eer.net/E3anP
+  image: empress-1.jpg
+  alt: The empress
+  categories:
+    - Empress
+- slot: music-top-empress
+  link: dbh.7eer.net/dmoXM
+  image: queen-1.jpg
+  categories:
+    - Queen
+    - Dreadlocks
+  alt: The Queen
+- slot: music-top-empress
+  link: dbh.7eer.net/7ZmAA
+  image: queen-2.jpg
+  alt: The Queen
+  categories:
+    - Queen
+- slot: music-top-empress
+  link: dbh.7eer.net/D2VEj
+  image: queen-sticker.jpg
+  alt: The Queen
+  categories:
+    - Africa
+    - Queen
+
+
+  
