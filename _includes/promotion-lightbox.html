@@ -5,20 +5,20 @@
 {% for shirt in promo-shirts %}
 	{% assign counter = counter | plus: 1 %}
 	{% assign image = "/promo/" | append: shirt.image %}
-		{% picture promo {{image}} onclick="openModal();currentSlide({{ counter }})"%}
+		{% picture promo {{image}} onclick="openModal('{{slot}}');{{slot}}_currentSlide({{ counter }})"%}
 {% endfor %}
 </div>
 
 <!-- The Modal/Lightbox -->
 {% assign second_counter = 0 %}
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
+<div id="{{slot}}" class="modal">
+  <span class="close cursor" onclick="closeModal('{{slot}}')">&times;</span>
   <div class="modal-content">
   	{% for shirt in promo-shirts %}
 		{% assign second_counter = second_counter | plus: 1 %}
 		{% assign link = "https://" | append: shirt.link %}
 		{% assign image = "/promo/" | append: shirt.image %}
-		<div class="mySlides">
+		<div class="{{slot}}_Slides">
 			<div class="numbertext">{{second_counter}} / {{counter}} </div>
 			<a target="_blank" href="{{link}}" title="{{shirt.alt}}">
 			{% picture {{image}}  %}
@@ -26,13 +26,8 @@
 		</div>
 	{% endfor %}
     <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <!-- Caption text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
+    <a class="prev" onclick="{{slot}}_plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="{{slot}}_plusSlides(1)">&#10095;</a>
 
     <!-- Thumbnail image controls -->
     {% assign counter_3 = 0 %}
@@ -40,50 +35,35 @@
     	{% assign counter_3 = counter_3 | plus: 1 %}
 		{% assign image = "/promo/" | append: shirt.image %}
 		<div class="column">
-			{% picture promo {{image}} onclick="openModal();currentSlide( {{ counter_3 }})" class="demo" %}
+			{% picture promo {{image}} onclick="openModal('{{slot}}');{{slot}}_currentSlide({{ counter_3 }})" class="{{slot}}_demo" %}
 		</div>
 	{% endfor %}
   </div>
 </div>
 <script>
-// Open the Modal
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
-
-// Close the Modal
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
+var {{slot}}_slideIndex = 1;
+{{slot}}_showSlides({{slot}}_slideIndex);
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function {{slot}}_plusSlides(n) {
+  {{slot}}_showSlides({{slot}}_slideIndex += n);
 }
-
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function {{slot}}_currentSlide(n) {
+  {{slot}}_showSlides({{slot}}_slideIndex = n);
 }
-
-function showSlides(n) {
+function {{slot}}_showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  var slides = document.getElementsByClassName("{{slot}}_Slides");
+  var dots = document.getElementsByClassName("{{slot}}_demo");
+  if (n > slides.length) { {{slot}}_slideIndex = 1}
+  if (n < 1) { {{slot}}_slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  slides[{{slot}}_slideIndex-1].style.display = "block";
+  dots[{{slot}}_slideIndex-1].className += " active";
 }
 </script>

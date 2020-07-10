@@ -18,27 +18,26 @@ share: rasta
   <p>
     {% include top_navigation.html %}
   </p>
-    {% assign slot = "music-top-reggae" %}
-    <!--
-    {% include promotion.html %}
-    -->
+    {% assign slot = "music_top_reggae" %}
     {% include promotion-lightbox.html %}
   <section>
     <h3><a href="category/rastaman-tunes.html" id="rastaman">Top Essential Rastaman Tunes</a></h3>
     {% include top_rastaman.html %}
-    {% assign slot = "music-top-rastaman" %}
-    {% include promotion.html %}
+    {% assign slot = "music_top_rastaman" %}
+    {% include promotion-lightbox.html %}
   </section>
   
   <section> 
     <h2><a href="category/empress-tunes.html" id="empress">Top Empress tunes</a></h2>
     {% include top_empress.html %}
-    {% assign slot = "music-top-empress" %}
-    {% include promotion.html %}
+    {% assign slot = "music_top_empress" %}
+    {% include promotion-lightbox.html %}
   </section>
   <section> 
     <h2><a href="category/love-songs.html" id="love">Top Reggae Love Songs</a></h2>
     {% include top_love.html %}
+    {% assign slot = "music_top_lovesongs" %}
+    {% include promotion-lightbox.html %}
   </section>
    
   <section> 
