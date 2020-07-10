@@ -1,0 +1,90 @@
+{% assign promo-shirts = site.data.promotion-shirts %}
+{% assign row = 0 %}
+{% assign item_counter = 0 %}
+{% assign column = 0 %}
+
+<div class="center promo">
+{% for shirt in promo-shirts %}
+	{% if shirt.categories contains category %}
+		{% assign item_counter = item_counter | plus: 1 %}
+		{% assign slot = category | append: "_" | append: row %}
+		{% assign column = column | plus: 1 %}
+		{% assign image = "/promo/" | append: shirt.image %}
+		{% picture promo {{image}} onclick="openModal('{{slot}}');{{slot}}_currentSlide({{ column }})"%}
+	{% endif %}
+{% endfor %}
+</div>
+
+<!-- The Modal/Lightbox -->
+{% assign column = 0 %}
+<div id="{{slot}}" class="modal">
+  <span class="close cursor" onclick="closeModal('{{slot}}')">&times;</span>
+  <div class="modal-content">
+  	{% for shirt in promo-shirts %}
+  		{% if shirt.categories contains category %}
+			{% assign column = column | plus: 1 %}
+			{% assign link = "https://" | append: shirt.link %}
+			{% assign image = "/promo/" | append: shirt.image %}
+		<div class="{{slot}}_Slides">
+			<div class="numbertext">{{column}} / {{item_counter}} </div>
+			<a target="_blank" href="{{link}}" title="{{shirt.alt}}">
+			{% picture {{image}}  %}
+			</a>
+		</div>
+		{% endif %}
+	{% endfor %}
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="{{slot}}_plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="{{slot}}_plusSlides(1)">&#10095;</a>
+
+    <!-- Thumbnail image controls -->
+    {% assign column_thumb = 0 %}
+    {% for shirt in promo-shirts %}
+    {% if shirt.categories contains category %}
+    	{% assign column_thumb = column_thumb | plus: 1 %}
+		{% assign image = "/promo/" | append: shirt.image %}
+		<div class="column">
+			{% picture promo {{image}} onclick="openModal('{{slot}}');{{slot}}_currentSlide({{column_thumb}})" class="demo" %}
+		</div>
+	{% endif %}
+	{% endfor %}
+  </div>
+</div>
+<script>
+var {{slot}}_slideIndex = 1;
+{{slot}}_showSlides({{slot}}_slideIndex);
+// Next/previous controls
+function {{slot}}_plusSlides(n) {
+  {{slot}}_showSlides({{slot}}_slideIndex += n);
+}
+// Thumbnail image controls
+function {{slot}}_currentSlide(n) {
+  {{slot}}_showSlides({{slot}}_slideIndex = n);
+}
+function {{slot}}_showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("{{slot}}_Slides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > slides.length) { {{slot}}_slideIndex = 1}
+  if (n < 1) { {{slot}}_slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  var activeThumbSlide = Math.floor(({{slot}}_slideIndex-1)/4);
+  console.log("active Thumb Slide : " + activeThumbSlide);
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    if(dots.length >4){
+    	if (Math.floor(i/4)==activeThumbSlide){
+    		dots[i].style.display ="block";
+    	}
+    	else{
+    		dots[i].style.display ="none";	
+    	}
+    }	
+  }
+  slides[{{slot}}_slideIndex-1].style.display = "block";
+  dots[{{slot}}_slideIndex-1].className += " active";
+}
+</script>

@@ -115,3 +115,36 @@
   categories:
     - Love
     - Music
+- slot: bob_marley
+  link: dbh.7eer.net/VGxEk
+  image: tuff-gong.jpg
+  alt: Tuff Gong Bob Marley
+  categories:
+    - Reggae
+    - Bob Marley
+    - Tuff Gong
+    - Music
+- slot: steel_pulse
+  link: dbh.7eer.net/g2Oj0
+  image: steel-pulse.jpg
+  alt: Steel Pulse Reggae Music 
+  categories:
+    - Reggae
+    - Steel Pulse
+    - Music
+- slot: lion
+  link: dbh.7eer.net/6JyO3
+  image: reggae-forever.jpg
+  alt: Lion Reggae Forever
+  categories:
+    - Reggae
+    - Music
+    - Lion
+- slot: vinyl
+  link: dbh.7eer.net/z7xA0
+  image: reggae-vinyl.jpg
+  alt: Reggae Vinyl
+  categories:
+    - Reggae
+    - Music
+    - Vinyl

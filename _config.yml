@@ -54,6 +54,11 @@ page_gen:
   name: 'name'
   title: 'name'
   dir: 'music/artist'
+- data: 'shop_categories'
+  template: 'shop_category'
+  name: 'title'
+  title: 'title'
+  dir: 'shop/category'
 
 
   strip: true
