@@ -1,0 +1,17 @@
+{% assign shirt_tags = tags | uniq %}
+{% assign linked_tags ='' %}
+
+{% for shirt_tag in shirt_tags %}
+	{% for category in site.data.shop_categories %}
+		{% if category.title == shirt_tag%}
+			{% assign linked_tags = linked_tags | append: "," | append: category.title %}
+		{% endif %}
+	{% endfor%}
+{% endfor %}
+
+{{ assign found_tags = linked_tags | split: "," }}
+{% if linked_tags.size >1 %}
+<div style="color:white" class="more_products">
+	You may want to checkout similar designs: {{found_tags}}
+</div>
+{% endif %}

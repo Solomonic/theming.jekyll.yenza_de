@@ -18,6 +18,7 @@
 <!-- The Modal/Lightbox -->
 {% assign column = 0 %}
 <div id="{{slot}}" class="modal">
+	{% include order-info.html %}
   <span class="close cursor" onclick="closeModal('{{slot}}')">&times;</span>
   <div class="modal-content">
   	{% for shirt in promo-shirts %}

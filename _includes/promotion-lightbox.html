@@ -1,8 +1,10 @@
 {% assign promo-shirts = site.data.promotion-shirts | where:"slot", slot %}
 {% assign counter = 0 %}
+{% assign tags = '' | split: '' %}
 
 <div class="center promo">
 {% for shirt in promo-shirts %}
+{% assign tags = tags | concat: shirt.categories %}
 	{% assign counter = counter | plus: 1 %}
 	{% assign image = "/promo/" | append: shirt.image %}
 		{% picture promo {{image}} onclick="openModal('{{slot}}');{{slot}}_currentSlide({{ counter }})"%}
@@ -11,8 +13,10 @@
 
 <!-- The Modal/Lightbox -->
 {% assign second_counter = 0 %}
+
 <div id="{{slot}}" class="modal">
   {% include order-info.html %}
+  {% include more_products.html %}
   <span class="close cursor" onclick="closeModal('{{slot}}')">&times;</span>
   <div class="modal-content">
   	{% for shirt in promo-shirts %}
