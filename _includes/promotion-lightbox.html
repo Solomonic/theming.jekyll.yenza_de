@@ -12,6 +12,7 @@
 <!-- The Modal/Lightbox -->
 {% assign second_counter = 0 %}
 <div id="{{slot}}" class="modal">
+  {% include order-info.html %}
   <span class="close cursor" onclick="closeModal('{{slot}}')">&times;</span>
   <div class="modal-content">
   	{% for shirt in promo-shirts %}
@@ -35,7 +36,7 @@
     	{% assign counter_3 = counter_3 | plus: 1 %}
 		{% assign image = "/promo/" | append: shirt.image %}
 		<div class="column">
-			{% picture promo {{image}} onclick="openModal('{{slot}}');{{slot}}_currentSlide({{ counter_3 }})" class="{{slot}}_demo" %}
+			{% picture promo {{image}} onclick="openModal('{{slot}}');{{slot}}_currentSlide({{ counter_3 }})" class="demo" %}
 		</div>
 	{% endfor %}
   </div>
@@ -54,7 +55,7 @@ function {{slot}}_currentSlide(n) {
 function {{slot}}_showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("{{slot}}_Slides");
-  var dots = document.getElementsByClassName("{{slot}}_demo");
+  var dots = document.getElementsByClassName("demo");
   if (n > slides.length) { {{slot}}_slideIndex = 1}
   if (n < 1) { {{slot}}_slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
