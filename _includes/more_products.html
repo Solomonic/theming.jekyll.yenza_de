@@ -1,17 +1,27 @@
 {% assign shirt_tags = tags | uniq %}
 {% assign linked_tags ='' %}
+{% assign category_counter =0 %}
+{% assign found = 0 %}
 
 {% for shirt_tag in shirt_tags %}
 	{% for category in site.data.shop_categories %}
 		{% if category.title == shirt_tag%}
-			{% assign linked_tags = linked_tags | append: "," | append: category.title %}
+			{% assign found = found | plus: 1 %}		
 		{% endif %}
-	{% endfor%}
-{% endfor %}
+	{% endfor %}
+{% endfor%}
 
-{{ assign found_tags = linked_tags | split: "," }}
-{% if linked_tags.size >1 %}
-<div style="color:white" class="more_products">
-	You may want to checkout similar designs: {{found_tags}}
+{% if found>0 %}
+<div class="more_products">
+	You may want to checkout similar designs:
+	{% for shirt_tag in shirt_tags %}
+		{% for category in site.data.shop_categories %}
+			{% if category.title == shirt_tag%}
+				{% assign category_counter = category_counter | plus: 1 %}
+				{% if category_counter > 1 %},&nbsp; {% endif %}
+				<a target="_self" href="{{ category.title | datapage_url: '/shop/category' | prepend: site.baseurl }}">#{{category.title}}</a>
+			{% endif %}	
+		{% endfor%}
+	{% endfor %}
 </div>
 {% endif %}

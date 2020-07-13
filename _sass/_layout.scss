@@ -606,6 +606,10 @@ ul.link_list{
   overflow: auto;
   background-color:black;
 
+  a, a:hover{
+    color:#2a7ae2;
+  }
+
   .order_info{
     color:#fff;
     position: absolute;
@@ -614,6 +618,66 @@ ul.link_list{
     font-style:italic;
     font-weight: lighter;
     letter-spacing:-1px;
+    width:85%;
+  }
+  .more_products{
+    color:#fff;
+    position: absolute;
+    top: 40px;
+    left:25px;
+    font-style:italic;
+    font-weight: lighter;
+    letter-spacing:-1px;
+    width:85%;
+
+    
+  }
+
+  @media screen and (max-width: 820px){
+    .more_products{
+      top:65px;
+    }
+  }
+  @media screen and (max-width: 600px){
+    .more_products{
+      top:800px;
+
+    }
+  }
+  @media screen and (max-width: 550px){
+    .more_products{
+      top:720px;
+    }
+  }
+
+  @media screen and (max-width: 500px){
+    .more_products{
+      top:665px;
+    }
+  }
+
+  @media screen and (max-width: 450px){
+    .more_products{
+      top:605px;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    .more_products{
+      top:550px;
+    }
+  }
+
+  @media screen and (max-width: 350px){
+    .more_products{
+      top:495px;
+    }
+  }
+
+  @media screen and (max-width: 300px){
+    .more_products{
+      top:435px;
+    }
   }
 }
 
