@@ -1,12 +1,33 @@
-<div class="microdata">
-    <meta itemprop="url" content="{{site.url}}{{page.url}}">
-    {% if page.image %}
-    <meta itemprop="image" content="{{page.image}}">
-    {% endif %}
-    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="{{site.title}}">
-        <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-            <meta itemprop="url" content="{{site.path-image}}/rasta-logo.png">
-        </span>
-    </span>
-</div>  
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{page.title}}", 
+        "name": "{{page.title}}",
+        "url": "{{site.url}}{{page.url}}",
+        "author": { 
+            "@type": "Person", 
+            "name": "{{author}}" 
+        },
+        "mainEntityOfPage": { 
+            "@type": "WebPage", 
+            "@id": "{{site.url}}{{page.url}}"
+        },
+        {% if page.image %}
+        "image": "{{page.image}}",
+        {% endif %}
+        "datePublished": "{{page.date}}", 
+        "dateModified": "{{ "now" | date_to_xmlschema}}",
+
+        "publisher": 
+        { 
+          "@type": "Organization", 
+          "name": "Rasta Online", 
+          "logo": { 
+            "@type": "ImageObject", 
+            "url": "https://rasta.online/library/images/rasta-logo.png" 
+          } 
+        },
+        "description": "{{page.seo_description}}"
+    }
+</script>

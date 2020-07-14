@@ -3,6 +3,7 @@ title: rasta.online
 url: "https://Rasta.Online"
 name: Duppy conqueror in the digital jungle.
 baseurl: ""
+author: "Ras Yen"
 
 markdown: kramdown
 highlighter: rouge
@@ -32,6 +33,10 @@ instagram-url: "https://instagram.com/ras.yen"
 linked_in-url: "https://www.linkedin.com/in/jens-krause-2a88901a6"
 company-url: https://RapidAgileSoftware.github.io
 
+fb-user: www.rasta.online
+fb-url: "https://www.facebook.com/www.rasta.online"
+fb-app-id: 172683489748870
+
 jekyll_doc: "http://jekyllrb.com/docs"
 
 #set defaults
@@ -42,6 +47,7 @@ defaults:
       type: "posts"
     values:
       share: rasta
+      author: Ras Yen
   -
     scope:
       path: "library/**"

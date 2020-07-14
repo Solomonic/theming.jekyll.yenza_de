@@ -1,23 +1,37 @@
 ---
 layout: default
 ---
+
+  {% assign author = site.author %}
+  {% assign post_date = "now" | date: "%b %-d, %Y" %}
+  {% assign up_date = "now" | date: "%b %-d, %Y" %}
+  
+  {% if page.date %}
+    {% assign post_date = page.date %}
+  {% endif %}
+  {% if page.author %}
+    {% assign author = page.author%}
+  {% endif %}
+
 {% if page.series %}
         {% include series_navigation.html %}  
 {% endif %}
-<article class="post article full" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post article full">
 
   <header class="post-header">
-    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
-    {% if page.author %}
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished dateModified">{{ page.date | date: "%b %-d, %Y" }}</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></p>
-    {% endif %}
-
+    <h2 class="post-title">{{ page.title }}</h2>
+ 
+    <p class="post-meta">
+      {{post_date | date: "%b %-d, %Y" }} • 
+      <span >{{ author }}</span>
+    </p>
   </header>
-
-  <div class="post-content" itemprop="articleBody mainEntityOfPage">
-    {{ content }}
+  <div class="post-content" itemprop="articleBody">
+    {{ content | toc }}
   </div>
-   {% include microdata.html %}
+  <p class="post-meta">
+    {% include microdata.html %}
+   </p>
 </article>
  {% if page.series %}
         {% include series_navigation.html %}  

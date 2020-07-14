@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: post
 title: What is Rastafari?
 
 navigation: eductation
 seo_description: There are many misconceptions about Rastafari. Let me share my point of view after 20 years of being a Rastaman.
+
+date: 2020-07-08  13:00:00 +0700
 
 toc: true
 
