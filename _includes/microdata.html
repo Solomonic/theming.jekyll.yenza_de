@@ -1,33 +1,11 @@
 <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "{{page.title}}", 
-        "name": "{{page.title}}",
-        "url": "{{site.url}}{{page.url}}",
-        "author": { 
-            "@type": "Person", 
-            "name": "{{author}}" 
-        },
-        "mainEntityOfPage": { 
-            "@type": "WebPage", 
-            "@id": "{{site.url}}{{page.url}}"
-        },
-        {% if page.image %}
-        "image": "{{page.image}}",
-        {% endif %}
-        "datePublished": "{{page.date}}", 
-        "dateModified": "{{ "now" | date_to_xmlschema}}",
-
-        "publisher": 
-        { 
-          "@type": "Organization", 
-          "name": "Rasta Online", 
-          "logo": { 
-            "@type": "ImageObject", 
-            "url": "https://rasta.online/library/images/rasta-logo.png" 
-          } 
-        },
-        "description": "{{page.seo_description}}"
-    }
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+        "datePublished": ""2020-10-07T12:02:41Z"",
+        "image": [
+          "https://rasta.online/library/images/rasta-logo.png"
+        ]
+      }
 </script>

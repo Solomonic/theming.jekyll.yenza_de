@@ -1,0 +1,78 @@
+<!doctype html>
+<html amp lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    {% if page.seo_description %}
+      {% assign description = page.seo_description | strip_html | strip_newlines | truncate: 160 %}
+    {% elsif page.excerpt %}
+      {% assign description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
+    {% else %}
+      {% assign description = site.description %}
+    {% endif %}
+    {% assign page_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+    <meta name="description" content="{{ description }}">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <!-- Import other AMP Extensions here -->
+    <style amp-custom>
+    /* Add your styles here */
+    </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <link rel="canonical" href="{{ page_url }}">
+    <title>{{page.title}}</title>
+    {% if page.image %}
+      {% assign page_image = page.image %}
+    {% else %}
+      {% assign page_image = "/library/images/rasta-logo.png" | prepend: site.baseurl | prepend: site.url %}
+    {% endif %}
+    {% if page.date %}
+      {% assign publish_date = page.date | date_to_xmlschema %}
+    {% else %}
+      {% assign publish_date = "now" | date_to_xmlschema %}
+    {% endif %}
+    {% assign modified_date = "now" | date_to_xmlschema %}
+    {% if page.author %}
+      {% assign page_author = page.author %}
+    {% else %}
+      {% assign page_author = site.author %}
+    {% endif %}
+    <meta content="text/plain" name="DC.format">
+    <meta content="{{page_author}}" name="DC.creator">
+    <meta content="ALL" name="robots">
+    <meta content="Global" name="distribution">
+    <meta content="Global" name="DC.distribution">
+    <meta content="en" name="DC.language">
+    {% include open_graph.html %}
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{page_url}}"
+      },
+      "headline": "{{page.title}}",
+      "image": "{{page_image}}",
+      "datePublished": "{{publish_date}}",
+      "dateModified": "{{modified_date}}",
+      "author": {
+        "@type": "Person",
+        "name": "{{page_author}}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rasta Online",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://rasta.online/library/images/rasta-logo.png"
+        }
+      },
+      "description": "{{description}}"
+    }
+    </script>
+    <link rel="stylesheet" href="{{ "/font-awesome-4.4.0/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <script src="{{ "/js/lightbox.js" | prepend: site.baseurl }}"></script> 
+  </head>

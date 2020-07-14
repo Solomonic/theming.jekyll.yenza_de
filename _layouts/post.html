@@ -26,12 +26,9 @@ layout: default
       <span >{{ author }}</span>
     </p>
   </header>
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content">
     {{ content | toc }}
   </div>
-  <p class="post-meta">
-    {% include microdata.html %}
-   </p>
 </article>
  {% if page.series %}
         {% include series_navigation.html %}  
