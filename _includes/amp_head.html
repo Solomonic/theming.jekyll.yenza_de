@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    {% if page.seo_description %}
+    {% if page.noindex %}
+      <meta name="robots" content="noindex">
+    {% elsif page.seo_description %}
       {% assign description = page.seo_description | strip_html | strip_newlines | truncate: 160 %}
     {% elsif page.excerpt %}
       {% assign description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}

@@ -5,7 +5,7 @@ name: Duppy conqueror in the digital jungle.
 baseurl: ""
 author: "Ras Yen"
 
-markdown: kramdown
+markdown: MyAmpProcessor
 highlighter: rouge
 
 destination: docs
@@ -75,6 +75,17 @@ page_gen:
 picture:
   source: "library/images"
   output: "library/images/generated"
+  suppress_warnings: true
+  markup: "picture"
+  presets:
+    default:
+      ppi: [1, 1.5]
+      source_medium:
+        media: "(min-width: 40em)"
+        width: "600"
+        height: "300"
+      source_default:
+        width: "300"
 
 jekyll-minifier:
   compress_css: true
