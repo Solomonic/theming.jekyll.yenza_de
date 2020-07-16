@@ -39,8 +39,6 @@ Rasta is about reclaiming the balance between the inner spiritual and the outer 
 mental oppression and going beyond racism, sexism and all manners of division. It is about human relations and respect
 for all beings. The core message is summarized beautifully with: **One Love, one Heart, one Aim, one Destiny**.
 
-{% assign key = "O0NentNBRlQ" %}
-{% include video_youtube.html %}
 
 After all, we are born equal, we share the same space and time and just have this Life to spend. If we work together,
 pay respect to one another and don't let greed fuck-up the world for everyone, we are all together in a way better place
