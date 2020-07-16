@@ -83,9 +83,9 @@
       "description": "{{description}}"
     }
     </script>
-    {% assign font_awesome = "/font-awesome-4.4.0/css/font-awesome.min.css" | prepend: site.baseurl %}
-    {% assign main_css = "/css/main.css" | prepend: site.baseurl %}
-    {% assign lightbox_js = "/js/lightbox.js" | prepend: site.baseurl %}
+    {% assign font_awesome = "/font-awesome-4.4.0/css/font-awesome.min.css" | prepend: site.baseurl | prepend: site.url %}
+    {% assign main_css = "/css/main.css" | prepend: site.baseurl | prepend: site.url %}
+    {% assign lightbox_js = "/js/lightbox.js" | prepend: site.baseurl | prepend: site.url %}
 
     <link rel="preload" href="{{font_awesome}}" as="style">
     <link rel="preload" href="{{main_css}}" as="style">
