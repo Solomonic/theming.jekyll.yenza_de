@@ -15,7 +15,9 @@
     {% assign page_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
     <meta name="description" content="{{ description }}">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    {% if page.video %}
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    {% endif %}
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <!-- Import other AMP Extensions here -->
     <style amp-custom>
@@ -87,9 +89,12 @@
 
     <link rel="preload" href="{{font_awesome}}" as="style">
     <link rel="preload" href="{{main_css}}" as="style">
+    {% if page.lightbox%}
     <link rel="preload" href="{{lightbox_js}}" as="script">
-
+    {% endif%}
     <link rel="stylesheet" href="{{font_awesome}}">
     <link rel="stylesheet" href="{{main_css}}">
-    <script src="{{lightbox_js}}" defer></script> 
+    {% if page.lightbox%}
+    <script src="{{lightbox_js}}" defer></script>
+    {% endif %}
   </head>

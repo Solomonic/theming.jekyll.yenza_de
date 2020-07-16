@@ -53,6 +53,17 @@ defaults:
       path: "library/**"
     values:
       sitemap: false
+  -
+    scope:
+      path: "shop"
+    values:
+      lightbox: true
+  -
+    scope:
+      path: "music"
+    values:
+      lightbox: true
+      video: true
 
 page_gen:
 - data: 'artists'
