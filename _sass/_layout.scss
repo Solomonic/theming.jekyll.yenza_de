@@ -785,3 +785,17 @@ img.hover-shadow {
 .amp_img{
   margin: 1em auto;
 }
+
+.amp_image{
+  margin: 0 auto;
+  amp-img{
+    margin: 0 auto;
+  }
+}
+
+.image.amp_image.thumbnail{
+  width:200px;
+}
+.image.amp_image.icon{
+  width:74px;
+}

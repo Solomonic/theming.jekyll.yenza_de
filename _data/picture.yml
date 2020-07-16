@@ -1,75 +1,51 @@
 markup_presets:
   default:
+    markup: img
     formats: [webp, original]
     size: 600px
     fallback_width: 600
     widths: [74, 170, 200, 340, 400, 600]
+    attributes:
+      img: 'class="full_image"'
   logo:
+    markup: img
     base_width: 340 # How wide the 1x image should be
     pixel_ratios: [1]
     fallback_width: 340
     formats: [webp, original]
     attributes:
       img: 'class="logo"'
-  amp_logo:
-    markup: direct_url
-    base_width: 340 # How wide the 1x image should be
-    pixel_ratios: [1]
-    fallback_width: 340
-    formats: [webp, original]
-
   icon:
+    markup: img
     base_width: 74 # How wide the 1x image should be
     pixel_ratios: [1]
     fallback_width: 74
+    markup: img
     formats: [webp, original]
     attributes:
       img: 'class="icon"'
-  amp_icon:
-    markup: direct_url
-    base_width: 74 # How wide the 1x image should be
-    pixel_ratios: [1]
-    fallback_width: 74
-    formats: [webp, original]
-  
-  amp_thumbnail:
-    markup: direct_url
-    base_width: 200 # How wide the 1x image should be
-    pixel_ratios: [1, 1.5, 2]
-    fallback_width: 200
+
   thumbnail:
-    base_width: 200 # How wide the 1x image should be
+    markup: img
+    base_width: 200
+    formats: [webp, original]
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 200
     attributes:
       img: 'class="thumbnail"'
 
   cover:
+    markup: img
     base_width: 600 # How wide the 1x image should be
     pixel_ratios: [1]
     fallback_width: 600
     attributes:
       img: 'class="cover"'
-  amp_cover:
-    markup: direct_url
-    base_width: 600 # How wide the 1x image should be
-    pixel_ratios: [1]
-    fallback_width: 600
 
   promo:
+    markup: img
     base_width: 170 # How wide the 1x image should be
     pixel_ratios: [1,3]
     fallback_width: 170
     attributes:
       img: 'class="promo"'
-  amp_promo:
-    markup: direct_url
-    base_width: 170 # How wide the 1x image should be
-    pixel_ratios: [1,3]
-    fallback_width: 170
-  amp_srcset:
-    markup: naked_srcset
-    formats: [webp, original]
-    size: 600px
-    fallback_width: 600
-    widths: [200, 400, 600]

@@ -21,7 +21,10 @@
             {% else %}
                 {% assign thumb_target = target %}
             {% endif %}
-            <a target="{{thumb_target}}" href="{{thumb_link}}" title="{{mypost.title}}">{% picture icon {{mypost.image}} --alt {{mypost.title}}%}</a>
+            <a target="{{thumb_target}}" href="{{thumb_link}}" title="{{mypost.title}}">
+                {% assign news_title = mypost.title %}
+                {% assign news_pic = mypost.image %}
+            {% include amp_image.html size='icon' alt=news_title url=news_pic %}</a>
         </div>
         {% endif %}
         <h2 class="article-headline"><a title="{{mypost.title}}" href="{{ mypost.link }}" target="{{target}}">{{mypost.title}}</a></h2>

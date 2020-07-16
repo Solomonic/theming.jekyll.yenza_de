@@ -8,9 +8,12 @@ seo_description: There are many misconceptions about Rastafari. Let me share my 
 date: 2020-07-08  13:00:00 +0700
 
 toc: true
+video: true
 
 share: rasta
-image: flag.png
+image: http://rasta.online/library/images/flag.png
+
+
 
 ---
 
@@ -204,9 +207,6 @@ the day when all the ganjaman and ganjawoman can enjoy the herb in peace.
 {% include video_youtube.html %}
 
 ## Red Gold Green and other Symbols
-
-{% capture amp_url %}{% picture amp_logo flag.png %}{% endcapture %}
-{% include amp_image.md %}
 
 The Red-Gold-Green flag of Rastafari is the most recognizable symbol and widely known throughout the world, even people who have no idea or
 interest in Rasta know it. The Red actually stands for the blood of the black martyrs were shed during their struggle for liberation, equal rights and justice.It is a reminder that it takes pain and suffering to overcome the evil and oppression and the struggle is far from over. The Gold represents

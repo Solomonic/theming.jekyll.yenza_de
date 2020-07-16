@@ -10,16 +10,16 @@ date: 2020-07-01  00:00:00 +0700
 
 <div class="home">
   
-  <h1 class="page-heading center">{% picture logo rasta-logo.png --alt Meet a Rasta Online %}</h1>
+  <h1 class="page-heading center">{% include amp_image.html url="rasta-logo.png" size="logo" alt="Meet a Rasta Online" %}</h1>
   <p>"<b>Education</b> develops the intellect; and the intellect distinguishes man from other creatures. It is <b>education</b> that enables man to harness nature and utilize her resources for the well-being and improvement of his life."</p>
   <p><i>H.i.M. Haile Selassie I</i></p>
   <section id="tune_list">
     <div class="article full">
-    <a title="Explore our music section ... " href="{{site.baseurl}}/music">{% picture ReggaeHeader.png %}</a>
+    <a title="Explore our music section ... " href="{{site.baseurl}}/music">{% include amp_image.html url="ReggaeHeader.png" alt="We love Reggae" %}</a>
     <h2 class="page-heading center"><a title="Explore our music section ... " href="{{site.baseurl}}/music">Explore the music ...</a></h2>
     <div class="entry">
       <a class="image" title="Explore Essential Rastaman tunes... " href="{{site.baseurl}}/music/category/rastaman-tunes.html">
-      {% picture thumbnail flying_dreads.jpg %}
+        {% include amp_image.html url="flying_dreads.jpg" size="thumbnail" alt="Rastaman Tunes" %}
       </a>
         <a class="text" title="Explore Essential Rastaman tunes... " href="{{site.baseurl}}/music/category/rastaman-tunes.html">
           Essential Rastaman Tunes
@@ -27,7 +27,7 @@ date: 2020-07-01  00:00:00 +0700
     </div>
     <div class="entry">
       <a class="image" title="Explore Essential Empress tunes... " href="{{site.baseurl}}/music/category/empress-tunes.html">
-        {% picture thumbnail empress.jpg %}
+        {% include amp_image.html url="empress.jpg" size="thumbnail" alt="Empress Tunes" %}
       </a>
       <a class="text" title="Explore Essential Empress tunes... " href="{{site.baseurl}}/music/category/empress-tunes.html">
           Essential Empress Tunes
@@ -35,15 +35,15 @@ date: 2020-07-01  00:00:00 +0700
     </div>
     <div class="entry">
       <a class="image" title="Explore Essential Reggae Love Songs... " href="{{site.baseurl}}/music/category/love-songs.html">
-        {% picture thumbnail heart.jpg %}
+        {% include amp_image.html url="heart.jpg" size="thumbnail" alt="Reggae Love Songs" %}
       </a>
       <a class="text" title="Explore Reggae Love Songs... " href="{{site.baseurl}}/music/category/love-songs.html">
-          Essential Reggae Love Songs
+          Top Reggae Love Songs
       </a>
     </div>
     <div class="entry">
       <a class="image" title="Explore great live performances... " href="{{site.baseurl}}/music/category/live-performance.html">
-        {% picture thumbnail soundsystem.jpg %}
+        {% include amp_image.html url="soundsystem.jpg" size="thumbnail" alt="Live Performances" %}
       </a>
       <a class="text" title="Explore great live performances... " href="{{site.baseurl}}/music/category/live-performance.html">
           Brilliant Live Performances
@@ -64,7 +64,7 @@ date: 2020-07-01  00:00:00 +0700
     <div class="article full">
       <h2><i class="fa fa-graduation-cap fa-lg"></i> Software posts</h2>
       <div class="center cover">
-        <a title="Explore our software section ... " href="{{site.baseurl}}/education">{% picture coding.jpg %}</a>
+        <a title="Explore our software section ... " href="{{site.baseurl}}/education">{% include amp_image.html url="coding.jpg" alt="Coding Stuff" %}</a>
       </div>
         {% include education_list.html %}
 

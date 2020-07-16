@@ -5,7 +5,7 @@ name: Duppy conqueror in the digital jungle.
 baseurl: ""
 author: "Ras Yen"
 
-markdown: MyAmpProcessor
+markdown: kramdown
 highlighter: rouge
 
 destination: docs
@@ -111,4 +111,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-minifier
   - jekyll-toc
+
 

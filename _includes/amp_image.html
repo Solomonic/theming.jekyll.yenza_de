@@ -1,0 +1,13 @@
+{% if include.alt.size >0 %}
+	{% assign alt = "--alt " | append: include.alt %}
+{% else %}
+	{% assign alt = "" %}
+{% endif %}
+{% if include.size %}
+	{% assign pic_size = include.size %}
+{% else %}
+	{% assign pic_size = "" %}
+{% endif %}
+
+{% capture my_pic %}{% picture {{pic_size}} {{include.url}} {{alt}} %}{% endcapture %}
+<div class="image amp_image {{pic_size}}">{{my_pic | amp_images}}</div>
