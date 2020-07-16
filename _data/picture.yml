@@ -5,6 +5,12 @@ markup_presets:
     size: 600px
     fallback_width: 600
     widths: [74, 170, 200, 340, 400, 600]
+  full:
+    markup: img
+    formats: [webp, original]
+    size: 600px
+    fallback_width: 600
+    widths: [ 200, 400, 600]
     attributes:
       img: 'class="full_image"'
   logo:
