@@ -770,3 +770,42 @@ a.site-title{
   min-width:100px;
   margin-bottom: 1em;
 }
+
+.carousel_footer{
+  position:absolute;
+  height:50px;
+  width:100%;
+
+  a.buy_now, a.more_products, a.large_product{
+    position:absolute;
+    display:block;
+    margin:0;
+    height: 50px;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+  }
+
+  .red{
+    background-color:red;
+    right:0;
+    width:33%;
+  }
+
+  .gold{
+    background-color:gold;
+    left:33%;
+    width:34%;
+  }
+  .green{
+    background-color:green;
+    left:0;
+    width:33%;
+  }
+}
+.music{
+  h2,h3{
+    margin-top:1em;
+  }
+}
+

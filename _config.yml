@@ -65,7 +65,7 @@ defaults:
     scope:
       path: "music"
     values:
-      lightbox: true
+      carousel: true
       video: true
 
 page_gen:

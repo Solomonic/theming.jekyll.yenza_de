@@ -1,0 +1,31 @@
+{% assign promo-shirts = site.data.promotion-shirts | where:"slot", slot %}
+{% assign counter = 0 %}
+{% assign tags = '' | split: '' %}
+<div style="max-width: 340px">
+<amp-carousel 
+  width="340"
+  height="390"
+  layout="responsive"
+  delay="5000"
+  type="slides"
+  delay="5000"
+  autoplay
+  >
+  {% for shirt in promo-shirts %}
+  {% assign tags = tags | concat: shirt.categories %}
+  <div class="slide">
+    {% assign link = "https://" | append: shirt.link %}
+    {% assign image = "/promo/" | append: shirt.image %}
+    {% assign alt = shirt.alt %}
+
+    {% capture my_pic %}{% picture logo {{image}} --alt {{alt}}%}{% endcapture %}
+    <a href="{{link}}" target="_blank">{{my_pic | amp_images}}</a>
+    <div class="carousel_footer">
+      <a title="Buy" class="buy_now green" href="{{link}}" target="_blank" title="Buy now: {{alt}}"><span class="fa fa-shopping-cart fa-3x"></span></a>
+      <a title="Larger Picture" class="large_product gold" href="{{link}}"><span class="fa fa-search-plus fa-3x"></span></a>
+      {% include amp_more_products.html%}
+    </div>
+  </div>
+  {% endfor %}
+</amp-carousel>
+</div>

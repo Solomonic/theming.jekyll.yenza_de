@@ -88,12 +88,14 @@
     </script>
     {% assign lightbox_js = "/js/lightbox.js" | prepend: site.baseurl | prepend: site.url %}
 
-    <link rel="preload" href="{{font_awesome}}" as="style">
-    {% if page.lightbox%}
-    <link rel="preload" href="{{lightbox_js}}" as="script">
+    {% if page.carousel%}
+      <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+      <!--
+      <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
+      -->
     {% endif%}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     {% if page.lightbox%}
-    <script src="{{lightbox_js}}" defer></script>
+      <script src="{{lightbox_js}}" defer></script>
     {% endif %}
   </head>

@@ -1,0 +1,17 @@
+{% assign shirt_tags = tags | uniq %}
+{% assign linked_tags ='' %}
+{% assign category_counter =0 %}
+{% assign found = 0 %}
+
+{% for shirt_tag in shirt_tags %}
+	{% for category in site.data.shop_categories %}
+		{% if category.title == shirt_tag && found<1 %}
+			{% assign found = found | plus: 1 %}
+			<a class="more_products red" target="_self" href="{{ category.title | datapage_url: '/shop/category' | prepend: site.baseurl }}" title="Find more {{category.title}} swag">
+					<span class="fa fa-info fa-3x" /></a>	
+		{% endif %}
+	{% endfor %}
+{% endfor%}
+{% if found <1 %}
+<a class="more_products red" target="_self" href="#" title="No more swag"></a>
+{% endif %}
