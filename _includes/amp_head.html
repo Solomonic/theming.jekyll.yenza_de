@@ -86,14 +86,13 @@
       "description": "{{description}}"
     }
     </script>
-    {% assign font_awesome = "/font-awesome-4.4.0/css/font-awesome.min.css" | prepend: site.baseurl | prepend: site.url %}
     {% assign lightbox_js = "/js/lightbox.js" | prepend: site.baseurl | prepend: site.url %}
 
     <link rel="preload" href="{{font_awesome}}" as="style">
     {% if page.lightbox%}
     <link rel="preload" href="{{lightbox_js}}" as="script">
     {% endif%}
-    <link rel="stylesheet" href="{{font_awesome}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     {% if page.lightbox%}
     <script src="{{lightbox_js}}" defer></script>
     {% endif %}
