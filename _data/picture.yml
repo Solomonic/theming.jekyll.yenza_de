@@ -4,41 +4,44 @@ markup_presets:
     formats: [webp, original]
     size: 600px
     fallback_width: 600
-    widths: [74, 170, 200, 340, 400, 600]
+    widths: [74, 99, 170, 200, 340, 400, 600]
   full:
     markup: img
     formats: [webp, original]
-    size: 600px
     fallback_width: 600
     widths: [ 200, 400, 600]
     attributes:
       img: 'class="full_image"'
+
+  thumbnail:
+    markup: img
+    formats: [webp, original]
+    fallback_width: 200
+    widths: [ 100, 200]
+    attributes:
+      img: 'class="thumbnail"'
+
+  home:
+    markup: img
+    formats: [webp, original]
+    fallback_width: 99
+    widths: [ 99 ]
+    attributes:
+      img: 'class="home"'
+  
   logo:
     markup: img
-    base_width: 340 # How wide the 1x image should be
-    pixel_ratios: [1]
-    fallback_width: 340
     formats: [webp, original]
+    fallback_width: 340
     attributes:
       img: 'class="logo"'
   icon:
     markup: img
-    base_width: 74 # How wide the 1x image should be
-    pixel_ratios: [1]
+    formats: [webp, original]
     fallback_width: 74
     markup: img
-    formats: [webp, original]
     attributes:
       img: 'class="icon"'
-
-  thumbnail:
-    markup: img
-    base_width: 200
-    formats: [webp, original]
-    pixel_ratios: [1, 1.5, 2]
-    fallback_width: 200
-    attributes:
-      img: 'class="thumbnail"'
 
   cover:
     markup: img

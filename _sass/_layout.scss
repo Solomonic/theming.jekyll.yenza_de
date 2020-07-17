@@ -1,25 +1,18 @@
-/**
- * Site header
- */
 .site-header {
     border-top: 5px solid $grey-color-dark;
     min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
     font-size: 26px;
     font-weight: 300;
-
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
     text-shadow: -11px 0 50px #fff;
 
-    &,
-    &:visited {
+    &, &:visited {
         color: $grey-color-dark;
     }
 }
@@ -39,13 +32,11 @@
 .home-black{
     color:#000;
 }
-
 .slogan{
     font-size:20px;
     margin-left:20px;
     font-style:italic;
 }
-
 .site-nav {
     float: right;
     line-height: 56px;
@@ -308,25 +299,8 @@ html, body{
 
  #global-wrapper{
     min-height: 100%;
-    -webkit-animation: rasta_background 60s infinite;
-    animation: rasta_background 60s infinite;
  }
 
-/* The animation code */
-@-webkit-keyframes rasta_background {
-    0%   {box-shadow: inset 0px 0px 240px -8px rgba(255,255,255,1);}
-    25%  {box-shadow: inset 0px 0px 240px -8px rgba(37,186,4,1);}
-    50%  {box-shadow: inset 0px 0px 240px -8px rgba(247,235,10,1);}
-    75%  {box-shadow: inset 0px 0px 240px -8px rgba(247,37,10,1);}
-    100% {box-shadow: inset 0px 0px 240px -8px rgba(255,255,255,1);}
-}
-@keyframes rasta_background {
-    0%   {box-shadow: inset 0px 0px 240px -8px rgba(255,255,255,1);}
-    25%  {box-shadow: inset 0px 0px 240px -8px rgba(37,186,4,1);}
-    50%  {box-shadow: inset 0px 0px 240px -8px rgba(247,235,10,1);}
-    75%  {box-shadow: inset 0px 0px 240px -8px rgba(247,37,10,1);}
-    100% {box-shadow: inset 0px 0px 240px -8px rgba(255,255,255,1);}
-}
  .article.even{
     margin-right:15px;
  }
@@ -533,6 +507,7 @@ h2.post-title{
         .text{
             display:block;
         }
+        min-width:200px;
     }
 
 ul.link_list{
@@ -726,7 +701,6 @@ ul.link_list{
   margin-top: -50px;
   font-weight: bold;
   font-size: 20px;
-  transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -758,7 +732,6 @@ ul.link_list{
   top: 0;
 }
 
-/* Caption text */
 .caption-container {
   text-align: center;
   background-color: black;
@@ -775,10 +748,6 @@ img.demo.active,
   opacity: 1;
 }
 
-img.hover-shadow {
-  transition: 0.3s;
-}
-
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -793,9 +762,10 @@ img.hover-shadow {
   }
 }
 
-.image.amp_image.thumbnail{
-  width:200px;
-}
 .image.amp_image.icon{
   width:74px;
+}
+
+a.site-title{
+  min-width:100px;
 }

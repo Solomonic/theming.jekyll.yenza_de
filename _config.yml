@@ -12,6 +12,9 @@ destination: docs
 
 excerpt_separator: <!--more-->
 
+sass:
+  style: compressed
+
 exclude:
 - bin
 - config.rb

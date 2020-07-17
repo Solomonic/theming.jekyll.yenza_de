@@ -2,12 +2,8 @@
 
   <div class="wrapper">
     <a class="site-title" title="{{site.description}}" href="{{ site.baseurl }}/">
-      <span class="fa-stack fa-2x">
-         <i class="fa fa-home fa-stack-2x home-green"></i>
-        <i class="fa fa-home fa-stack-2x home-yellow"></i>
-        <i class="fa fa-home fa-stack-2x home-red"></i>
-        <i class="fa fa-home fa-stack-2x"></i>
-      </span>
+      {% assign logo_alt = site.name %}
+      {% include amp_image.html url="lion_head.png" size="home" alt=logo_alt %}
     </a>
     <nav class="site-nav">
       <a href="#" class="menu-icon">

@@ -21,6 +21,7 @@ noindex: true
 {% picture free-tools.jpg %}
 {% picture heart.jpg %}
 {% picture JAM2019.png %}
+{% picture lion_head.png %}
 {% picture many_cms.png %}
 {% picture rasta-logo.png %}
 {% picture rastaman_shadow.jpg %}
