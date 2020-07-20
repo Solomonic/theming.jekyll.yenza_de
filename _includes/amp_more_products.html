@@ -7,11 +7,11 @@
 	{% for category in site.data.shop_categories %}
 		{% if category.title == shirt_tag && found<1 %}
 			{% assign found = found | plus: 1 %}
-			<a class="more_products red" target="_self" href="{{ category.title | datapage_url: '/shop/category' | prepend: site.baseurl }}" title="Find more {{category.title}} swag">
+			<a class="more_products red" target="_self" href="{{ category.title | datapage_url: '/shop/category' | prepend: site.baseurl }}" title="{{category.description}}">
 					<span class="fa fa-info fa-3x" /></a>	
 		{% endif %}
 	{% endfor %}
 {% endfor%}
 {% if found <1 %}
-<a class="more_products red" target="_self" href="#" title="No more swag"></a>
+<a class="more_products red" title="No more swag"></a>
 {% endif %}
