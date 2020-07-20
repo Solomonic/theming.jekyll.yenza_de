@@ -1,5 +1,5 @@
 {% assign promo-shirts = site.data.promotion-shirts | where:"slot", slot %}
-{% assign counter = 0 %}
+{% assign counter_carousel = 0 %}
 {% assign tags = '' | split: '' %}
 <div style="max-width: 340px">
 <amp-carousel 
@@ -10,19 +10,21 @@
   type="slides"
   delay="5000"
   autoplay
+  loop
   >
   {% for shirt in promo-shirts %}
   {% assign tags = tags | concat: shirt.categories %}
+  {% assign counter_carousel = counter_carousel | plus: 1 %}
+  {% assign lightbox_id = slot | append: "_" | append: counter_carousel %}
   <div class="slide">
     {% assign link = "https://" | append: shirt.link %}
     {% assign image = "/promo/" | append: shirt.image %}
     {% assign alt = shirt.alt %}
-
     {% capture my_pic %}{% picture logo {{image}} --alt {{alt}}%}{% endcapture %}
-    <a href="{{link}}" target="_blank">{{my_pic | amp_images}}</a>
+    <a href="{{link}}" target="_blank">{{my_pic | amp_image_id: lightbox_id }}</a>
     <div class="carousel_footer">
       <a  class="buy_now green" href="{{link}}" target="_blank" title="Buy now: {{alt}}"><span class="fa fa-shopping-cart fa-3x"></span></a>
-      <a title="Larger Picture" class="large_product gold" href="{{link}}"><span class="fa fa-search-plus fa-3x"></span></a>
+      <a title="Larger Picture" class="large_product gold" on="tap:amp-lightbox-gallery.open('id'='{{lightbox_id}}')"><span class="fa fa-search-plus fa-3x"></span></a>
       {% include amp_more_products.html%}
     </div>
   </div>

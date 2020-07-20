@@ -86,7 +86,7 @@ module Jekyll
       doc.to_s
     end
 
-    def amp_images_fill(input, fill = true, wi = nil, he = nil)
+    def amp_image_id(input, id, wi = nil, he = nil)
       doc = Nokogiri::HTML.fragment(input);
       doc.css('img:not([width])').each do |image|
         if wi && he
@@ -96,6 +96,8 @@ module Jekyll
           if image['src'].start_with?('http://', 'https://')
             src = image['src']
           else
+            # FastImage doesn't seem to handle local paths when used with Jekyll
+            # so let's just force the path
             src = File.join(Dir.pwd, 'docs', image['src'])
           end
           begin
@@ -111,16 +113,11 @@ module Jekyll
         image.name = "amp-img"
 
         image["style"] ="max-width:" + image['width'] + "px"
-
-        image['layout'] = "fill" if fill
+        image['layout'] = "responsive"
+        if id
+          image['id'] = id
+        end
       end
-
-      doc.css('picture').each do |picture|
-        amp_img = picture.css('amp-img')
-        picture.add_next_sibling(amp_img) unless amp_img.empty?
-        picture.remove
-      end
-
       doc.css('amp-img').each do |amp_img|
         noscript = Nokogiri::XML::Node.new "noscript", doc
 
@@ -133,6 +130,7 @@ module Jekyll
         amp_img.add_child(noscript)
       end
 
+      # Return the html as plaintext string
       doc.to_s
     end
 
