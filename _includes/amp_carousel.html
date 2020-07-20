@@ -21,7 +21,7 @@
     {% capture my_pic %}{% picture logo {{image}} --alt {{alt}}%}{% endcapture %}
     <a href="{{link}}" target="_blank">{{my_pic | amp_images}}</a>
     <div class="carousel_footer">
-      <a title="Buy" class="buy_now green" href="{{link}}" target="_blank" title="Buy now: {{alt}}"><span class="fa fa-shopping-cart fa-3x"></span></a>
+      <a  class="buy_now green" href="{{link}}" target="_blank" title="Buy now: {{alt}}"><span class="fa fa-shopping-cart fa-3x"></span></a>
       <a title="Larger Picture" class="large_product gold" href="{{link}}"><span class="fa fa-search-plus fa-3x"></span></a>
       {% include amp_more_products.html%}
     </div>
