@@ -62,7 +62,7 @@
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
-      "@type": "NewsArticle",
+      "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{page_url}}"
@@ -75,6 +75,7 @@
         "@type": "Person",
         "name": "{{page_author}}"
       },
+      "editor": "{{page_author}}",
       "publisher": {
         "@type": "Organization",
         "name": "Rasta Online",
@@ -83,7 +84,11 @@
           "url": "https://rasta.online/library/images/rasta-logo.png"
         }
       },
-      "description": "{{description}}"
+      "description": "{{description}}",
+      "keywords": ["{{page.keywords | join: '","'}}"],
+      "genre": ["{{page.keywords | join: '","'}}"]
+        }
+
     }
     </script>
     {% assign lightbox_js = "/js/lightbox.js" | prepend: site.baseurl | prepend: site.url %}

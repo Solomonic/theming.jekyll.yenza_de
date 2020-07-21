@@ -47,6 +47,11 @@ defaults:
   -
     scope:
       path: ""
+    values:
+      keywords: [ Rasta, Rastafari, Rasta Livety, Lion of Judah, Ganja, Jah, Reggae, Rastaman, Empress, King, Haile Selassie, Lion of Judah, Music, Internet, SEO, OpenSource, Programming]
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
       share: rasta
@@ -67,6 +72,7 @@ defaults:
     values:
       carousel: true
       video: true
+      keywords: [ Rasta, Rastafari, Rasta Livety, Ganja, Jah, Reggae, Music, Ragga, Artists, Videos, Rastaman, Empress, King, Haile Selassie, Lion of Judah]
 
 page_gen:
 - data: 'artists'
