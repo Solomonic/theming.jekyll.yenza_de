@@ -1,0 +1,25 @@
+<amp-accordion animate  id="external-posts">
+    {% for mypost in site.data.articles %}
+    <section class="article-section" expanded>
+        <h2 class="article-headline">{{mypost.title}} <span class="fa fa-expand right"></span></h2>
+        <div>
+            <div class="auhor">
+            {% if author.email %}
+                <a href="mailto:{{author.email}}"><span class="fa fa-pencil-square"></span > {{author.name}}</a>
+            {% endif %}
+            {% if author.social %}
+                <a href="{{author.social}}"><span class="fa fa-twitter"></span > {{author.name}}</a>
+            {% endif %}
+            {% if author.website %}
+             on <a href="{{author.website}}" target="_blank">{{author.website}} <span class="fa fa-paper-plane-o"></span></a>
+            {% endif %}
+            </div>
+           <div class="description">
+            <time datetime="{{ mypost.date | date_to_xmlschema }}">{{ mypost.date | date: "%-d %b %Y" }}</time>:
+            <a title="Read full article" class="post_description" href="{{ mypost.link }}" target="_blank">{{ mypost.description}}
+            </a></div>
+            <p><a title="Read full article" target="_blank" href="{{ mypost.link }}"><strong>... read more</strong> <span class="fa fa-external-link"></span></a></p>
+        </div>
+    </section>
+  {% endfor %}
+</amp-accordion>

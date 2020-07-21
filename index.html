@@ -4,6 +4,7 @@ layout: default
 seo_description: A Rasta in the digital jungle can help with knowledge and support. Smart solutions for lazy techies in the internet-business. Get more done is less time and deliver professional results. If you can, follow me now.
 
 share: rasta
+accordion: true
 
 date: 2020-07-01  00:00:00 +0700
 ---
@@ -64,10 +65,9 @@ date: 2020-07-01  00:00:00 +0700
       <div class="center cover">
         <a title="Explore our software section ... " href="{{site.baseurl}}/education">{% include amp_image.html url="coding.jpg" size="full" alt="Coding Stuff" %}</a>
       </div>
-        {% include education_list.html %}
-
+        {% include amp_education_list.html %}
         <h3><span class="fa fa-external-link fa-lg"></span> Also check these blogs:</h3>
-          {% include list_external_blogs.html %}
+          {% include amp_external_blogs.html %}
         <h3><a title="Browse all posts about education ... " href="{{site.baseurl}}/education" >View all educational posts ... <span class="fa fa-share fa-lg"></span></a></h3>
     </div>
   </section>

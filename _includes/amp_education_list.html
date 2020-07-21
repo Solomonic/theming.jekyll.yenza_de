@@ -1,0 +1,13 @@
+<amp-accordion animate  id="software-posts">
+    {% for mypost in site.categories.software-development %}
+    <section class="article-section" expanded>
+        <h2 class="article-headline">{{mypost.title}} <span class="fa fa-expand right"></span></h2>
+        <div>
+            <time datetime="{{ mypost.date | date_to_xmlschema }}">{{ mypost.date | date: "%-d %b %Y" }}</time>:
+            <a class="post_description" title="Read full article" class="post_description" href="{{ mypost.url | prepend: site.baseurl }}">{{ mypost.excerpt | remove: '<p>' | remove: '</p>' }}</a>
+            <p><a title="Read full article" href="{{ mypost.url | prepend: site.baseurl }}"><strong>... read more</strong> <span class="fa fa-search-plus"></span></a></p>
+        </div>
+    </section>
+    
+  {% endfor %}
+</amp-accordion>

@@ -40,6 +40,8 @@ fb-user: www.rasta.online
 fb-url: "https://www.facebook.com/www.rasta.online"
 fb-app-id: 172683489748870
 
+addthis: true
+
 jekyll_doc: "http://jekyllrb.com/docs"
 
 #set defaults

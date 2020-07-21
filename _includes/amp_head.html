@@ -19,6 +19,9 @@
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
     {% endif %}
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    {% if page.accordion %}
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    {% endif %}
     <!-- Import other AMP Extensions here -->
     <style amp-custom>
       {% capture styles %}
@@ -100,5 +103,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     {% if page.lightbox%}
       <script src="{{lightbox_js}}" defer></script>
+    {% endif %}
+    {% if site.addthis %}
+    <script async custom-element="amp-addthis" src="https://cdn.ampproject.org/v0/amp-addthis-0.1.js"></script>
     {% endif %}
   </head>
