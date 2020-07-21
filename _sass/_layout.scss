@@ -534,11 +534,11 @@ ul.link_list{
     }
 }
 
-@media only screen and (max-width: 265px) {
-    .site-nav{
-        z-index:10;
-    }
+
+.site-nav{
+        z-index:99;
 }
+
 .rasta_blog{
     margin-top:1em;
 
@@ -754,6 +754,8 @@ img.demo.active,
 
 .amp_img{
   margin: 1em auto;
+  position:relative;
+  z-index:1;
 }
 
 .amp_image{
