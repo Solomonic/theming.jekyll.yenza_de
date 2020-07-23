@@ -24,10 +24,11 @@
     <a href="{{link}}" target="_blank">{{my_pic | amp_image_id: lightbox_id }}</a>
     <div class="carousel_footer">
       <a  class="buy_now green" href="{{link}}" target="_blank" title="Buy now: {{alt}}"><span class="fa fa-shopping-cart fa-3x"></span></a>
-      <a title="Larger Picture" class="large_product gold" on="tap:amp-lightbox-gallery.open('id'='{{lightbox_id}}')"><span class="fa fa-search-plus fa-3x"></span></a>
+      <a title="Larger Picture" href="/{{site.picture.source}}{{image}}" target="_blank" class="large_product gold" ><span class="fa fa-search-plus fa-3x"></span></a>
       {% include amp_more_products.html%}
     </div>
   </div>
   {% endfor %}
 </amp-carousel>
+
 </div>
