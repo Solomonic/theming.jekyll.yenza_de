@@ -1,10 +1,9 @@
 markup_presets:
   default:
     markup: img
-    formats: [webp, original]
-    size: 600px
+    formats: [original, webp]
     fallback_width: 600
-    widths: [74, 99, 170, 200, 340, 400, 600]
+    widths: [74, 99, 100, 170, 200, 340, 400, 600]
   full:
     markup: img
     formats: [webp, original]

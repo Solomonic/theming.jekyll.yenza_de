@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Image Gallery
 
 navigation: none
@@ -8,7 +8,6 @@ seo_description: Not to be indexed
 noindex: true
 
 ---
-<h1> Generate images</h1>
 
 {% for picture in site.data.pictures %}
 	{% picture {{picture.name}} %}
