@@ -2,9 +2,6 @@
   <body>
     <div id="global-wrapper">   
     {% include header.html %}
-    {% if site.addthis %}
-    <amp-addthis width="320" height="92" layout="responsive" data-pub-id="ra-5f169cc41ce343c5" data-widget-id="qrtb" data-widget-type="floating"></amp-addthis>
-    {% endif %}
     <div class="page-content">
       <div id="top" class="wrapper">
         {{ content }}
@@ -12,6 +9,10 @@
     </div>
     {% include footer.html %}
     </div>
+    {% if site.addthis %}
+    <amp-addthis width="320" height="92" layout="responsive" data-pub-id="ra-5f169cc41ce343c5" data-widget-id="qrtb" data-widget-type="floating"></amp-addthis>
+    {% endif %}
+    
   </body>
 
 </html>
