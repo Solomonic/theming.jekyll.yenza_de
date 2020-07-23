@@ -1,7 +1,7 @@
 ---
 layout: post
 title: High Performance AMP Blog with Jekyll - Part 1
-date:   2020-07-21  13:00:00 +0700
+date:   2020-07-22  13:00:00 +0700
 author: Jens Krause
 
 categories: education software-development
