@@ -460,6 +460,8 @@ pre{
     margin-bottom:16px;
     letter-spacing: -1px;
     font-size:21px;
+    background-color:transparent;
+    border:0 none transparent;
 
     .right{
       position:absolute;
@@ -821,8 +823,3 @@ a.site-title{
     margin-top:1em;
   }
 }
-.i-amphtml-accordion-header{
-  background-color:transparent;
-  border:0 none transparent;
-}
-
