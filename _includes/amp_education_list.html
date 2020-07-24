@@ -4,7 +4,7 @@
         <h2 class="article-headline">{{mypost.title}} <span class="fa fa-expand right"></span></h2>
         <div>
             {% if mypost.series%}
-            <p>{% include post-series_description.md series_title=mypost.series %}</p>
+            <p><a class="post_description" title="Read full article" class="post_description" href="{{ mypost.url | prepend: site.baseurl }}">{% include post-series_description.md series_title=mypost.series %}</a></p>
             {% endif %}
             <time datetime="{{ mypost.date | date_to_xmlschema }}">{{ mypost.date | date: "%-d %b %Y" }}</time>:
             <a class="post_description" title="Read full article" class="post_description" href="{{ mypost.url | prepend: site.baseurl }}">{{ mypost.excerpt | remove: '<p>' | remove: '</p>' }}</a>
