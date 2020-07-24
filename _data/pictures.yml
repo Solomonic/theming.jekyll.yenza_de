@@ -41,3 +41,11 @@
 - name: jekyll-amp/repo-initial.png
 - name: jekyll-amp/githubpages-setup.png
 - name: jekyll-amp/online-mess.png
+- name: jekyll-amp/travis-signup.png
+- name: jekyll-amp/travis-signup-2.png
+- name: jekyll-amp/travis-authorize.png
+- name: jekyll-amp/travis-activate-1.png
+- name: jekyll-amp/travis-activate-2.png
+- name: jekyll-amp/travis-repos.png
+- name: jekyll-amp/travis-repos-sync.png
+- name: jekyll-amp/travis-switch.png
