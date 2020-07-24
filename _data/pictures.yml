@@ -49,3 +49,5 @@
 - name: jekyll-amp/travis-repos.png
 - name: jekyll-amp/travis-repos-sync.png
 - name: jekyll-amp/travis-switch.png
+- name: jekyll-amp/travis-build-1.png
+- name: jekyll-amp/travis-build-2.png
