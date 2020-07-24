@@ -1,8 +1,8 @@
 <div class="series-navigation">
-    {% if page.previous and page.series != "first" %}
-        <a class="prev_article" title="Read previous article: {{page.previous.series-nav-title}}" href="{{site.baseurl}}{{page.previous.url}}" ><span class="fa fa-angle-double-left fa-lg"></span> <span class="text">{{page.previous.series-nav-title}}</span><span class="small-text">Read previous ...</span> </a> 
+    {% if page.previous %}
+        <a class="prev_article" title="Read previous article: {{page.previous.nav_title}}" href="{{site.baseurl}}{{page.previous.url}}" ><span class="fa fa-angle-double-left fa-lg"></span> <span class="text">{{page.previous.nav_title}}</span><span class="small-text">Read previous</span> </a> 
     {% endif %}
-    {% if page.next and page.series != "last" %}
-        <a class="next_article" title="Read follow up: {{page.next.series-nav-title}}" href="{{site.baseurl}}{{page.next.url}}" > <span class="text">Follow up: {{page.next.series-nav-title}}</span> <span class="small-text">Read follow up</span> <span class="fa fa-angle-double-right fa-lg"></span></a> 
+    {% if page.next %}
+        <a class="next_article" title="Read follow up: {{page.next.nav_title}}" href="{{site.baseurl}}{{page.next.url}}" > <span class="text">{{page.next.nav_title}}</span> <span class="small-text">Read next</span> <span class="fa fa-angle-double-right fa-lg"></span></a> 
     {% endif %}
 </div>

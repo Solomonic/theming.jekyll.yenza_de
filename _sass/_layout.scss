@@ -378,15 +378,19 @@ html, body{
 .series-navigation{
     width:100%;
     position:relative;
-    min-height: 2em;
+    min-height: 48px;
 
     .prev_article{
         position:absolute;
         left:0;
+        diplay:block;
+        height:48px;
     }
     .next_article{
         position:absolute;
         right:0;
+        diplay:block;
+        height:48px;
     }
 
     .small-text{

@@ -7,8 +7,8 @@ author: Jens Krause
 categories: education software-development
 tags: internet jam
 
-series: JAM
-series-nav-title: Day 1 - Content Management
+series: jam-stack
+nav_title: Jam Day 1 - Content Management
 
 seo_description: On Day 1 of our JAMstack journey we explore Content management vs. CMS in detail 
 

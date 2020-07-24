@@ -13,9 +13,9 @@ layout: default
     {% assign author = page.author%}
   {% endif %}
 
-{% if page.series %}
-        {% include series_navigation.html %}  
-{% endif %}
+
+{% include series_navigation.html %}  
+
 <article class="post article full">
 
   <header class="post-header">
@@ -25,11 +25,15 @@ layout: default
       {{post_date | date: "%b %-d, %Y" }} • 
       <span >{{ author }}</span>
     </p>
+    <p>
+    {% include post-series_description.md %}
+  </p>
   </header>
+
   <div class="post-content">
     {{ content | toc }}
   </div>
 </article>
- {% if page.series %}
-        {% include series_navigation.html %}  
-    {% endif %}
+
+{% include series_navigation.html %}  
+    

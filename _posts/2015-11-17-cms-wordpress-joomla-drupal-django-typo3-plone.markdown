@@ -7,9 +7,7 @@ author: Jens Krause
 categories: education software-development
 tags: internet jekyll
 
-series: first
-series-nav-title: CMS? What is that?
-
+nav_title: CMS - an overview 
 seo_description: What is a website? For what do we need CMS? This article explains the basics of internet and shows commonly used solutions as Wordpress, Joomla!, Drupal, Django, Typo3 and Plone.
 
 image: http://rasta.online/library/images/many_cms.png
@@ -23,7 +21,7 @@ _This is an introduction into a series of articles, covering existing web-techno
 
 ##### My first steps
 
-The first website I ever made was in 2001 as a student of my local university. The task was to write a simple 5-page website, including navigation, some content with text, images, tables and a footer in the very bottom. Since I was a lazy dude, I was looking for the simplest way to achieve this and found a software application called "Microsoft Frontpage", the first WYSIWYG Editor I ever came in contact with. By using it, I was able to build something decent-looking within 3 days, just by clicking around... and the Editor "translated" my actions into HTML & CSS code and generated my files. Ready to upload it to the internet, I felt like superman. I can make website!
+The first website I ever made was in 2001 as a student of my local university. The task was to write a simple 5-page website, including navigation, some content with text, images, tables and a footer in the very bottom. Since I was a lazy dude, I was looking for the simplest way to achieve this and found a software application called "Microsoft Frontpage", the first WYSIWYG Editor I ever came in contact with. By using it, I was able to build something decent-looking within 3 days, just by clicking around... and the Editor "translated" my actions into HTML & CSS code and generated my files. Ready to upload it to the internet, I felt like superman. I can make websites!
 
 ##### What exactly is a website?
 
@@ -65,7 +63,7 @@ All server-side applications will need a some time to analyze your request, gene
 
 **So what? My website is slower, does this make a difference?**
 
-That depends on your goals. [This article was tested with 272ms loading time](http://tools.pingdom.com/fpt/#!/wTly2), but results always vary over time and with location. I would expect a CMS in a standard setup to be at least 1s slower, way more with some of them. Studies show that website visitors clearly recognize the increase of speed by 0.1s and will prefer and return more often to the faster websites. Clever specialists can modify the CMS with optimizations, minimizations, and setups to obtain a speed very close to a static HTML page, but it requires big efforts and still will be slower. You can compare this basic dilemma with two neighbors at Halloween who want to give out candy as fast as possible. One is standing right behind the door with candy in their hand waiting, while the other has to grab it from the kitchen first. Who will win?
+That depends on your goals. Studies show that website visitors clearly recognize the increase of speed by 0.1s and will prefer and return more often to the faster websites. Clever specialists can modify the CMS with optimizations, minimizations, and setups to obtain a speed very close to a static HTML page, but it requires big efforts and still will be slower then a static site. You can compare this basic dilemma with two neighbors at Halloween who want to give out candy as fast as possible. One is standing right behind the door with candy in their hand waiting, while the other has to grab it from the kitchen first. Who will win?
 
 ### Conclusion
 

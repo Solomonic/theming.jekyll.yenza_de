@@ -2,6 +2,9 @@
     {% for mypost in site.categories.software-development %}
         <li><article>
             <h2 class="article-headline"><a title="Read full article" href="{{ mypost.url | prepend: site.baseurl }}">{{mypost.title}}</a></h2>
+            {% if mypost.series%}
+            {% include post-series_description.md series_title=mypost.series %}
+            {% endif %}
             <div class="description">
                 <time datetime="{{ mypost.date | date_to_xmlschema }}">{{ mypost.date | date: "%-d %b %Y" }}</time>:
                 <a title="Read full article" class="post_description" href="{{ mypost.url | prepend: site.baseurl }}">{{ mypost.excerpt | remove: '<p>' | remove: '</p>' }}

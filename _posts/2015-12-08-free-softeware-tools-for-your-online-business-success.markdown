@@ -5,10 +5,9 @@ date:   2015-12-08  13:00:00 +0700
 author: Jens Krause
 
 categories: education software-development
-tags: internet jekyll
+tags: internet opensource
 
-series: jekyll
-series-nav-title: free tools do great things
+nav_title: free tools do great things
 
 seo_description: This is a software guide shows free tools to organize a digital startup company. It discusses SEO, marketing, team management, crowdfunding and known best practises to be successful in the online business.
 

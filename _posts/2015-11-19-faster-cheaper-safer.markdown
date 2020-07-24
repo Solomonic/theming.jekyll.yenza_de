@@ -7,8 +7,7 @@ author: Jens Krause
 categories: education software-development
 tags: internet jekyll
 
-series: jekyll
-series-nav-title: faster, cheaper, safer
+nav_title: faster, cheaper, safer
 
 seo_description: Exposure and Performance is most important? You might not need to pay hosting anymore when using a pre-compiled website and perform best in SEO and pageload time.
 

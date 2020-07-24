@@ -1,0 +1,2 @@
+- title: jekyll-travis-amp
+  description: In this series I'll show how to setup a high performance, mobile friendly AMP Blog with custom plugins, which is utilizes GitHub pages as a free hosting provider. We create a staging environment and setup an automatic deploy with Travis CI.

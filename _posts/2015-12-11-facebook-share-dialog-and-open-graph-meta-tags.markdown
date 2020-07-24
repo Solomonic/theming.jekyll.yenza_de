@@ -7,8 +7,7 @@ author: Jens Krause
 categories: education software-development
 tags: internet
 
-series: facebook
-series-nav-title: debug the facebook share dialog
+nav_title: debug the facebook share dialog
 
 seo_description: This article explains how to set all needed information in open graph tags of your website and how to use the debugger tools to get the latest results.
 

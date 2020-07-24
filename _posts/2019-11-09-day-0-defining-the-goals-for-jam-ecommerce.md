@@ -7,8 +7,8 @@ author: Jens Krause
 categories: education software-development
 tags: internet jam
 
-series: JAM
-series-nav-title: Day 0 - Goals and Tools
+series: jam-stack
+nav_title: JAM Day 0 - Goals and Tools
 
 seo_description: On Day 0 of our JAMstack journey we are going to define our goals and look at the tools we are using.
 

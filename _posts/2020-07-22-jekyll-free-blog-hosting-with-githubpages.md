@@ -7,17 +7,15 @@ author: Jens Krause
 categories: education software-development
 tags: internet jekyll AMP TravisCI
 
-series: first
+series: jekyll-travis-amp
 series-nav-title: Jekyll AMP - Basic setup
 
 seo_description: In this series I'll show how to setup a high performance, mobile friendly AMP Blog with custom gems, which is utilizes GitHub pages as a free hosting provider. We create a staging environment and deploy with Travis CI.
 
+nav_title: Create a Jekyll Blog
 lightbox-image: true
 
 ---
-
-The goal of this series is to demonstrate how you can create a free AMP blog or website with the help of GitHub Pages. You'll see how you can use custom gems for creating advanced features and how to setup a staging and production environment with the help of Travis CI. The only things you actually have to pay for if an annual fee for a custom domain while
-getting an extremly SEO friendly website which is blasting fast. 
 
 In Part 1 we create a Vanilla Jekyll Blog, serve it for local development and bring it online, all for free and within one hour. 
 
