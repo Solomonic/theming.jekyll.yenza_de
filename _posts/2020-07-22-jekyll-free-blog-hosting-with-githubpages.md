@@ -39,7 +39,7 @@ b) [Create a new Repository](https://github.com/new)
 
 ## Let's create a new Jekyll website
 
-a) Go to your development directory and install Jekyll with RubyGems
+a) Go to your development directory and install [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/) with RubyGems
 ```bash
 ~/development/websites
 ▶ sudo gem install jekyll bundler
