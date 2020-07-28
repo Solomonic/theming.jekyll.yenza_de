@@ -13,6 +13,8 @@ video: true
 share: rasta
 image: http://rasta.online/library/images/flag.png
 
+keywords: [ Rasta, Rastafari, Rasta Livety, Ganja, Jah, Reggae, Haile Selassie, Lion of Judah, Religion, Repatriation, Ital, Meditation, Rasta-Flag, Lingo, Reasoning, Homophobia]
+
 
 
 ---

@@ -57,7 +57,8 @@ defaults:
       type: "posts"
     values:
       share: rasta
-      author: Ras Yen
+      author: Jens Krause
+      keywords: [ Software Development, Open Source, Free Tools, SEO, Performance, continuous integration, coding, programming]
   -
     scope:
       path: "library/**"
