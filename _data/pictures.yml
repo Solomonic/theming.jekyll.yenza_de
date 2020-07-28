@@ -51,3 +51,14 @@
 - name: jekyll-amp/travis-switch.png
 - name: jekyll-amp/travis-build-1.png
 - name: jekyll-amp/travis-build-2.png
+- name: jekyll-amp/travis-build-3.png
+- name: jekyll-amp/default-branch.png
+- name: jekyll-amp/travis-secret.png
+- name: jekyll-amp/travis-deploy-1.png
+- name: jekyll-amp/travis-deploy-2.png
+- name: jekyll-amp/validate-deployment.png
+- name: jekyll-amp/choose-source.png
+- name: jekyll-amp/display-flag.png
+- name: jekyll-amp/source-code-image.png
+- name: jekyll-amp/jekyll-ci-build.png
+- name: jekyll-amp/jekyll-serve-output.png
