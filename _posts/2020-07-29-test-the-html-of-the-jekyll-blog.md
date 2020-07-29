@@ -10,7 +10,7 @@ tags: internet jekyll AMP TravisCI
 nav_title: Automated Testing
 series: jekyll-travis-amp
 
-seo_description: Today we setup Jekyll output testing with Travis CI. We want to ensure that the generated html-code is correct to catch a broke website before it goes online.
+seo_description: Today we setup Jekyll output testing with Travis CI. We want to ensure that the generated html-code is correct to catch a broken website before it goes online.
 
 lightbox-image: true
 
@@ -19,7 +19,7 @@ lightbox-image: true
 We want a professional setup, so to achieve additional security to ensure that we are not deploying a broken website we want our output tested. One easy way is to setup an automated test that parses
 the html of our generated website and checks for syntax errors as not closed html-tags and broken links. This is a kind of E2E test, which can be done with very few lines of code.
 
-<!-- more -->
+<!--more-->
 
 ## The Basics - what are we talking about today?
 
