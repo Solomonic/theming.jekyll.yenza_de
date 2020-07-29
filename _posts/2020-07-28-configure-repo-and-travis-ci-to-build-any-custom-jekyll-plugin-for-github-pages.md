@@ -334,7 +334,7 @@ development/websites/my-new-website
 ```
 After the build and deploy is done, we can check our online GitHub Pages website:
 
-{% include amp_image.html url="jekyll-amp/display-flag.png" size="cover" alt="Checking the image on localhost" %}
+{% include amp_image.html url="jekyll-amp/display-flag.png" size="cover" alt="Checking the image online" %}
 
 Nice, it's eaxtly the same as on localhost.
 
