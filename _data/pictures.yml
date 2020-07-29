@@ -62,3 +62,4 @@
 - name: jekyll-amp/source-code-image.png
 - name: jekyll-amp/jekyll-ci-build.png
 - name: jekyll-amp/jekyll-serve-output.png
+- name: jekyll-amp/travis-test-with-html-proofer.png
