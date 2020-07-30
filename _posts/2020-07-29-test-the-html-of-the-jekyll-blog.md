@@ -101,7 +101,7 @@ In our index.markdown we add the `--alt` parameter to create the missing attribu
 ```
 # index.markdown
 ...
-{%raw%}{% picture flag.png --alt "This is a flag for demo purpose" %}{%endraw%}
+{%raw%}{% picture flag.png --alt This is a flag for demo purpose %}{%endraw%}
 ...
 ```
 ### Rebuild and check linking
