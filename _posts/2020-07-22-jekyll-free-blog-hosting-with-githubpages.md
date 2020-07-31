@@ -153,12 +153,12 @@ When we click the provided link we get a rather disappointing result though, sin
 
 ### Fix the broken online GitHub page
 
-If we inspect the page source we see that the css points to a reative URL `/assets/main.css` which resolves to the invalid location **https://YOUR_USERNAME.github.io/assets/main.css** (**YOUR-REPO-NAME** is missing). It is working fine in local development, since the path is correct here with **https://localhost:4000/assets/main.css** but online is the website living in a sub-directory instead. We need have to update our `_config.yml` to set the paths correctly with the help of the properties `url` and `baseurl`.
+If we inspect the page source we see that the css points to a reative URL `/assets/main.css` which resolves to the invalid location **https://YOUR_USERNAME.github.io/assets/main.css** (**/YOUR-REPO-NAME** is missing). It is working fine in local development, since the path is correct here with **https://localhost:4000/assets/main.css** but online is the website living in a sub-directory instead. We need have to update our `_config.yml` to set the paths correctly with the help of the properties `url` and `baseurl`.
 
 ```
 # _config.yml
 ...
-baseurl: "YOUR-REPO-NAME" # the subpath of your site, e.g. my-new-website
+baseurl: "/YOUR-REPO-NAME" # the subpath of your site, e.g. /my-new-website
 url: "https://YOUR_USERNAME.github.io"
 ...
 ```
@@ -175,7 +175,7 @@ When we run our `jekyll serve` command something odd is happening:
 development/websites/my-new-website 
 ▶ bundle exec jekyll serve
 ...
-Server address: http://127.0.0.1:4000my-new-website/
+Server address: http://127.0.0.1:4000/my-new-website/
 Server running... press ctrl-c to stop.
 ```
 Our `baseurl` is mappend to the server address and if we navigate to `http://localhost:4000/` we just see a messed up **404 Page not found**. What we'll need to do is to override the `baseurl` for local development and we can do that by serving jekyll with the help of the **--baseurl** parameter.
