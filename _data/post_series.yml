@@ -1,3 +1,3 @@
 - title: jekyll-travis-amp
-  description: In this series I'll show how to setup a high performance, mobile friendly AMP Blog with custom Jekyll plugins, which is utilizes GitHub pages as a free hosting provider. We create a staging environment and setup an automatic deploy with Travis CI.
+  description: In this series I'll show how to setup a high performance, mobile friendly AMP Blog with custom Jekyll plugins while using GitHub pages as a free hosting provider. We create a staging environment and setup an automatic deploy and testing with Travis CI.
   name: High Performance AMP Blog with GitHubPages and custom Plugins 
