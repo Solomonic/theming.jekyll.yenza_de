@@ -180,15 +180,15 @@ That looks good.
 
 ## Let's setup the test in the Travis CI build
 
-We add the HTML Proofer call to our `.travis.yml` with the lesson learned that we also need to create the subdirectory in the docs folder. Afterwards we cleaning up and remove the modified docs folder to be clear for a deploy.
+We add the HTML Proofer call to our `.travis.yml` with the lesson learned that we also need to create the subdirectory in the docs folder. We create a test docs folder called `docs_test` and remove it when we are done
 ```
 # .travis.yml
 ...
 script:
 - JEKYLL_ENV="production" bundle exec jekyll build
-- mv docs docs2 && mkdir docs && mv docs2 docs/my-new-website
-- bundle exec htmlproofer docs
-- rm -rf docs
+- cp -a docs docs2 && mkdir docs_test && mv docs2 docs_test/my-new-website
+- bundle exec htmlproofer docs_test
+- rm -rf docs_test
 ```
 
 To speed up the installation of HTML-Proofer we also set the global variable `NOKOGIRI_USE_SYSTEM_LIBRARIES=true` and adding the appropriate addon for fetching with [libcurl](https://packages.debian.org/jessie/libcurl4-openssl-dev)
@@ -224,9 +224,9 @@ install:
 
 script:
 - JEKYLL_ENV="production" bundle exec jekyll build
-- mv docs docs2 && mkdir docs && mv docs2 docs/my-new-website
-- bundle exec htmlproofer docs
-- rm -rf docs
+- cp -a docs docs2 && mkdir docs_test && mv docs2 docs_test/my-new-website
+- bundle exec htmlproofer docs_test
+- rm -rf docs_test
 
 deploy:
   provider: script

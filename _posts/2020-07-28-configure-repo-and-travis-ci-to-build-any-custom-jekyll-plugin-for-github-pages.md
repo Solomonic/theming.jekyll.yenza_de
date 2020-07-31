@@ -144,13 +144,10 @@ which tells the CI that the deployment step should be executed once it finds a t
 
 ### Deployment Script
 
-Now we need to add the deployment script itself. We create the folder and script `script/deploy.sh` which is pretty similar to our standard build, but tries to add and push the changes to our `master` branch
+Now we need to add the deployment script itself. We create the folder and script `script/deploy.sh` which adds and pushes the changes to our `master` branch
 ```
 #!/usr/bin/env bash
 
-git status
-bundle install
-JEKYLL_ENV="production" bundle exec jekyll build
 git status
 git add .
 git commit -m"[skip travis] Automated build"
